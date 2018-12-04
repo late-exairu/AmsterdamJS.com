@@ -4,6 +4,7 @@
   "description": "Amsterdam JS Nation.",
   "scripts": {
     "build": "gulp build",
+    "deploy": "gulp deploy",
     "dev": "gulp watch",
     "test": "echo \"Success!\""
   },
