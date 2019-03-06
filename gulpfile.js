@@ -133,7 +133,7 @@ gulp.task('deploy', function() {
         user: args.user,
         password: args.password,
         log: gutil.log,
-        parallel: 5,
+        parallel: 10,
     });
     gulp.src([
         './**/*.*',
