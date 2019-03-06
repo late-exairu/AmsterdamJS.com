@@ -142,7 +142,6 @@ gulp.task('deploy', function() {
         '!./2017/**/*.*',
         '!./2018/**/*.*'
     ])
-        .pipe(conn.newerOrDifferentSize(remotePath))
         .pipe(conn.dest(remotePath));
 });
 
