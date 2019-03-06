@@ -129,7 +129,7 @@ gulp.task('browser-sync', function() {
 gulp.task('deploy', function() {
     var remotePath = '/';
     var conn = ftp.create({
-        host: 'buff.elastictech.org',
+        host: '176.99.7.219',
         user: args.user,
         password: args.password,
         log: gutil.log,
