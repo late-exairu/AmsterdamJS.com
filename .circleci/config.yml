@@ -30,5 +30,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - run: curl ifconfig.me
+      - run: yarn build
       - run: ./node_modules/.bin/gulp deploy --user $FTP_USER --password $FTP_PASSWORD
+      - run: echo 'done'
 
