@@ -24,7 +24,10 @@ export default class GoogleMap {
   }
 
   _init() {
-    window.onload = this._loadMapsAPI();
+    var map = document.querySelector('.js-map');
+    if (map) {
+      window.onload = this._loadMapsAPI();
+    }
     this._initSlider();
     // this._goTo();
     // this._initMap();
