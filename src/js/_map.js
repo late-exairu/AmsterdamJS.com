@@ -38,7 +38,7 @@ export default class GoogleMap {
       speed: 400,
       loop: true,
       autoplay: {
-        delay: 3000,
+        delay: 6000,
       },
       navigation: {
         nextEl: CLASSES.sliderNext,
