@@ -35,9 +35,4 @@ gulp.task('deploy', function() {
   //   './2017/**/*.*'
   // ])
   //   .pipe(conn.dest(`${remotePath}/2017`));
-  //
-  // gulp.src([
-  //   './2016/**/*.*'
-  // ])
-  //   .pipe(conn.dest(`${remotePath}/2016`));
 });
