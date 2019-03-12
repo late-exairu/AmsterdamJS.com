@@ -2,7 +2,6 @@
   "name": "js-nation",
   "version": "0.1.1",
   "scripts": {
-    "ghpages": "git subtree push --prefix build origin gh-pages",
     "build": "gulp build --production",
     "start": "gulp",
     "precommit": "lint-staged",
@@ -16,7 +15,6 @@
       "htmlhint --config .htmlhintrc"
     ]
   },
-  "authors": "Coderiver <html@coderiver.com.ua>",
   "devDependencies": {
     "autoprefixer": "^8.3.0",
     "babel-core": "^6.18.2",
