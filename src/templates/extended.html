@@ -1,0 +1,119 @@
+---
+title: Amsterdam JSNation Conference 2019
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+
+{# variable example #}
+
+{% include "partials/_header.html" %}
+
+<main class="main">
+  {{mixins.hero({
+  img: 'img/extended.jpg',
+  title: 'Extended program'
+  })}}
+  <div class="bg-red">
+    <div class="wrapper">
+      <div class="title-img">
+        <img src="img/hey.svg" alt=""/>
+      </div>
+    </div>
+  </div>
+  <section class="cards cards_lg">
+    <div class="wrapper">
+      <div class="cards__title title">Community preparty</div>
+      <div class="cards__descr descr"><p>The day before the conference (April 12), the local React community would love to connect with the international attendees in an informal setup. Are you a React developer from Amsterdam? Did you come to the city day prior to the event? Attending workshops and have no plans for an evening? Feel free to join an unofficial preparty organized by the community in the center of Amsterdam.</p></div>
+      <div class="cards__content">
+        <div class="cards__item">
+          <div class="card card_reverse">
+            <div class="card__inner">
+              <div class="card__col card__content">
+                <div class="card__title">TonTon Club Centrum 20:00</div>
+                <div class="card__soc-link">
+                  <a href="#" target="_blank" class="link"><span class="link__icon">{{mixins.icon('sl')}}</span>#april-12-tonton</a>
+                </div>
+                <div class="card__descr">
+                  <p>We’re looking for developers with side projects, who love to check out codepen.io or open-source github repo’s, design systems and style guides. People who understand that shipping fast doesn’t mean you ship bad quality.</p>
+                </div>
+                <a href="#" class="card__link">Sint Annendwarsstraat 6, <br/>
+                  1012 HC Amsterdam</a>
+              </div>
+              <div class="card__col card__col_sm">
+                <div class="card__img">
+                  <img src="img/ext-card-1.png" alt=""/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{mixins.infoSection({
+  bg: 'img/js-party.png',
+  title: "JS party",
+  descr: "<p>After the main conference program is over we have a 2 hours break. Use it wisely to recharge or have a meal at food trucks area or one of the restaurants nearby to get prepared for the React Party. This year organized in collaboration with some of Amsterdam Dance Event crew and other cultural foundations.</p>
+  <p>We are not going to unveil much in advance but just a small bit - the party will run in two completely different tracks and the fact React Amsterdam 2018 is Friday 13th provides us more opportunities to have fun.</p>
+  <p>After-party starts at 19:00, same location as the conference.</p>",
+  descrMod: 'info-section__descr_xl',
+  img: 'img/js-party-img.png'
+  })}}
+  <section class="cards cards_lg">
+    <div class="wrapper">
+      <div class="cards__title title">Museums hangout and BBQ in the park</div>
+      <div class="cards__descr descr"><p>Amsterdam is beautiful, picturesque, amazing. This is what we hear sometimes from guests coming to the city. Explore this beauty on your own or together with new friends met at the conference.</p></div>
+      <div class="cards__content">
+        <div class="cards__item">
+          <div class="card">
+            <div class="card__inner">
+              <div class="card__col card__col_img">
+                <img src="img/img-1.png" alt=""/>
+              </div>
+              <div class="card__col card__col_img">
+                <div class="card__img">
+                  <img src="img/img-2.png" alt=""/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cards cards_sm">
+    <div class="wrapper">
+      <div class="cards__title title">Meet with the communityk</div>
+      <div class="cards__descr descr"><p>Join other conference visitors or local community members at one of the meeting points (some required prior registration), or connect with people directly at React Amsterdam Slack, to form your own activity. Nobody knows when that Saturday ends.</p></div>
+      <div class="cards__content">
+        <div class="cards__item">
+          <div class="card card_reverse">
+            <div class="card__inner">
+              <div class="card__col card__content">
+                <div class="card__title">TonTon Club Centrum 20:00</div>
+                <div class="card__soc-link">
+                  <a href="#" target="_blank" class="link"><span class="link__icon">{{mixins.icon('sl')}}</span>#april-12-tonton</a>
+                </div>
+                <div class="card__descr">
+                  <p>We’re looking for developers with side projects, who love to check out codepen.io or open-source github repo’s, design systems and style guides. People who understand that shipping fast doesn’t mean you ship bad quality.</p>
+                </div>
+                <a href="#" class="card__link">Sint Annendwarsstraat 6, <br/>
+                  1012 HC Amsterdam</a>
+              </div>
+              <div class="card__col card__col_sm">
+                <div class="card__img">
+                  <img src="img/ext-card-1.png" alt=""/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+{% include "partials/_footer.html" %}
+
+{% endblock %}

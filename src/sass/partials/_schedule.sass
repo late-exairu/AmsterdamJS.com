@@ -1,0 +1,68 @@
+.schedule
+	padding-top: 120px
+	+tablet
+		padding-top: 72px
+	+md
+		padding-top: 32px
+	&__title
+		color: $red
+		margin-bottom: 60px
+		+tablet
+			margin-bottom: 46px
+		+md
+			margin-bottom: 38px
+		+xxs
+			padding: 0 14px
+	&> .wrapper
+		+xxs
+			padding: 0
+
+
+
+
+.tabs
+	&__header
+		display: flex
+		justify-content: space-between
+		margin-bottom: 30px
+		+tablet
+			margin-bottom: 19px
+		+md
+			display: block
+			margin-bottom: 29px
+		+xxs
+			padding: 0 14px
+		li
+			width: 100%
+			max-width: 31.56%
+			&:not(:last-child)
+				+md
+					margin-bottom: 20px
+			+tablet
+				max-width: 33%
+			+md
+				max-width: 100%
+			+sm
+				margin-bottom: 28px
+			.btn
+				color: $red
+				padding-top: 23px
+				padding-bottom: 23px
+				text-transform: uppercase
+				+tablet
+					font-size: 16px
+					padding: 17px 10px
+				+md
+					padding-top: 10px
+					padding-bottom: 10px
+				&.is-active
+					background-color: $red
+					color: $white
+					pointer-events: none
+					&:before
+						display: none
+	&__content
+		.table
+			&:not(.is-active)
+				display: none
+

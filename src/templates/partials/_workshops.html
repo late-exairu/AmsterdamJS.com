@@ -1,0 +1,29 @@
+<div class="table-wrapper">
+  <div class="wrapper">
+    <div class="table-wrapper__title title">{{workshops.title | safe}}</div>
+    <div class="table-wrapper__descr descr">
+      {{workshops.descr | safe}}
+    </div>
+    <div class="table-wrapper__content">
+      <div class="table table_sm">
+        <div class="table__body">
+          {% for section in workshops.sections %}
+          <div class="table__section">
+            {% for row in section.rows %}
+            <div class="table__row">
+              <div class="table__col table__col_sm">{{row.title | safe}}</div>
+              <div class="table__row-content">
+                <div class="table__col table__col_lg">
+                  {% if row.subtitle %}<div class="table__title">{{row.subtitle}}</div>{% endif %}
+                  {% if row.descr %}<div class="table__descr">{{row.descr | safe}}</div>{% endif %}
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

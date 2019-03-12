@@ -1,0 +1,165 @@
+.nominations
+	padding: 26px 0 137px
+	+tablet
+		padding: 20px 0 119px
+	+md
+		padding: 20px 0 88px
+	&__inner
+	&__title
+		color: $red
+		+gotBlack
+		font-size: 60px
+		line-height: 1.2
+		letter-spacing: 0.3px
+		text-align: right
+		padding-right: 90px
+		margin-bottom: -62px
+		+tablet
+			font-size: 36px
+			padding-right: 73px
+			margin-bottom: -36px
+		+md
+			font-size: 32px
+			text-align: left
+			margin-bottom: 20px
+	&__content
+		padding-left: 50px
+		margin-bottom: 147px
+		+tablet
+			padding: 0 8px 0 34px
+		+md
+			padding: 0
+			margin-bottom: 70px
+		+sm
+			margin-bottom: 30px
+	&__item
+		width: 44.6%
+		max-width: 549px
+		position: relative
+		+tablet
+			width: 47.5%
+		+sm
+			width: 100%
+			max-width: 100%
+			margin: 0 auto
+		&:not(:last-child)
+			margin-bottom: -15px
+			+tablet
+				margin-bottom: -33px
+			+sm
+				margin-bottom: 10px
+		&:nth-child(2n)
+			margin-left: auto
+			margin-bottom: 7px
+			+tablet
+				margin-bottom: 0
+		&:last-child
+			margin-bottom: 0
+	&__btn
+		.btn
+			text-transform: uppercase
+			max-width: 490px
+			margin: 0 auto
+			padding: 24px 31.5px
+			+tablet
+				max-width: 274px
+				padding: 15px 10px
+				font-size: 16px
+				margin: 0 auto
+			+md
+				max-width: 47.5%
+			+sm
+				max-width: 100%
+				padding: 8px 15px
+			+xs
+				width: 100%
+				padding: 8px 20px
+			&_red
+				color: $red
+		+tablet
+			margin-top: 0
+		+md
+			margin-top: 30px!important
+			padding-left: 9px
+
+	&__decor
+		position: absolute
+		content: ''
+		display: block
+		width: 100%
+		height: 100%
+		top: 10px
+		left: -11px
+		border: 4px solid $red
+		background-color: $white
+		&_7
+			top: 20px
+			left: -21px
+		&_6
+			top: 31px
+			left: -32px
+		&_5
+			top: 41px
+			left: -42px
+		&_4
+			top: 51px
+			left: -52px
+		&_3
+			top: 61px
+			left: -62px
+		&_2
+			top: 71px
+			left: -72px
+		&_1
+			top: 80px
+			left: -82px
+		&_tablet-dn
+			+tablet
+				display: none
+		&_tablet-db
+			display: none
+			+tablet
+				display: block
+		+md
+			display: none
+
+
+
+.nomination
+	position: relative
+	padding: 41px 20px
+	border: 4px solid $red
+	border-top-width: 44px
+	display: flex
+	justify-content: center
+	z-index: 2
+	background-color: $white
+
+	+tablet
+		border-top-width: 35px
+		padding: 33px 20px
+	+md
+		border-top-width: 30px
+		padding: 24px 12px
+	//&:before
+		position: absolute
+		content: ''
+		display: block
+		width: 100%
+		height: 40px
+		background-color: $red
+		top: 0
+		left: 0
+	&__text
+		color: $red
+		text-transform: uppercase
+		+bold
+		font-size: 24px
+		line-height: 1.5
+		+tablet
+			font-size: 18px
+		+md
+			font-size: 16px
+		+sm
+			text-align: center
+

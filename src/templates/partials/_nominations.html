@@ -1,0 +1,25 @@
+<section class="nominations">
+  <div class="wrapper">
+    <div class="nominations__inner">
+      <div class="nominations__title">Nominations:</div>
+      <div class="nominations__content">
+        {% for nomination in nominations %}
+        <div class="nominations__item">
+          {% for item in nomination.bg %}
+          <div class="nominations__decor {{item.mod}}"></div>
+          {% endfor %}
+          <div class="nomination">
+            <div class="nomination__text">{{nomination.text | safe}}</div>
+          </div>
+        </div>
+        {% endfor %}
+
+      </div>
+      <div class="nominations__btn">
+        <a href="https://osawards.com/javascript/" class="btn btn_border btn_red btn_mob-p-s">
+          <span class="btn__text">more about JS open source awards</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

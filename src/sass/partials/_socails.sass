@@ -1,0 +1,113 @@
+.socials
+	display: flex
+	&__item
+		line-height: 0
+		font-size: 17px
+		&:not(:last-child)
+			margin-right: 20px
+			+tablet
+				margin-right: 18px
+	&__link
+		.icon
+			fill: $white
+			transition: fill .3s ease
+		+hover
+			.icon
+				fill: $yellow
+
+
+.socials-btns
+	display: flex
+	+md
+		padding-left: 5px
+	&__item
+		line-height: 0
+		background-color: $red
+		width: 131px
+		height: 131px
+		border: 4px solid $white
+		position: relative
+		transition: transform .3s ease
+		+hover
+			transform: translate(-8px, 7px)
+			&:before
+				transform: translate(8px, -7px)
+		+tablet
+			width: 79px
+			height: 79px
+		+md
+			width: 74px
+			height: 74px
+		&:not(:last-child)
+			margin-right: 80px
+
+		&:before
+			position: absolute
+			content: ''
+			display: block
+			width: calc(100% + 7px)
+			height: calc(100% + 7px)
+			border-left: 4px solid $white
+			border-bottom: 4px solid $white
+			top: 4px
+			left: -12px
+			pointer-events: none
+			transition: transform .3s ease
+	&__link
+		font-size: 48px
+		display: flex
+		justify-content: center
+		align-items: center
+		height: 100%
+		+tablet
+			font-size: 27px
+		+md
+			font-size: 24px
+		.icon
+			fill: $yellow
+		&:not(:last-child)
+			margin-right: 20px
+	&_transparent
+		.socials-btns
+			&__item
+				background-color: transparent
+				border-color: $red
+				.icon
+					fill: red
+				&:before
+					border-color: $red
+	&_sm
+		padding-left: 10px
+		+sm
+			padding-right: 10px
+			justify-content: space-between
+		.socials-btns
+			&__item
+				width: 74px
+				height: 74px
+				+tablet
+					width: 66px
+					height: 66px
+
+				+md
+					width: auto
+					height: auto
+					border: none
+					&:before
+						display: none
+				&:not(:last-child)
+					margin-right: 28px
+					+tablet
+						margin-right: 22px
+			&__link
+				font-size: 29px
+				+tablet
+					font-size: 22px
+				+md
+					font-size: 24px
+	&_yellow
+		.socials-btns__item
+			border-color: $yellow
+			&:before
+				border-color: $yellow
+

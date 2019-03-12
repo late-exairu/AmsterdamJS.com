@@ -1,0 +1,65 @@
+<section class="map-section" id="location">
+  <div class="map-section__slider">
+    <div class="swiper-container slider js-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide">
+          <div class="slide__inner" style="background-image: url(img/node-js-hall.jpg)"></div>
+        </div>
+        <div class="swiper-slide slide">
+          <div class="slide__inner" style="background-image: url(img/nodejs-hall2.jpg)"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="map-section__title title">Festival experience in Amsterdam center</div>
+    <div class="map-section__top">
+      <div class="map-section__subtitle is-active js-map-title">Main hall</div>
+      <div class="map-section__subtitle js-map-title">NodeJS hall</div>
+      <div class="map-section__nav">
+        <button role="button" class="swiper-button-prev swiper-button js-slider-prev ">
+          {{mixins.icon('arrow-prev')}}
+        </button>
+        <button role="button" class="swiper-button-next swiper-button js-slider-next ">
+          {{mixins.icon('arrow-next')}}
+        </button>
+      </div>
+    </div>
+    <div class="map-section__inner">
+      <div class="map-section__content-wrap">
+        <div class="map-section__content js-map-content is-active">
+          <div class="map-section__descr descr">
+            <p>
+              Zuiderkerk, a stunning former church located directly in Amsterdam’s city center. Rembrandt and Monet adored this place and now it is our venue for state of the art JavaScript.
+            </p>
+
+          </div>
+          <div class="map-section__footer">
+            <p>Zuiderkerkhof 72<br/>
+              1011 WB Amsterdam
+            </p>
+            <a href="https://goo.gl/maps/poNidU378CT2" class="map-section__link">View on map</a>
+          </div>
+        </div>
+        <div class="map-section__content js-map-content">
+          <div class="map-section__descr descr">
+            <p>
+              This year we kick off dedicated hall focused on backend and headless solutions based on NodeJS located in a historical building of Uilenburgersjoel which works as a cultural center and synagogue.
+            </p>
+          </div>
+          <div class="map-section__footer">
+            <p>Nieuwe Uilenburgerstraat 91,<br/>
+              1011 LM Amsterdam
+            </p>
+            <a href="https://goo.gl/maps/poNidU378CT2" class="map-section__link">View on map</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="map-section__map">
+        {% include "./_map.html" %}
+      </div>
+    </div>
+  </div>
+</section>

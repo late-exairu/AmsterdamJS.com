@@ -1,0 +1,60 @@
+---
+title: Amsterdam JSNation Conference 2019
+cards: [
+  {
+    img: 'img/card-1.png',
+    title: 'Senior JavaScript Developer at Adyen',
+    descr: "<p>We are at the forefront of the global technology scene, providing our services to the world's leading innovative companies (Facebook, Spotify, Groupon, Evernote, Booking.com, Yelp, Vodafone, Mango and many more). We work in close partnership with these companies to ensure they are always ahead of the game. Guided by Fintech's most experienced developers, we need you to contribute to the customer-facing component of our fast-growing platform that processes billions of transactions a year.</p>
+    <p>We’re looking for developers with side projects, who love to check out codepen.io or open-source github repo’s, design systems and style guides. People who understand that shipping fast doesn’t mean you ship bad quality (it’s not how you build it, but what you build), someone who can explain their job to their grandparents - after which they actually understand - and someone who gets all geeky about well-documented, great new frameworks or tools. Last but not least, we’re looking for people who think designers can be, should be (and maybe are?) their ultimate partner-in-crime.</p>"
+  },
+  {
+    img: 'img/card-2.png',
+    title: 'Careers at Evolution Gaming',
+    descr: "<p>Evolution Gaming is looking to hire skilled and highly motivated engineers to work in Amsterdam, Riga and Tallinn offices.</p>
+    <p>Our engineers are passionate about innovation and develop the solutions that allow Evolution Gaming to provide its services to licensees.</p>
+    <p>Our teams are critical to the successful running of the company, with any code change having a potentially huge financial impact.</p>"
+  },
+  {
+    img: 'img/card-3.png',
+    title: 'Software Engineer at BCG Digital Ventures',
+    descr: "<p>Our Engineers design, develop and maintain the technology which is at the core of our products, solving challenging problems with radically simple solutions. Working in multidisciplinary project teams of Product, Business, and Design professionals, Engineers at DV build products from scratch and create testable software which delivers maximum value for our ventures.</p>
+    <p>As a Software Engineer, you will typically work in the incubation phases of our ventures, working in a fast-paced and collaborative environment to build prototypes for disruptive digital products – the vast majority of which are built here in Berlin. If you enjoy an environment which emphasizes the importance of Test-Driven Development and a DevOps-mindset, believe in the value of Domain-Driven Design or Service-Oriented Architecture, view Infrastructure as Code, and thrive with Continuous Delivery, then we could have the right opportunity for you.</p>"
+  },
+
+]
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+
+{# variable example #}
+
+{% include "partials/_header.html" %}
+
+<main class="main">
+  {{mixins.hero({
+  img: 'img/jobs.png',
+  title: 'Top JS Jobs'
+  })}}
+  <div class="bg-red">
+    <div class="info-wrapper">
+      <div class="wrapper">
+        <div class="info-wrapper__inner">
+          {{mixins.info({
+          title: 'Partners',
+          icon: '16'
+          })}}
+          {{mixins.info({
+          title: 'Job offers',
+          icon: '35'
+          })}}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include "partials/_cards.html" %}
+</main>
+
+{% include "partials/_footer.html" %}
+
+{% endblock %}

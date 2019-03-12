@@ -1,0 +1,19 @@
+<section class="cards">
+  <div class="wrapper">
+    <div class="cards__title title">Top JawaScript jobs from our partners</div>
+    <div class="cards__descr descr"><p>Work for companies taking JavaScript game seriously, investing
+      into tech education and local communities.</p></div>
+    <div class="cards__content">
+      {% for card in cards %}
+      <div class="cards__item">
+        {{mixins.card({
+          mod: card.mod,
+          img: card.img,
+          title: card.title,
+          descr: card.descr
+        })}}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
