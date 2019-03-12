@@ -1,0 +1,19 @@
+<section class="dates">
+  <div class="dates__content">
+    {% for item in dates %}
+    <div class="dates__item">
+      <a href="{{item.scrollTo}}" class="date js-scroll-to">
+        <div class="date__inner">
+          <div class="date__header">
+            <div class="date__title">{{item.title}}</div>
+            <div class="date__date">{{item.date}}</div>
+          </div>
+          <div class="date__name">{{item.name}}</div>
+          <div class="date__info">{{item.info | safe}}</div>
+        </div>
+      </a>
+      <div class="dates__icon">{{mixins.icon('plus')}}</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

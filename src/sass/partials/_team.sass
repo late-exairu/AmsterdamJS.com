@@ -1,0 +1,487 @@
+.team
+	padding: 162px 0 0
+	//margin-bottom: -118px
+	+tablet
+		padding-top: 114px
+	+sm
+		padding: 76px 0 0
+		margin-bottom: -2px
+	&__title
+		color: $red
+		margin-bottom: 72px
+		+tablet
+			margin-bottom: 75px
+		+sm
+			margin-bottom: 48px
+		+bgred
+			color: $white
+
+	&__inner
+		display: flex
+		flex-wrap: wrap
+		align-items: flex-start
+		//justify-content: space-between
+		margin: 0 -30px
+		+tablet
+			margin: 0 -17.5px
+		+sm
+			//max-width: 290px
+			margin: 0 -7px
+	&__item
+		width: 25%
+		//width: 100%
+		//margin: 0 58px 110px 0
+		margin: 0 0 110px 0
+		padding: 0 30px
+		+tablet
+			width: 33.33%
+			padding: 0 17.5px
+		+sm
+			width: 50%
+			padding: 0 7px
+			margin: 0 0 55px 0
+
+		&:nth-child(4n+2)
+			transform: translateY(-50px)
+			+tablet
+				transform: none
+		&:nth-child(4n+3)
+			transform: translateY(-100px)
+			+tablet
+				transform: none
+		&:nth-child(4n+4)
+			transform: translateY(-150px)
+			+tablet
+				transform: none
+
+		&:nth-child(3n+2)
+			+tablet
+				transform: translateY(-50px)
+			+sm
+				transform: none
+		&:nth-child(3n)
+			&:not(:first-child)
+				+tablet
+					transform: translateY(-100px)
+				+sm
+					transform: none
+		&:nth-child(2n+1)
+			+sm
+				transform: translateY(0)
+		&:nth-child(2n)
+			+sm
+				transform: translateY(-30px)!important
+
+
+
+
+
+.teammate
+	width: 100%
+	color: $red
+	//+xs
+		max-width: 138px
+	&_horizontal
+		display: flex
+		align-items: flex-start
+		max-width: 610px
+		+md
+			width: 100%
+			max-width: 100%
+		+xs
+			width: 100%
+			max-width: 100%
+		.teammate
+			&__inner
+				+bgred
+					border-color: $white
+			&__top
+				width: 45.084%
+				flex-shrink: 0
+				margin-right: -68px
+				padding-top: 0
+				+tablet
+					width: 47.337%
+					margin-right: -41px
+				+md
+					//width: calc((850px - 20vw - 14px*2 + 17.5px*2) * 0.3333 - 17.5px*2)
+					width: calc((850px - 20vw + 17.5px*2) * 0.3333 - 17.5px*2)
+					margin-right: -39px
+				+r(849)
+					width: calc((100vw - 20vw + 17.5px*2) * 0.3333 - 17.5px*2)
+				+sm
+					width: calc((100vw - 20vw + 7px*2) * 0.5 - 7px * 2)
+				+xxs
+					width: calc((100vw - 7px*2) * 0.5 - 7px*2)
+			&__content
+				padding-top: 39px
+				margin-left: 0
+				+tablet
+					padding-top: 61px
+
+				+md
+					padding-top: 34px
+					width: 100%
+					//max-width: calc(100% - 138px)
+				&:before
+					top: 47px
+					height: calc(100% - 36px)
+					+tablet
+						top: 72px
+						height: calc(100% - 65px)
+					+md
+						top: 47px
+						height: calc(100% - 36px)
+					+bgred
+						background-color: $red
+						border-color: $white
+			&__decor
+				position: absolute
+				content: ''
+				display: block
+				width: 100%
+				height: calc(100% - 36px)
+				top: 47px
+				left: -11px
+				border: 4px solid $red
+				background-color: #fff
+				+tablet
+					top: 70px
+					height: calc(100% - 56px)
+				+bgred
+					background-color: $red
+					border-color: $white
+			&__inner
+				padding: 20px 17px 38px
+				//min-height: unset
+				+tablet
+					//min-height: unset
+					padding: 14px 13px 18px
+				+xs
+					padding: 10px 0 15px
+					//min-height: unset
+				+xs
+					//min-height: 193px
+					//min-height: unset
+			&__name
+				font-size: 30px
+				letter-spacing: 0
+				+tablet
+					font-size: 20px
+				+xs
+					font-size: 14px
+					letter-spacing: 0
+			&__info
+				line-height: 1.6
+				letter-spacing: 0
+				margin-bottom: 25px
+				+tablet
+					font-size: 16px
+					line-height: 1.4
+					margin-bottom: 16px
+				+xs
+					font-size: 12px
+					margin-bottom: 17px
+				&:not(:last-child)
+					margin-bottom: 25px
+					+tablet
+						margin-bottom: 15px
+					//+md
+						margin-bottom: 15px
+			&__company
+				letter-spacing: 1.2px
+				+tablet
+					margin-bottom: 9px
+					letter-spacing: 0
+			&__img
+				padding-top: 100%
+				position: static
+			&__footer
+				+md
+					align-items: flex-start
+					padding-left: 10px
+		&.teammate_decor
+			.teammate__content
+				&:after
+					position: absolute
+					content: ''
+					display: block
+					width: 100%
+					left: -21px
+					border: 4px solid $red
+					background-color: #fff
+					top: 57px
+					height: calc(100% - 36px)
+					//z-index: -1
+					+tablet
+						display: none
+					+bgred
+						background-color: $red
+						border-color: $white
+	&__top
+		padding-top: 100%
+		background-color: $red
+		position: relative
+	//&__bg
+		position: absolute
+		width: calc(100% - 17px*2)
+		height: calc(100% - 17px - 35px)
+		left: 17px
+		top: 17px
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center
+		+md
+			width: 100%
+			height: 100%
+			top: 0
+			left: 0
+	&__img
+		position: absolute
+		width: 100%
+		height: 100%
+		//width: calc(100% - 10px)
+		//height: calc(100% - 7px)
+		//top: 7px
+		top: 0
+		left: 0
+		background-size: contain
+		background-repeat: no-repeat
+		background-position: left bottom
+		+md
+			background-size: contain
+	&__inner
+		border: 4px solid $red
+		padding: 12px 5px 19px 19px
+		position: relative
+		background-color: $white
+		z-index: 2
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		//min-height: 253px
+		+tablet
+			//min-height: 226px
+			padding: 14px 5px 10px 13px
+		+xs
+			padding: 9px 0 0
+		+xs
+			//min-height: 265px
+	&__content
+		position: relative
+		max-width: calc(100% - 9px)
+		margin-left: auto
+		margin-top: -9px
+		+tablet
+			max-width: calc(100% - 9px)
+			margin-top: -12px
+		+xs
+			max-width: 100%
+		&:before
+			position: absolute
+			content: ''
+			display: block
+			width: 100%
+			height: calc(100% + 2px)
+			top: 8px
+			left: -11px
+			border: 4px solid $red
+			background-color: #fff
+			z-index: 1
+			+tablet
+				left: -9px
+			+xs
+				display: none
+
+
+		&.teammate_decor
+			.teammate__content
+				&:after
+					position: absolute
+					content: ''
+					display: block
+					width: 100%
+					height: 100%
+					top: 19px
+					left: -22px
+					border: 4px solid $red
+					background-color: #fff
+					+tablet
+						display: none
+	&__name
+		+bold
+		font-size: 22px
+		text-transform: uppercase
+		+tablet
+			font-size: 20px
+
+		+xs
+			font-size: 14px
+			padding: 0 8px
+		&:not(:last-child)
+			margin-bottom: 7px
+			+tablet
+				margin-bottom: 4px
+			+md
+				margin-bottom: 7px
+	&__company
+		+tablet
+			font-size: 16px
+		+xs
+			font-size: 12px
+			padding: 0 8px
+			line-height: 1.5
+		&:not(:last-child)
+			margin-bottom: 18px
+			+tablet
+				margin-bottom: 12px
+			//+md
+			//	margin-bottom: 12px
+	&__info
+		letter-spacing: -1.2px
+		word-break: break-all
+		margin-bottom: 10px
+		+tablet
+			letter-spacing: 0
+			line-height: 1.5
+		+xs
+			font-size: 12px
+			padding: 0 8px
+		+sm
+			margin-bottom: 16px
+
+		a
+			color: inherit
+			text-decoration: none
+
+		&:not(:last-child)
+			margin-bottom: 12px
+			+tablet
+				margin-bottom: 11px
+			+md
+				margin-bottom: 16px
+	&__footer
+		display: flex
+		align-items: center
+		flex-wrap: wrap
+		+md
+			flex-direction: column
+	&__socials
+		&:not(:last-child)
+			margin: 0 21px 10px 0
+			+tablet
+				margin-right: 11px
+			+md
+				margin-right: 0
+		.socials
+			&__item
+				text-decoration: none
+				&:not(:last-child)
+					margin-right: 13px
+					+tablet
+						margin-right: 7px
+					+sm
+						margin-right: 13px
+				.icon
+					fill: red
+			&__link
+				display: block
+				transition: transform .3s ease
+				+hover
+					transform: scale(1.176)
+					.icon
+						fill: $red
+	&__tag
+		padding: 0 9px
+		font-size: 14px
+		line-height: 1.8
+		margin-bottom: 10px
+		+md
+			margin-bottom: 0
+			width: 100%
+
+
+
+
+
+.team-horizontal
+	padding: 169px 0 9px
+	margin-bottom: 43px
+	+tablet
+		padding: 123px 0 86px
+	+md
+		padding: 82px 0 47px
+	&__title
+		color: $red
+		margin-bottom: 70px
+		+tablet
+			margin-bottom: 45px
+		+md
+			margin-bottom: 38px
+		+bgred
+			color: $white
+		&_mb-sm
+			margin-bottom: 60px
+			+tablet
+				margin-bottom: 38px
+			+md
+				margin-bottom: 31px
+	&__descr
+		max-width: 565px
+		color: $red
+		+tablet
+			max-width: 640px
+		+bgred
+			color: $white
+		&:not(:last-child)
+			margin-bottom: 82px
+	&__inner
+		display: flex
+		flex-wrap: wrap
+		align-items: flex-start
+		justify-content: space-between
+		//+tablet
+			flex-direction: column
+	&__item
+		width: 100%
+		max-width: calc(50% - 60px/2)
+		+tablet
+			max-width: 521px
+		+md
+			width: 521px
+			max-width: 100%
+		+sm
+			width: 640px
+		&:not(:last-child)
+			//margin-right: 60px
+			margin-bottom: 117px
+			+tablet
+				margin-bottom: 70px
+			+md
+				margin-bottom: 30px
+		&:nth-child(2n)
+			margin-right: 0
+			transform: translateY(-148px)
+			+tablet
+				transform: none
+				margin-left: auto
+	&_sm
+		padding-top: 151px
+		padding-bottom: 56px
+		+tablet
+			padding-top: 113px
+			padding-bottom: 130px
+		+md
+			padding-top: 73px
+			padding-bottom: 80px
+		.team-horizontal__title
+			+md
+				font-size: 40px
+				line-height: 1.25
+		.team-horizontal__descr
+			//margin-bottom: 82px
+			+tablet
+				margin-bottom: 58px
+			+md
+				margin-bottom: 42px
+

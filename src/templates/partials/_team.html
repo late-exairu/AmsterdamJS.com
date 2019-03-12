@@ -1,0 +1,22 @@
+<section class="team" id="speakers">
+  <div class="wrapper">
+    <div class="team__title title">{{team.title}}</div>
+    <div class="team__inner">
+      {% for item in team.items %}
+      <div class="team__item">
+        {{mixins.teammate({
+        img: item.img,
+        name: item.name,
+        company: item.company,
+        info: item.info,
+        socials: item.socials,
+        tagBG: item.tagBG,
+        tag: item.tag,
+        color: item.color,
+        decor: item.decor
+        })}}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

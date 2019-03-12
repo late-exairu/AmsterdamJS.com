@@ -1,0 +1,138 @@
+.subscribe
+	padding: 160px 0 116px
+	+tablet
+		padding: 85px 0 125px
+	+md
+		padding: 83px 0 87px
+	&>.wrapper
+		+r(659)
+			padding: 0
+	&__inner
+		display: flex
+	&__img
+		width: 100%
+		max-width: 450px
+		margin-right: 105px
+		flex-shrink: 0
+		padding-top: 20px
+		+tablet
+			max-width: 246px
+			margin-right: 50px
+			overflow: hidden
+		+md
+			padding-top: 0
+		+r(659)
+			display: none
+			margin-right: 0
+			width: 100%
+			max-width: 100%
+			overflow: hidden
+			justify-content: center
+			margin-bottom: 43px
+		&_mob
+			display: none
+			+r(659)
+				display: flex
+
+	&__content
+		+r(659)
+			width: 100%
+	&__title
+		margin-bottom: 60px
+		+tablet
+			margin-bottom: 38px
+		+md
+			margin-bottom: 60px
+		+sm
+			margin-bottom: 40px
+		+r(659)
+			//margin-bottom: 40px
+			padding: 0 14px
+	&__descr
+		&:not(:last-child)
+			margin-bottom: 43px
+			+tablet
+				margin-bottom: 33px
+			+md
+				margin-bottom: 60px
+			+sm
+				margin-bottom: 24px
+			+r(659)
+				//margin-bottom: 24px
+				padding: 0 14px
+	&__form
+		max-width: 718px
+		+r(659)
+			padding: 0 14px
+	&__socials
+		+r(659)
+			padding: 0 14px
+		&:not(:last-child)
+			margin-bottom: 50px
+			+tablet
+				margin-bottom: 42px
+			+md
+				margin-bottom: 60px
+			+sm
+				margin-bottom: 25px
+			//+r(659)
+				margin-bottom: 25px
+
+
+.form
+	padding-left: 9px
+	&__field
+		width: 100%
+		background-color: $white
+		position: relative
+		border: 4px solid $white
+		display: flex
+		&:before
+			position: absolute
+			content: ''
+			display: block
+			width: calc(100% + 7px)
+			height: calc(100% + 7px)
+			border-left: 4px solid $white
+			border-bottom: 4px solid $white
+			top: 4px
+			left: -12px
+			pointer-events: none
+	&__input
+		position: relative
+		width: 100%
+		input
+			width: 100%
+			color: $red
+			+placeholder-color($red)
+			+bold
+			font-size: 24px
+			border: none
+			-webkit-appearance: none
+			padding: 22px 35px 20px
+			+tablet
+				font-size: 18px
+				padding: 19px 16px 16px
+			+md
+				font-size: 16px
+				padding: 11px 11px 13px
+	&__btn
+		flex-shrink: 0
+		//position: absolute
+		//right: 4px
+		//top: 4px
+		//height: calc(100% - 4px)
+		display: flex
+		.btn
+			padding-left: 22px
+			padding-right: 22px
+			&:not(.btn_border)
+				+hover
+					transform: none
+					.btn__text
+						text-decoration: underline
+			+tablet
+				font-size: 14px
+			+md
+				font-size: 14px
+				padding: 10px

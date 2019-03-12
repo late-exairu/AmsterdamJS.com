@@ -1,0 +1,119 @@
+{% macro icon(i) %}
+<svg class="icon icon-{{i}}"><use xlink:href="img/sprite.svg#icon-{{i}}"></use></svg>
+{% endmacro %}
+
+
+{% macro info(conf) %}
+<div class="info">
+  <div class="info__icon">{{icon(conf.icon)}}</div>
+  <div class="info__content">
+    <div class="info__title">{{conf.title}}</div>
+    <div class="info__descr">{{conf.descr | safe}}</div>
+  </div>
+</div>
+{% endmacro %}
+
+
+{% macro teammate(conf) %}
+<div class="teammate {{conf.mod}} {% if conf.decor %}teammate_decor{% endif %}">
+  <div class="teammate__top">
+    <div class="teammate__img" style="background-image: url(img/speakers/{{conf.img}})"></div>
+  </div>
+  <div class="teammate__content">
+
+    <div class="teammate__inner">
+      <div class="teammate__inner-content">
+        <div class="teammate__name">{{conf.name}}</div>
+        <div class="teammate__company">{{conf.company}}</div>
+        <div class="teammate__info">{{conf.info | safe}}</div>
+      </div>
+      <div class="teammate__footer">
+        <div class="teammate__socials">
+          <ul class="socials">
+            {% for item in conf.socials %}
+            <li class="socials__item"><a class="socials__link" target="_blank" href="{{item.link}}">{{icon(item.icon)}}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% if conf.tag %}
+        <div class="teammate__tag" style="background-color: {{conf.tagBG}}; color: {{conf.color}};">{{conf.tag}}</div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endmacro %}
+
+
+{% macro infoSection(conf) %}
+<section class="info-section {{conf.mod}}" {% if conf.id %} id="{{conf.id}}" {% endif %} {% if conf.bg %} style="background-image: url({{conf.bg}})" {% endif %}>
+  {% if conf.video %}
+  <video src="{{conf.video}}" class="info-section__video" preload="auto" muted autoplay loop poster="{{conf.bg}}"></video>
+  {% endif %}
+  <div class="wrapper">
+    <div class="info-section__content">
+      <div class="info-section__title title">{{conf.title | safe}}</div>
+      <div class="info-section__descr descr {{conf.descrMod}}">{{conf.descr | safe}}</div>
+      {% if conf.img %}
+      <div class="info-section__img">
+        <img src="{{conf.img}}" alt=""/>
+        <div class="info-section__img-decor"></div>
+        <div class="info-section__img-decor info-section__img-decor_2"></div>
+        <div class="info-section__img-decor info-section__img-decor_3"></div>
+        <div class="info-section__img-decor info-section__img-decor_4"></div>
+        <div class="info-section__img-decor info-section__img-decor_5"></div>
+        <div class="info-section__img-decor info-section__img-decor_6"></div>
+        <div class="info-section__img-decor info-section__img-decor_7"></div>
+        <div class="info-section__img-decor info-section__img-decor_8"></div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% endmacro %}
+
+{% macro text(conf) %}
+<div class="text {{conf.mod}}">
+  {% if conf.title %}
+    <h2 class="text__title">{{conf.title}}</h2>
+  {% endif %}
+  {% if conf.descr %}
+  <div class="text__descr descr">{{conf.descr | safe}}</div>
+  {% endif %}
+</div>
+{% endmacro %}
+
+{% macro card(conf) %}
+<div class="card {{conf.mod}}">
+  <div class="card__inner">
+    <div class="card__col card__col_sm">
+      <div class="card__img">
+        <img src="{{conf.img}}" alt=""/>
+      </div>
+    </div>
+    <div class="card__col card__content">
+      {% if conf.title %}<div class="card__title">{{conf.title}}</div>{% endif %}
+      {% if conf.descr %}<div class="card__descr descr">{{conf.descr | safe}}</div>{% endif %}
+      <a href="" class="card__link">Learn more</a>
+    </div>
+  </div>
+</div>
+{% endmacro %}
+
+{% macro hero(conf) %}
+<section class="hero hero_min" style="background-image: url({{conf.img}})">
+  <div class="hero__logo">
+    <a href="https://amsterdamjs.com/" class="logo">
+      <img src="img/logo.svg" alt=""/>
+    </a>
+  </div>
+  <h1 class="hero__title">
+    {{conf.title}}
+  </h1>
+</section>
+
+{% endmacro %}
+
+
+

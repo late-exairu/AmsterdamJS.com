@@ -1,0 +1,87 @@
+body
+	+med
+	font-size: 16px
+	line-height: 1.375
+	color: $white
+	+tablet
+		font-size: 14px
+
+.out
+	position: relative
+	overflow: hidden
+
+
+.bg-red
+	background-color: $red
+
+.logo
+	display: flex
+	align-items: flex-start
+	max-width: 302px
+	+tablet
+		max-width: 207px
+	+md
+		max-width: 158px
+	img
+		width: 100%
+
+.title
+	+gotBlack
+	font-size: 80px
+	letter-spacing: 0.4px
+	line-height: 1.07
+	+tablet
+		font-size: 60px
+	+md
+		font-size: 44px
+		//line-height: 1.37
+		line-height: 1.1
+		letter-spacing: 0.22px
+
+.wrapper
+	max-width: 1320px
+	margin: 0 auto
+	padding: 0 20px
+	+tablet
+		max-width: 850px
+	+md
+		padding: 0 10vw
+	+xxs
+		padding: 0 14px
+.color-yellow
+	color: $yellow
+
+
+.descr
+	font-size: 20px
+	line-height: 1.6
+	+tablet
+		font-size: 16px
+	+md
+		font-size: 14px
+	p
+		&:not(:last-child)
+			margin-bottom: 23px
+			+md
+				margin-bottom: 19px
+
+.link
+	color: inherit
+	display: inline-flex
+	align-items: center
+	.icon
+		fill: $white
+		margin-right: 9px
+		font-size: 26px
+		vertical-align: sub
+		+tablet
+			font-size: 24px
+		+md
+			font-size: 19px
+			margin-right: 4px
+.title-img
+	padding: 40px 0
+	img
+		max-width: 100%
+		margin: 0 auto
+		display: block

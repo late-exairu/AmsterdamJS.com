@@ -1,0 +1,126 @@
+.header
+	position: fixed
+	top: 0
+	left: 0
+	width: 100%
+	transition: background-color .3s ease
+	z-index: 11
+	overflow: hidden
+	&.is-red
+		background-color: $red
+		+md
+			background-color: transparent
+	&.is-active
+		+md
+			background-color: $red
+	+md
+		display: flex
+		flex-direction: column
+		align-items: flex-end
+		padding: 15px
+	&__inner
+		display: flex
+		align-items: center
+		justify-content: space-between
+		width: 100%
+		+md
+			flex-direction: column
+			height: calc(100vh - 22px - 30px)
+			padding: 40px 0
+	&__content
+		+mdmin
+			display: flex!important
+		+md
+			display: none
+			width: 100%
+	&__socials
+		padding-left: 48px
+		min-width: 150px
+		+md
+			min-width: unset
+		+tablet
+			padding-left: 37px
+		+md
+			padding: 0
+			margin-bottom: 20px
+			display: flex
+			justify-content: center
+	&__burger
+		display: none
+		+md
+			display: flex
+	&__nav
+		+md
+			position: relative
+			width: 100%
+			flex-grow: 1
+			.nav
+				position: absolute
+				top: 0
+				left: 0
+				width: 100%
+				height: 100%
+				overflow-y: auto
+				display: flex
+				flex-direction: column
+				align-items: center
+				flex-wrap: nowrap
+		&:not(:last-child)
+			+md
+				margin-bottom: 20px
+	&__btn
+		min-width: 150px
+		display: flex
+		justify-content: flex-end
+		+md
+			min-width: unset
+			display: block
+
+
+
+.nav
+	display: flex
+	justify-content: center
+	flex-wrap: wrap
+	+md
+		display: block
+	&__item
+		text-decoration: none
+		color: $white
+		transition: color .3s ease
+		+hover
+			color: $yellow
+			text-decoration: underline
+		+tablet
+			font-size: 14px
+		+md
+			display: block
+			text-align: center
+		&:not(:last-child)
+			margin-right: 27px
+			+tablet
+				margin-right: 24px
+			+md
+				margin: 0 0 20px
+
+.burger
+	-webkit-appearance: none
+	background-color: transparent
+	border: none
+	flex-direction: column
+	&.is-active
+		.burger
+			&__item
+				&:nth-child(2n)
+					opacity: 0
+				&:first-child
+					transform: translate(0, 9px) rotate(45deg)
+				&:last-child
+					transform: translate(0, -9px) rotate(-45deg)
+	&__item
+		width: 28px
+		height: 4px
+		background-color: $white
+		transition: opacity .3s ease, transform .3s ease
+		&:not(:last-child)
+			margin-bottom: 5px

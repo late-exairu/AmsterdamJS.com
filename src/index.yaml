@@ -1,0 +1,13 @@
+ProjectTitle: js-nation
+
+PageList:
+- file: homepage.html
+  ready: 50
+- file: coc.html
+  ready: 50
+- file: jobs.html
+  ready: 50
+- file: workshops.html
+  ready: 50
+- file: extended.html
+  ready: 50

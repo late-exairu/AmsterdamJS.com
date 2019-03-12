@@ -1,0 +1,107 @@
+.hero
+	//min-height: 1033px
+	min-height: 100vh
+	background-size: cover
+	background-position: center bottom
+	background-repeat: no-repeat
+	padding: 100px 20px 0
+	display: flex
+	flex-direction: column
+	align-items: center
+	+tablet
+		padding: 94px 20px 0
+	+md
+		padding: 54px 20px 0
+	+xs
+		padding: 45px 20px 0
+	&__logo
+		margin-bottom: 43px
+		+md
+			margin-bottom: 57px
+		//+xsh
+			margin-bottom: 15px!important
+		+xs
+			margin-bottom: 30px
+	&__title
+		max-width: 1325px
+		text-align: center
+		+gotBlack
+		font-size: 90px
+		line-height: 1.2
+		letter-spacing: 0.25px
+		display: block
+		&:not(:last-child)
+			margin-bottom: 34px
+			+tablet
+				margin-bottom: 17px
+			+md
+				margin-bottom: 21px
+		+tablet
+			font-size: 56px
+			margin-bottom: 22px
+			letter-spacing: 2.7px
+		+md
+			font-size: 38px
+			line-height: 1.15
+			margin-bottom: 16px
+			letter-spacing: 0.25px
+		//+xsh
+			font-size: 22px!important
+		+xs
+			font-size: 28px
+			margin-bottom: 20px
+			line-height: 1.34
+	&__descr
+		max-width: 900px
+		text-align: center
+		font-size: 26px
+		line-height: 1.45
+		margin-bottom: 110px
+		+tablet
+			max-width: 625px
+			font-size: 18px
+			margin-bottom: 113px
+			line-height: 1.5
+		+md
+			font-size: 14px
+			line-height: 1.6
+			margin-bottom: 98px
+		//+xsh
+			font-size: 12px!important
+			margin-bottom: 15px!important
+	&__btn
+		+md
+			//padding: 0 10px
+			.btn
+				min-width: 247px
+				width: 100%
+	&_min
+		min-height: auto
+		padding: 110px 0 100px
+		background-position: center
+		+tablet
+			padding: 94px 20px
+		+md
+			padding: 44px 20px
+		+xs
+			padding: 44px 20px
+		.hero
+			&__logo
+				margin-bottom: 60px
+				+md
+					margin-bottom: 20px
+			&__title
+				font-size: 80px
+				max-width: 836px
+				margin: 0 auto
+				line-height: 1.1
+				+tablet
+					font-size: 60px
+				+md
+					font-size: 44px
+				+sm
+					font-size: 32px
+
+.intro
+	z-index: 1
+	position: relative

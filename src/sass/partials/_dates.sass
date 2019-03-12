@@ -1,0 +1,154 @@
+.dates
+	padding: 76px 0 178px
+	+tablet
+		padding: 85px 0
+	+md
+		padding: 99px 0 77px
+	&__content
+		display: flex
+		justify-content: center
+		max-width: 1063px
+		margin: 0 auto
+		//padding-left: 19px
+		+tablet
+			max-width: 800px
+		+sm
+			display: block
+			padding: 0 15px
+	&__item
+		display: flex
+		position: relative
+		+sm
+			justify-content: center
+		&:not(:last-child)
+			margin-right: 166px
+			+tablet
+				margin-right: 60px
+			+md
+				margin-right: 40px
+			+sm
+				margin: 0 0 40px
+			.dates__icon
+				display: flex
+				+tablet
+					display: none
+	&__icon
+		display: none
+		position: absolute
+		font-size: 36px
+		right: -73px - 36px
+		top: 50%
+		transform: translate(-50%, -17px)
+
+		.icon
+			fill: #ffffff
+
+.date
+	color: #ffffff
+	position: relative
+	text-align: center
+	display: flex
+	text-decoration: none
+	+hover
+		.date__name
+			text-decoration: none
+	+sm
+
+		//width: 100%
+		padding-left: 20px
+	&:before, &:after
+		position: absolute
+		content: ''
+		display: block
+		border: 4px solid #ffffff
+		background-color: $red
+	&:before
+		top: 20px
+		left: -20px
+		width: calc(100% + 1px)
+		height: calc(100% + 1px)
+		+sm
+			left: 0
+			width: calc(100% - 20px)
+	&:after
+		top: 10px
+		left: -10px
+		width: calc(100% + 1px)
+		height: calc(100% + 1px)
+		+sm
+			left: 10px
+			width: calc(100% - 20px)
+	&__header
+		+tablet
+			margin-bottom: 4px
+		+sm
+			display: flex
+			flex-direction: row-reverse
+			justify-content: flex-end
+			align-items: baseline
+	&__title
+		font-size: 18px
+		+tablet
+			font-size: 16px
+		&:not(:last-child)
+			margin-bottom: 7px
+	&__inner
+		position: relative
+		z-index: 2
+		border: 4px solid #ffffff
+		background-color: $red
+		padding: 19px 10px 27px
+		width: 237px
+		max-width: 100%
+		+tablet
+			width: 218px
+			padding: 19px 13px 18px
+		+r(820)
+			width: 217px
+		+sm
+			width: 270px
+			padding: 24px 21px 21px 19px
+		+xs
+			padding: 18px 21px 21px 19px
+	&__date
+		+gotBlack
+		font-size: 80px
+		letter-spacing: 0.4px
+		color: inherit
+		text-decoration: none
+		+tablet
+			font-size: 60px
+		+sm
+			font-size: 48px
+			margin-right: 10px
+			line-height: 1
+	&__name
+		color: $yellow
+		font-size: 24px
+		line-height: 1.4
+		text-decoration: underline
+		display: block
+		+tablet
+			font-size: 20px
+		+md
+			text-align: left
+		+sm
+			font-size: 24px
+		&:not(:last-child)
+			margin-bottom: 22px
+			+tablet
+				margin-bottom: 15px
+			+md
+				margin-bottom: 13px
+	&__info
+		text-align: left
+		padding: 0 11px
+		+md
+			padding: 0 10px 0 0
+		+xs
+			br
+				display: none
+
+
+
+

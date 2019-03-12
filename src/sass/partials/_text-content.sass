@@ -1,0 +1,38 @@
+.text-content
+	padding: 163px 0 36px
+	color: $red
+	+md
+		padding: 83px 0 55px
+	&__inner
+		max-width: 879px
+		.text
+			&:not(:last-child)
+				margin-bottom: 147px
+				+tablet
+					margin-bottom: 100px
+				+md
+					margin-bottom: 80px
+				+sm
+					margin-bottom: 32px
+
+
+
+.text
+	&__title
+		+gotBlack
+		font-size: 57px
+		+sm
+			font-size: 32px
+		&:not(:last-child)
+			margin-bottom: 57px
+			+tablet
+				margin-bottom: 40px
+			+md
+				margin-bottom: 32px
+	&__descr
+		a
+			color: inherit
+			word-break: break-all
+			+hover
+				text-decoration: none
+		//letter-spacing: 0.28px

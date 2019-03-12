@@ -1,0 +1,108 @@
+.event
+	padding: 142px 0 128px
+	background-size: cover
+	background-position: center
+	background-repeat: no-repeat
+	position: relative
+	overflow: hidden
+	&:after
+		position: absolute
+		content: ''
+		display: block
+		width: 100%
+		height: 100%
+		top: 0
+		left: 0
+		background-color: rgba(0, 0, 0, 0.3)
+		+xs
+			background: #ff2407 !important
+	//+tablet
+		padding: 48px 0 53px
+	//+sm
+		padding: 30px 0 38px
+	+tablet
+		padding: 85px 0 125px
+	+md
+		padding: 75px 0 87px
+	+xs
+		padding: 32px 0 42px
+	&__video
+		position: absolute
+		display: block
+		width: 100%
+		height: 100%
+		min-width: 100%
+		min-height: 100%
+		top: 0
+		left: 0
+		object-fit: cover
+	&__inner
+		display: flex
+		justify-content: space-between
+		max-width: 1284px + 13px*2
+		margin: 0 auto
+		padding: 0 13px
+		position: relative
+		z-index: 2
+		+tablet
+			padding: 0 110px
+			display: block
+		+md
+			padding: 0 10vw
+		+sm
+			flex-direction: column
+		+xxs
+			padding: 0 14px
+
+	&__content
+		max-width: 630px
+		padding-top: 20px
+		margin-right: 40px
+		+tablet
+			margin-right: 0
+			margin-bottom: 75px
+			max-width: 660px
+			padding-top: 0
+		+md
+			max-width: 100%
+		+sm
+			margin-bottom: 0
+	&__info
+		padding-top: 22px
+		flex-shrink: 0
+		+tablet
+			display: flex
+			flex-wrap: wrap
+		+sm
+			padding-top: 50px
+		+xs
+			display: block
+	&__title
+		&:not(:last-child)
+			margin-bottom: 56px
+			+tablet
+				margin-bottom: 38px
+			+md
+				margin-bottom: 32px
+	&__descr
+	&__item
+		margin: 0 auto 50px
+		&:not(:last-child)
+			margin-bottom: 63px
+			+tablet
+				&:not(:nth-child(2n))
+					// margin-right: 26px
+					margin-bottom: 50px
+					margin: 0 auto 50px
+			+xs
+				&:not(:nth-child(2n))
+					// margin-right: 0
+					margin-bottom: 22px
+					margin: 0 auto 50px
+		&_lg
+			+md
+				width: 100%
+
+
+
+

@@ -1,0 +1,40 @@
+<!--<section class="schedule" id="schedule">
+  <div class="wrapper">
+    <div class="schedule__title title">
+      Schedule
+    </div>
+    <div class="tabs">
+      <ul class="tabs__header">
+        {% for tab in schedule %}
+        <li>
+          <a href="#" class="btn btn_border btn_red js-tab-link {% if tab.active %}is-active{% endif %}" data-tab-name="{{tab.name}}">
+            <span class="btn__text">{{tab.title}}</span>
+          </a>
+        </li>
+        {% endfor %}
+
+
+      </ul>
+      <div class="tabs__content">
+        {% for tab in schedule %}
+        <div class="table js-tab {% if tab.active %}is-active{% endif %}" data-tab="{{tab.name}}">
+          <div class="table__body">
+            {% for row in tab.rows %}
+            <div class="table__row">
+              <div class="table__col table__col_sm">{{row.time}}</div>
+              <div class="table__row-content">
+                <div class="table__col table__col_md">{{row.name}}</div>
+                <div class="table__col table__col_lg {% if row.noInfo %}table__col_empty{% endif %}">
+                  {% if row.title %}<div class="table__title">{{row.title}}</div>{% endif %}
+                  {% if row.descr %}<div class="table__descr">{{row.descr}}</div>{% endif %}
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>-->
