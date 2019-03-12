@@ -1,7 +1,7 @@
 ProjectTitle: js-nation
 
 PageList:
-- file: homepage.html
+- file: index.html
   ready: 50
 - file: coc.html
   ready: 50
