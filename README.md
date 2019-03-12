@@ -1,4 +1,6 @@
-#How to use
+# Amsterdam JSNation Conference Website
+
+## How to use
 
 Clone this repo and then in command line type:
 
