@@ -29,3 +29,7 @@ nbproject
 _tmp
 node_modules
 bower_components
+
+build
+minifestjs.json
+minifestcss.json
