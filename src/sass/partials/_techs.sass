@@ -1,0 +1,46 @@
+.techs
+	display: flex
+	flex-wrap: wrap
+	margin-bottom: 40px
+	justify-content: center
+
+	&__item
+		display: flex
+		justify-content: center
+		min-width: 92px
+		margin: 0 0 10px
+
+		+md
+			min-width: 70px
+		+xs
+			min-width: 60px
+
+	&__link
+		text-decoration: none
+		color: #fff
+		transition: color .1s
+
+		&:hover
+			text-decoration: underline
+			color: $yellow
+
+	&__img-box
+		height: 50px
+		width: 100%
+		display: flex
+		justify-content: center
+		align-items: center
+		margin: 0 0 5px
+		+xs
+			margin: 0 0 0
+
+		img
+
+			+md
+				transform: scale(0.75)
+
+
+	&__title
+		font-size: 11px
+		text-align: center
+
