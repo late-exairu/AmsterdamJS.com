@@ -85,8 +85,13 @@
 	+md
 		display: block
 	&__item
+		height: 48px
+		align-items: center
+		justify-content: center
+		display: flex
 		text-decoration: none
 		color: $white
+		padding: 0 13px
 		transition: color .3s ease
 		+hover
 			color: $yellow
@@ -94,14 +99,11 @@
 		+tablet
 			font-size: 14px
 		+md
-			display: block
+			align-items: center
+			justify-content: center
+			display: flex
 			text-align: center
-		&:not(:last-child)
-			margin-right: 27px
-			+tablet
-				margin-right: 24px
-			+md
-				margin: 0 0 20px
+			width: 100%
 
 .burger
 	-webkit-appearance: none
