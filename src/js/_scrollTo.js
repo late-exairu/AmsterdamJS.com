@@ -4,7 +4,7 @@ export default function scrollTo() {
     function close() {
       $(CLASSES.burger).removeClass(CLASSES.active);
       $(CLASSES.header).removeClass(CLASSES.active);
-      $(CLASSES.headerContent).slideUp();
+      // $(CLASSES.headerContent).slideUp();
     }
     close();
     $('html, body').stop().animate({
