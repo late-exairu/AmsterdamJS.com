@@ -49,7 +49,10 @@
 {% macro infoSection(conf) %}
 <section class="info-section {{conf.mod}}" {% if conf.id %} id="{{conf.id}}" {% endif %} {% if conf.bg %} style="background-image: url({{conf.bg}})" {% endif %}>
   {% if conf.video %}
-  <video src="{{conf.video}}" class="info-section__video" preload="auto" muted autoplay loop poster="{{conf.bg}}"></video>
+  <video class="info-section__video" preload="auto" muted autoplay loop poster="{{conf.bg}}">
+  	<source src="video/disco.webm" type="video/webm"/>
+    <source src="video/disco.mp4" type="video/mp4"/>
+  </video>
   {% endif %}
   <div class="wrapper">
     <div class="info-section__content">
