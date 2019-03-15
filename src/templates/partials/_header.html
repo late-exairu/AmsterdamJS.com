@@ -15,18 +15,22 @@
       </div>
       <div class="header__nav">
         <nav class="nav">
-          <a class="nav__item js-scroll-to" href="./index.html#event">the event</a>
-          <a class="nav__item js-scroll-to" href="./index.html#location">location</a>
-          <a class="nav__item js-scroll-to" href="./index.html#speakers">speakers</a>
-          <a class="nav__item js-scroll-to" href="./workshops.html">workshops</a>
+          {% if innerPage %}
+          <a class="nav__item js-scroll-to" href="/">conference page</a>
+          {% else %}
+          <a class="nav__item js-scroll-to" href="#event">the event</a>
+          <a class="nav__item js-scroll-to" href="#location">location</a>
+          <a class="nav__item js-scroll-to" href="#speakers">speakers</a>
+          <a class="nav__item js-scroll-to" href="/workshops">workshops</a>
           <!--<a class="nav__item js-scroll-to" href="#schedule">schedule</a>-->
           <!--<a class="nav__item js-scroll-to" href="#tour">tour day</a>-->
-          <a class="nav__item js-scroll-to" href="./index.html#sponsors">sponsors</a>
+          <a class="nav__item js-scroll-to" href="#sponsors">sponsors</a>
           <a class="nav__item js-scroll-to" href="#contact">contact us</a>
+          {% endif %}
         </nav>
       </div>
       <div class="header__btn">
-        <a href="https://www.eventbrite.com/e/amsterdam-jsnation-conference-2019-tickets-53358526790" target="_blank" class="btn"><span class="btn__text">tickets</span></a>
+        <a href="https://www.eventbrite.com/e/amsterdam-jsnation-conference-2019-tickets-53358526790" class="btn"><span class="btn__text">tickets</span></a>
       </div>
     </div>
   </div>
