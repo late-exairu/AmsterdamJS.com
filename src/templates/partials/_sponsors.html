@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="sponsors__title title">{{sponsors.title}}</div>
     {% if sponsors.descr %}
-    <div class="sponsors__descr descr">{{sponsors.descr}}</div>
+    <div class="sponsors__descr descr">{{sponsors.descr | safe}}</div>
     {% endif %}
     <div class="sponsors__content">
       {% for item in sponsors.items %}
