@@ -21,7 +21,7 @@
           <div class="table__body">
             {% for row in tab.rows %}
             <div class="table__row">
-              <div class="table__col table__col_sm">{{row.time}}</div>
+              {% if row.time %}<div class="table__col table__col_sm">{{row.time}}</div>{% endif %}
               <div class="table__row-content">
                 <div class="table__col table__col_md">{{row.name}}</div>
                 <div class="table__col table__col_lg {% if row.noInfo %}table__col_empty{% endif %}">
