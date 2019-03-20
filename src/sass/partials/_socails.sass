@@ -1,5 +1,10 @@
 .socials
 	display: flex
+	margin: auto 0
+
+	+xs
+		justify-content: center
+
 	&__item
 		line-height: 0
 		font-size: 17px
@@ -8,6 +13,10 @@
 			+tablet
 				margin-right: 18px
 	&__link
+		display: block
+		width: 22px
+		text-align: center
+
 		.icon
 			fill: $white
 			transition: fill .3s ease

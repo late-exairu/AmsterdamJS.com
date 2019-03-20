@@ -1,23 +1,50 @@
-<section class="hero" style="background-image: url(img/hero-bg.svg)">
-  <div class="hero__logo">
-    <a href="/" class="logo">
-      <img src="img/logo.svg" alt=""/>
-    </a>
-  </div>
-  <h1 class="hero__title">
-    Core library authors. Hands-on learning. Summer Amsterdam.
-  </h1>
-  <div class="hero__descr">
-    JavaScript is #1 on demand programming language in the world with 25 millions of developers behind it. Meet the ones who shape out the now and the future of the prospering nation. June 6-7, 2019.
-  </div>
+<section class="hero">
+  <div class="hero__inner">
+    <div class="hero__logo">
+      <a href="/" class="logo">
+        <img src="img/logo.svg" alt=""/>
+      </a>
+    </div>
+    <div class="hero__content">
+      <div class="hero__left">
+        <h1 class="hero__title">
+          Core library authors.<br/> Hands-on learning.<br/> Summer Amsterdam.
+        </h1>
+        <div class="hero__descr">
+          JavaScript is #1 on demand programming language in the world with 25 millions of developers behind it. Meet the ones who shape out the now and the future of the prospering nation. June 6-7, 2019.
+        </div>
+      </div>
+      <div class="hero__right">
+        <div class="event__info">
+          {% for item in info %}
+          <div class="event__item {{item.mod}}">
+            {{mixins.info({
+            title: item.title,
+            num: item.num,
+            descr: item.descr
+            })}}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
 
-  <div class="hero__techs-title">This year:</div>
+    <div class="hero__bottom">
+      <ul class="socials">
+        <li class="socials__item"><a href="https://twitter.com/amsterdamjs" target="_blank" class="socials__link">{{mixins.icon('tw')}}</a></li>
+        <li class="socials__item"><a href="https://www.facebook.com/amsterdamjs" target="_blank" class="socials__link">{{mixins.icon('fb')}}</a></li>
+        <li class="socials__item"><a href="https://www.youtube.com/JSNation" target="_blank" class="socials__link">{{mixins.icon('yt')}}</a></li>
+      </ul>
 
-  {% include "partials/_techs.html" %}
-
-  <div class="hero__btn">
-    <a href="https://www.eventbrite.com/e/amsterdam-jsnation-conference-2019-tickets-53358526790" class="btn btn_border btn_ttu btn_yellow">
-      <div class="btn__text">RESERVE YOUR SPOT</div>
-    </a>
+      <div class="hero__btn">
+        <a href="https://www.eventbrite.com/e/amsterdam-jsnation-conference-2019-tickets-53358526790" class="btn btn_ttu btn_yellow">
+          <div class="btn__text">RESERVE YOUR SPOT</div>
+        </a>
+      </div>
+    </div>
   </div>
+  <video class="hero__video" preload="auto" muted autoplay loop poster="img/hero_video.jpg">
+    <source src="video/intro.webm" type="video/webm"/>
+    <source src="video/intro.mp4" type="video/mp4"/>
+  </video>
 </section>

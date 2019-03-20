@@ -5,6 +5,7 @@ export const CLASSES = {
   active: 'is-active',
   loaded: 'is-loaded',
   red: 'is-red',
+  yellow: 'is-yellow',
   noTouch: ' no-touch',
   slider: '.js-slider',
   sliderNext: '.js-slider-next',

@@ -46,7 +46,6 @@
 .date
 	color: #ffffff
 	position: relative
-	text-align: center
 	display: flex
 	text-decoration: none
 	+hover
@@ -79,6 +78,7 @@
 			left: 10px
 			width: calc(100% - 20px)
 	&__header
+		color: $red
 		+tablet
 			margin-bottom: 4px
 		+sm
@@ -87,17 +87,17 @@
 			justify-content: flex-end
 			align-items: baseline
 	&__title
-		font-size: 18px
+		font-size: 16px
 		+tablet
 			font-size: 16px
 		&:not(:last-child)
-			margin-bottom: 7px
+			margin-bottom: 14px
 	&__inner
 		position: relative
 		z-index: 2
 		border: 4px solid #ffffff
-		background-color: $red
-		padding: 19px 10px 27px
+		background-color: $white
+		padding: 10px 20px 20px
 		width: 237px
 		max-width: 100%
 		+tablet
@@ -111,7 +111,7 @@
 		+xs
 			padding: 18px 21px 21px 19px
 	&__date
-		+gotBlack
+		+gotB
 		font-size: 80px
 		letter-spacing: 0.4px
 		color: inherit
@@ -123,8 +123,8 @@
 			margin-right: 10px
 			line-height: 1
 	&__name
-		color: $yellow
-		font-size: 24px
+		color: $red
+		font-size: 22px
 		line-height: 1.4
 		text-decoration: underline
 		display: block
@@ -135,14 +135,15 @@
 		+sm
 			font-size: 24px
 		&:not(:last-child)
-			margin-bottom: 22px
+			margin: 17px 0 18px
 			+tablet
 				margin-bottom: 15px
 			+md
 				margin-bottom: 13px
 	&__info
 		text-align: left
-		padding: 0 11px
+		padding: 0
+		color: $red
 		+md
 			padding: 0 10px 0 0
 		+xs

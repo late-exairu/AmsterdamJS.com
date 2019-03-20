@@ -1,13 +1,14 @@
 .info
 	display: flex
 	+md
-		width: 290px
 		margin: 0 auto
 
 	&__icon
 		font-size: 82px
-		//+tablet
-			font-size: 60px
+
+		+tablet
+		
+
 		+md
 			font-size: 51px
 			display: flex
@@ -18,26 +19,52 @@
 			margin-right: 30px
 			+md
 				margin-right: 19px
+
+	&__num
+		+gotL
+		font-size: 88px
+		line-height: 1
+		min-width: 210px
+		text-align: right
+		padding: 0 24px 0 0
+
+		+tablet
+
+		+md
+			font-size: 72px
+			min-width: 0
+		+xs
+			font-size: 42px
+			padding-right: 10px
+
 	&__content
-		padding-top: 5px
+		padding-top: 9px
+		min-width: 120px
 		+md
 			padding-top: 0
-			margin-top: -3px
+			margin-top: 5px
+		+xs
+			margin-top: 3px
 	&__title
-		color: $yellow
-		+gotBlack
-		font-size: 30px
+		+gotL
+		font-size: 18px
 		letter-spacing: 0.11px
 		line-height: 1
 		+md
 			font-size: 20px
+		+xs
+			font-size: 18px
+
 		&:not(:last-child)
-			margin-bottom: 9px
+			margin-bottom: 13px
 			+md
+				margin-bottom: 4px
+			+xs
 				margin-bottom: 0
 	&__descr
-		font-size: 20px
-		line-height: 1.2
+		+gotL
+		font-size: 14px
+		line-height: 1.48
 		+md
 			font-size: 14px
 			line-height: 1.3

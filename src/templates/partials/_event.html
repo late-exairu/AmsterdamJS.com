@@ -1,30 +1,27 @@
-<section class="event" id="event" style="background-image: url(img/event.jpg)">
-  <video class="event__video" preload="auto" muted autoplay loop poster="img/event.jpg">
+<section class="event" id="event">
+  <!-- <video class="event__video" preload="auto" muted autoplay loop poster="img/event.jpg">
     <source src="video/river.webm" type="video/webm"/>
     <source src="video/river.mp4" type="video/mp4"/>
-  </video>
+  </video> -->
   <div class="event__inner">
     <div class="event__content">
-      <div class="event__title title">
-        The Event
+      <div class="event__left">
+        <div class="event__title title">
+          The Event
+        </div>
+        <div class="event__descr descr">
+          <p>
+            Amsterdam JSNation is a 2-day event focusing exclusively on JavaScript development. At our conference, inspiring talks meet fresh ideas and good people with summer Amsterdam in the background. You’ll hear about the latest trends in JS tech, see stellar speakers, meet new friends and colleagues, and connect with key people in the industry. Plus, all of that in one of Europe's top destinations.
+          </p>
+          <p>Already with us? Join our <a href="http://bit.ly/jsnation-slack" target="_blank" class="link"><span class="link__icon">{{mixins.icon('sl')}}</span>Slack</a>.</p>
+        </div>
       </div>
-      <div class="event__descr descr">
-        <p>
-          Three days of JS festival experience filled with inspiring talks by stellar speakers and fresh ideas – that’s Amsterdam JSNation in a nutshell. This year, we’re taking the whole event up a notch with dedicated NodeJS hall and considering programming to be a work of art, which is why the main hall is in the 17th-century Zuiderkerk church Rembrandt attended. JSNation takes place in the very heart of the city, just a few steps from the best things Amsterdam has to offer. No wonder key people in the industry make sure not to miss this summer festival of tech!
-        </p>
-        <p>Already with us? Join our <a href="http://bit.ly/jsnation-slack" target="_blank" class="link"><span class="link__icon">{{mixins.icon('sl')}}</span>Slack</a>.</p>
+      <div class="event__right">
+        <div class="hero__techs-title">This year:</div>
+        {% include "partials/_techs.html" %}
       </div>
-    </div>
-    <div class="event__info">
-      {% for item in info %}
-      <div class="event__item {{item.mod}}">
-        {{mixins.info({
-        title: item.title,
-        icon: item.icon,
-        descr: item.descr
-        })}}
-      </div>
-      {% endfor %}
     </div>
   </div>
+  
+  {% include "partials/_dates.html" %}
 </section>

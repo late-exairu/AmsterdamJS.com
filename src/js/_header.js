@@ -26,9 +26,9 @@ export default function header() {
 
   $(window).on('scroll', () => {
     if (window.pageYOffset > 53) {
-      header.addClass(CLASSES.red);
+      header.addClass(CLASSES.yellow);
     } else {
-      header.removeClass(CLASSES.red);
+      header.removeClass(CLASSES.yellow);
     }
   });
 }
