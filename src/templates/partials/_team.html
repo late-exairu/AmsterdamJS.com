@@ -17,6 +17,31 @@
         })}}
       </div>
       {% endfor %}
+      <div class="team__item team__item_assign">
+      	<p class="team__title">You?</p>
+      	<p class="team__desc">CFP is open until  1st March</p>
+      	<a class="btn btn_bg-white btn_ttu" href="#">Submit proposal</a>
+      </div>
+    </div>
+
+    <div class="team__title title">Your hosts</div>
+    <div class="team__inner">
+      {% for item in teamHorizontal.items %}
+      <div class="team__item team__item_long">
+        {{mixins.hosts({
+        img: item.img,
+        name: item.name,
+        company: item.company,
+        info: item.info,
+        socials: item.socials,
+        tagBG: item.tagBG,
+        tag: item.tag,
+        color: item.color,
+        decor: item.decor,
+        host: item.host
+        })}}
+      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
