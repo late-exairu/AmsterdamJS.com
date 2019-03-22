@@ -24,21 +24,18 @@
       </div>
     </div>
 
-    <div class="team__title title">Your hosts</div>
-    <div class="team__inner">
+    <div class="team__title title">{{teamHorizontal.title}}</div>
+    <div class="team-horizontal__inner">
       {% for item in teamHorizontal.items %}
-      <div class="team__item team__item_long">
-        {{mixins.hosts({
+      <div class="team-horizontal__item">
+        {{mixins.teammate({
+        mod: 'teammate_horizontal',
         img: item.img,
         name: item.name,
         company: item.company,
         info: item.info,
         socials: item.socials,
-        tagBG: item.tagBG,
-        tag: item.tag,
-        color: item.color,
-        decor: item.decor,
-        host: item.host
+        decor: item.decor
         })}}
       </div>
       {% endfor %}

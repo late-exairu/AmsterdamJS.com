@@ -544,20 +544,17 @@
 	&__item
 		width: 100%
 		max-width: calc(50% - 60px/2)
+		margin-bottom: 117px
 		+tablet
 			max-width: 521px
+			margin-bottom: 70px
 		+md
 			width: 521px
 			max-width: 100%
+			margin-bottom: 30px
 		+sm
 			width: 640px
-		&:not(:last-child)
-			//margin-right: 60px
-			margin-bottom: 117px
-			+tablet
-				margin-bottom: 70px
-			+md
-				margin-bottom: 30px
+			
 		&:nth-child(2n)
 			margin-right: 0
 			transform: translateY(-148px)
