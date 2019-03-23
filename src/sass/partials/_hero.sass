@@ -27,6 +27,9 @@
 		background: url(../img/overlay.svg)
 		z-index: -1
 
+		+sm
+			background: url(../img/overlay_small.svg)
+
 
 	&__inner
 		max-width: 1280px
@@ -150,12 +153,13 @@
 			padding: 44px 20px
 		.hero
 			&__logo
-				margin-bottom: 60px
+				margin: 20px auto 60px
 				+md
 					margin-bottom: 20px
 			&__title
-				font-size: 80px
+				font-size: 72px
 				max-width: 836px
+				padding: 0
 				margin: 0 auto
 				line-height: 1.1
 				+tablet

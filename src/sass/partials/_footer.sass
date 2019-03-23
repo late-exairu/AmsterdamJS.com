@@ -1,10 +1,11 @@
 .footer
 	color: $red
 	padding: 119px 0 0
+	background: #20201e
 	+tablet
 		padding: 73px 0 0
 	+md
-		padding: 20px 0 0
+		padding: 40px 0 0
 	&__inner
 		display: flex
 		justify-content: space-between
@@ -20,20 +21,34 @@
 	&__content
 		max-width: 600px
 		width: 100%
-		padding-top: 76px
+		padding-top: 85px
 		+tablet
 			padding-top: 40px
 		+md
 			padding-top: 0
 	&__socials
 		max-width: 569px
-		margin-top: -77px
+		margin: auto 0
+		width: 100%
 		+tablet
 			max-width: 365px
 			flex-shrink: 0
-			margin-top: -58px
 		+sm
 			margin: 0 auto 25px
+
+		.socials
+			&__item
+				+xs
+					margin: 0 10px!important
+
+			&__link
+				+xs
+					width: 35px
+					height: 27px
+
+			.icon
+				fill: $red
+
 		.socials-btns
 			width: 100%
 			flex-wrap: wrap
@@ -66,7 +81,7 @@
 					margin-bottom: 14px
 			a
 				color: inherit
-				font-size: 22px
+				font-size: 18px
 				line-height: 1.2
 				text-decoration: underline
 				+hover
@@ -171,10 +186,12 @@
 	position: absolute
 	right: 10px
 	bottom: 10px
+	opacity: 0
+	visibility: hidden
 
 
 @keyframes translateBG
 	0%
 		background-position: 0 0
 	100%
-		background-position: -1737px 0
+		background-position: -1640px 0

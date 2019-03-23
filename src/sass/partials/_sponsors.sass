@@ -1,13 +1,14 @@
 .sponsors
 	padding: 165px 0 55px
 	color: $red
+	background: $grayL
 	+tablet
 		padding: 112px 0 50px
 	+md
 		padding: 75px 0 55px
 	&__title
 		&:not(:last-child)
-			margin-bottom: 61px
+			margin-bottom: 78px
 			+tablet
 				margin-bottom: 39px
 			+md
@@ -21,7 +22,7 @@
 				text-decoration: none
 
 		&:not(:last-child)
-			margin-bottom: 47px
+			margin-bottom: 88px
 			+tablet
 				margin-bottom: 35px
 			+md
@@ -37,60 +38,54 @@
 
 
 .logos
-	width: 100%
-	min-height: 397px
-	border: 4px solid $red
-	color: $red
-	position: relative
 	margin-left: 11px
-	background-color: $white
-	display: flex
-	justify-content: center
-	align-items: center
-	padding: 0 80px 0 160px
-	&:after
-		position: absolute
-		content: ''
-		display: block
-		height: 100%
-		width: 2px
-		background-color: $red
-		top: 0
-		left: 73px
-		+tablet
-			left: 56px
-		+md
-			display: none
-	//overflow: hidden
-	+tablet
-		padding: 0 37.5px 0 75px
-		min-height: 312px
+	width: 100%
+	position: relative
+
 	+md
-		margin-left: 0
-		display: block
-		padding: 0
-	+sm
-		min-height: unset
+		margin: 0
 
 	&:before
 		position: absolute
 		content: ''
 		display: block
-		width: calc(100% + 11px)
-		height: calc(100% + 8px)
-		border: 4px solid $red
-		top: 5px
-		left: -13px
-		z-index: -1
+		width: 100%
+		height: 100%
+		border: 4px solid $white
+		background: $grayL
+		top: 10px
+		left: -10px
+		z-index: 0
 		+md
 			display: none
+	&__inner
+		width: 100%
+		min-height: 397px
+		color: $red
+		position: relative
+		background-color: $white
+		display: flex
+		justify-content: center
+		align-items: center
+		padding: 0 80px 0 160px
+		display: flex
+		flex-direction: column
+
+		+tablet
+			padding: 0 37.5px 0 75px
+			min-height: 280px
+		+md
+			margin-left: 0
+			padding: 0
+		+sm
+			min-height: unset
+
 	&__title
-		+gotBlack
-		font-size: 48px
+		+got
+		font-size: 30px
 		line-height: 1.2
 		letter-spacing: 0.24px
 		padding: 13px 18px 10px
-		border-right: 2px solid $red
 		flex-shrink: 0
 		+tablet
 			font-size: 36px
@@ -120,7 +115,9 @@
 			height: auto
 			border-right: none
 			align-items: center
-			border-bottom: 2px solid $red
+			width: 100%
+			padding-bottom: 4px
+			border-bottom: 2px solid $grayL
 	&__empty
 		width: 100%
 		position: relative
@@ -140,8 +137,9 @@
 		flex-wrap: wrap
 		justify-content: center
 		width: 100%
+		margin: auto 0
 		+md
-			padding: 20px 0 54px
+			padding: 20px 20px
 		+xs
 			padding: 20px 0
 	&__link
@@ -157,7 +155,7 @@
 			padding: 16px 28px
 		img
 			max-width: 100%
-	&_sm
+	&_md
 		.logos
 			&__content
 				//+md
@@ -172,6 +170,7 @@
 				//+sm
 					width: 100%
 					//padding: 10px 46px
+	&_sm,
 	&_xs
 		.logos
 			&__content

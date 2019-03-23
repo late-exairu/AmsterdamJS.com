@@ -7,13 +7,13 @@ export default function header() {
   function open() {
     $(burger).addClass(CLASSES.active);
     header.addClass(CLASSES.active);
-    headerContent.slideDown();
+    // headerContent.slideDown();
   }
 
   function close() {
     $(burger).removeClass(CLASSES.active);
     header.removeClass(CLASSES.active);
-    headerContent.slideUp();
+    // headerContent.slideUp();
   }
 
   burger.on('click', function() {
@@ -26,9 +26,9 @@ export default function header() {
 
   $(window).on('scroll', () => {
     if (window.pageYOffset > 53) {
-      header.addClass(CLASSES.yellow);
+      header.addClass(CLASSES.sticked);
     } else {
-      header.removeClass(CLASSES.yellow);
+      header.removeClass(CLASSES.sticked);
     }
   });
 }

@@ -6,7 +6,7 @@
 	transition: background-color .3s ease
 	z-index: 11
 	overflow: hidden
-	&.is-yellow
+	&.is-sticked
 		background-color: $white
 
 		.nav__item
@@ -15,24 +15,67 @@
 				color: $black
 
 
-		.header__mini-logo
-			transform: translateY(0)
+		.header
+			&__mini-logo
+				transform: translate(0, 0)
+			&__btn
+				.btn
+					background-color: $yellow
 
 		+md
 			background-color: transparent
+
 	&.is-active
 		+md
-			background-color: $red
+			pointer-events: auto
+			// background-color: $grayL
 
-		.nav__item
-			color: $white
-			&:hover
-				color: $yellow
+			.header
+				&__content
+					visibility: visible
+					opacity: 1
+					pointer-events: auto
+				&__mini-logo
+					transform: translate(0, 0)
+				&__btn
+					.btn
+						background-color: $yellow
+			.burger
+				&__item
+					background: $black
+
+			.nav__item
+				color: $black
+				&:hover
+					color: $yellow
+
+			&:before
+				visibility: visible
+				opacity: 1
+				transform: scale(1)
+				pointer-events: auto
 	+md
 		display: flex
 		flex-direction: column
 		align-items: flex-end
 		padding: 15px
+		pointer-events: none
+
+		&:before
+			content: ''
+			position: fixed
+			left: 0
+			right: 0
+			top: 0
+			bottom: 0
+			background: $grayL
+			z-index: 0
+			visibility: hidden
+			opacity: 0
+			transition: all linear 0.2s
+			transform: scale(0.95)
+			pointer-events: none
+
 	&__mini-logo
 		display: block
 		width: 50px
@@ -40,7 +83,7 @@
 		position: absolute
 		left: 20px
 		top: 0
-		transform: translateY(-50px)
+		transform: translate(0, -50px)
 		background: url(../img/logo_mini.svg)
 		background-size: 100%
 		transition: all .2s
@@ -57,8 +100,11 @@
 		+mdmin
 			display: flex!important
 		+md
-			display: none
+			visibility: hidden
 			width: 100%
+			opacity: 0
+			transition: all .5s
+			pointer-events: none
 	&__socials
 		padding-left: 48px
 		min-width: 150px
@@ -75,6 +121,7 @@
 		display: none
 		+md
 			display: flex
+			pointer-events: auto
 	&__nav
 		+md
 			position: relative
@@ -91,6 +138,9 @@
 				flex-direction: column
 				align-items: center
 				flex-wrap: nowrap
+
+				&__item
+					color: $black
 		&:not(:last-child)
 			+md
 				margin-bottom: 20px
