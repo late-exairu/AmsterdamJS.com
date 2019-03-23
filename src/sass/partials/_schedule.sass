@@ -1,12 +1,13 @@
 .schedule
 	padding-top: 120px
+	background: $grayL
 	+tablet
 		padding-top: 72px
 	+md
 		padding-top: 32px
 	&__title
 		color: $red
-		margin-bottom: 60px
+		margin-bottom: 51px
 		+tablet
 			margin-bottom: 46px
 		+md
@@ -24,7 +25,7 @@
 	&__header
 		display: flex
 		justify-content: space-between
-		margin-bottom: 30px
+		margin-bottom: 40px
 		+tablet
 			margin-bottom: 19px
 		+md
@@ -34,8 +35,9 @@
 			padding: 0 14px
 		li
 			width: 100%
-			max-width: 31.56%
+			max-width: 33.3%
 			&:not(:last-child)
+				margin-right: 20px
 				+md
 					margin-bottom: 20px
 			+tablet
@@ -45,10 +47,14 @@
 			+sm
 				margin-bottom: 28px
 			.btn
-				color: $red
-				padding-top: 23px
-				padding-bottom: 23px
+				+gotM
+				color: $black
+				padding-top: 32px
+				padding-bottom: 28px
 				text-transform: uppercase
+				background: transparent
+				border-bottom: 4px solid $white
+
 				+tablet
 					font-size: 16px
 					padding: 17px 10px
@@ -56,9 +62,10 @@
 					padding-top: 10px
 					padding-bottom: 10px
 				&.is-active
-					background-color: $red
-					color: $white
+					border-color: $red
+					color: $red
 					pointer-events: none
+					background-color: transparent
 					&:before
 						display: none
 	&__content

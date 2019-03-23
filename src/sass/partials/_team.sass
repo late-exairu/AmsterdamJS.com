@@ -202,6 +202,7 @@
 				&:before
 					top: 47px
 					height: calc(100% - 36px)
+					background: transparent
 					+tablet
 						top: 72px
 						height: calc(100% - 65px)
@@ -211,6 +212,9 @@
 					+bgred
 						background-color: $red
 						border-color: $white
+				&:after
+					background: transparent
+					border-color: $white
 			&__decor
 				position: absolute
 				content: ''
@@ -505,13 +509,14 @@
 
 .team-horizontal
 	padding: 169px 0 9px
-	margin-bottom: 43px
+	margin-bottom: 0
+	background: #20201e
 	+tablet
 		padding: 123px 0 86px
 	+md
 		padding: 82px 0 47px
 	&__title
-		color: $red
+		color: $white
 		margin-bottom: 70px
 		+tablet
 			margin-bottom: 45px
@@ -527,7 +532,7 @@
 				margin-bottom: 31px
 	&__descr
 		max-width: 565px
-		color: $red
+		color: $white
 		+tablet
 			max-width: 640px
 		+bgred
@@ -554,7 +559,7 @@
 			margin-bottom: 30px
 		+sm
 			width: 640px
-			
+
 		&:nth-child(2n)
 			margin-right: 0
 			transform: translateY(-148px)

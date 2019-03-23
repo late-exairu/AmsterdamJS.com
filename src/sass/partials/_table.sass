@@ -1,7 +1,8 @@
 .table
 	padding-left: 23px
-	margin-bottom: 20px
-	+bold
+	margin-left: -23px
+
+	+gotM
 	font-size: 22px
 	line-height: 1.6
 	color: $red
@@ -9,21 +10,22 @@
 	+tablet
 		padding-left: 10px
 		font-size: 16px
+		margin-left: 0
 	+md
 		padding-left: 0
 		font-size: 18px
 		line-height: 1.5
 	+xs
-		color: #fff
+		color: $red
 
 	&:before, &:after
 		position: absolute
 		content: ''
 		display: block
-		border: 4px solid $red
-		width: calc(100% - 12px)
+		border: 4px solid $white
+		width: calc(100% - 22px)
 		height: calc(100% + 2px)
-		background-color: $white
+		background-color: $grayL
 		+md
 			display: none
 
@@ -42,13 +44,15 @@
 	&__body
 		position: relative
 		z-index: 2
-		border: 4px solid $red
+		// border: 4px solid $white
 		background-color: $white
 		+xs
-			border-left: none
-			border-right: none
 			border-color: $yellow
-			background: $red
+			background: $white
+		+xxs
+			border-right: 4px solid $grayL
+			border-left: 2px solid $grayL
+
 	&__row
 		display: flex
 		position: relative
@@ -60,22 +64,22 @@
 				display: block
 				width: 100%
 				height: 4px
-				background-color: $red
+				background-color: $grayL
 				top: 100%
 				left: 0
 				transform: translate(0, -50%)
 				+xs
-					background-color: $yellow
+					background-color: $grayL
 
 	&__row-content
 		display: flex
 		width: 100%
 		+md
 			display: block
-			border-left: 2px solid $red
+			border-left: 2px solid $grayL
 			width: 100%
 		+xs
-			border-color: $yellow
+			border-color: $grayL
 
 	&__col
 		padding: 22px 20px
@@ -104,12 +108,12 @@
 			width: 100%
 			+md
 				width: 100%
-				border-top: 2px solid $red
+				border-top: 2px solid $grayL
 			+xs
-				border-color: $yellow
+				border-color: $grayL
 
 		&:not(.table__col_lg)
-			border-right: 2px solid $red
+			border-right: 2px solid $grayL
 			+md
 				border-right: none
 
@@ -125,7 +129,7 @@
 				display: block
 				width: 150%
 				height: 1px
-				background-color: $red
+				background-color: $grayL
 				top: 50%
 				left: 50%
 				transform: translate(-50%, -50%) rotate(-5.6deg)
