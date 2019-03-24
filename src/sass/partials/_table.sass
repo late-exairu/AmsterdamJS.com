@@ -63,13 +63,13 @@
 				content: ''
 				display: block
 				width: 100%
-				height: 4px
+				height: 2px
 				background-color: $grayL
 				top: 100%
 				left: 0
 				transform: translate(0, -50%)
 				+xs
-					background-color: $grayL
+					// background-color: $grayL
 
 	&__row-content
 		display: flex
@@ -108,12 +108,10 @@
 			width: 100%
 			+md
 				width: 100%
-				border-top: 2px solid $grayL
-			+xs
-				border-color: $grayL
+				border-top: 2px solid #f8f8f8
 
 		&:not(.table__col_lg)
-			border-right: 2px solid $grayL
+			// border-right: 2px solid $grayL
 			+md
 				border-right: none
 
@@ -170,7 +168,7 @@
 			&:not(:first-child)
 				.table__col_sm
 					font-size: 18px
-					+med
+					+gotM
 					+md
 						font-size: 16px
 	&_sm

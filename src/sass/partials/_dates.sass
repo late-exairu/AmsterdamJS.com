@@ -32,6 +32,19 @@
 				display: flex
 				+tablet
 					display: none
+		
+		&:nth-child(1)
+			.date__inner
+				background-image: url(../img/date_1.jpg)
+		
+		&:nth-child(2)
+			.date__inner
+				background-image: url(../img/date_2.jpg)
+		
+		&:nth-child(3)
+			.date__inner
+				background-image: url(../img/date_3.jpg)
+
 	&__icon
 		display: none
 		position: absolute
@@ -78,7 +91,7 @@
 			left: 10px
 			width: calc(100% - 20px)
 	&__header
-		color: $red
+		color: $white
 		+tablet
 			margin-bottom: 4px
 		+sm
@@ -95,11 +108,12 @@
 	&__inner
 		position: relative
 		z-index: 2
-		border: 4px solid #ffffff
 		background-color: $white
-		padding: 10px 20px 20px
+		padding: 14px 24px 24px
 		width: 237px
 		max-width: 100%
+		background-size: cover
+
 		+tablet
 			width: 218px
 			padding: 19px 13px 18px
@@ -123,7 +137,7 @@
 			margin-right: 10px
 			line-height: 1
 	&__name
-		color: $red
+		color: $white
 		font-size: 22px
 		line-height: 1.4
 		text-decoration: underline
@@ -143,7 +157,7 @@
 	&__info
 		text-align: left
 		padding: 0
-		color: $red
+		color: $white
 		+md
 			padding: 0 10px 0 0
 		+xs
