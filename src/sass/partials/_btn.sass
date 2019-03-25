@@ -1,4 +1,5 @@
 .btn
+	+gotM
 	padding: 15.5px 19.5px
 	background-color: $yellow
 	color: $gray
@@ -10,11 +11,8 @@
 	-webkit-appearance: none
 	position: relative
 	text-align: center
-	+gotM
-	&:not(.btn_border)
-		transition: transform .3s ease
-		+hover
-			// transform: scale(1.09, 1.18) translate3d(0, 0, 0)
+	transition: all .2s ease
+
 	+tablet
 		padding: 14.5px 17.5px
 	&_border
@@ -71,7 +69,6 @@
 		color: $black
 		border-color: $white
 		background: $white
-		transition: background .3s
 		&:before
 			border-color: $white
 
@@ -81,7 +78,6 @@
 		color: $black
 		border-color: $yellow
 		background: $yellow
-		transition: background .3s
 		&:before
 			border-color: $yellow
 
@@ -92,6 +88,9 @@
 		border-color: $white
 		&:before
 			border-color: $white
+
+		&:hover
+			background: $yellow
 	&_mob-p-s
 		+md
 			padding: 8px 10px
