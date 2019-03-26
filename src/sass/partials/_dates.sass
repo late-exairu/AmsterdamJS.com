@@ -34,16 +34,19 @@
 					display: none
 		
 		&:nth-child(1)
-			.date__inner
+			.date__inner:after
 				background-image: url(../img/date_1.jpg)
+				background-size: cover
 		
 		&:nth-child(2)
-			.date__inner
+			.date__inner:after
 				background-image: url(../img/date_2.jpg)
+				background-size: cover
 		
 		&:nth-child(3)
-			.date__inner
+			.date__inner:after
 				background-image: url(../img/date_3.jpg)
+				background-size: cover
 
 	&__icon
 		display: none
@@ -73,6 +76,8 @@
 				text-decoration: none
 			&__inner
 				transform: translate(-10px, 10px)
+				&:after
+					transform: scale(1.15)
 
 	+sm
 
@@ -90,7 +95,7 @@
 		width: 100%
 		height: 100%
 		transform: translate(0, 0)
-		transition: all .2s
+		transition: all .3s ease
 		+sm
 			left: 0
 			width: calc(100% - 20px)
@@ -118,6 +123,7 @@
 		&:not(:last-child)
 			margin-bottom: 14px
 	&__inner
+		overflow: hidden
 		position: relative
 		z-index: 2
 		background-color: $white
@@ -125,8 +131,19 @@
 		width: 237px
 		max-width: 100%
 		background-size: cover
-		transition: all .2s
+		transition: all .3s ease
 		transform: translate(0, 0)
+
+		&:after
+			content: ''
+			position: absolute
+			left: 0
+			top: 0
+			right: 0
+			bottom: 0
+			background: #f00
+			z-index: -1
+			transition: all .3s ease
 
 		+tablet
 			width: 218px
