@@ -8,7 +8,7 @@
         {% for tab in schedule %}
         <li>
           <a href="#" class="btn js-tab-link {% if tab.active %}is-active{% endif %}" data-tab-name="{{tab.name}}">
-            <span class="btn__text">{{tab.title}}</span>
+            <span class="btn__text">{{tab.title | safe}}</span>
           </a>
         </li>
         {% endfor %}
@@ -23,9 +23,9 @@
             <div class="table__row">
               {% if row.time %}<div class="table__col table__col_sm">{{row.time}}</div>{% endif %}
               <div class="table__row-content">
-                <div class="table__col table__col_md">{{row.name}}</div>
+                <div class="table__col table__col_md">{{row.name | safe}}</div>
                 <div class="table__col table__col_lg {% if row.noInfo %}table__col_empty{% endif %}">
-                  {% if row.title %}<div class="table__title">{{row.title}}</div>{% endif %}
+                  {% if row.title %}<div class="table__title">{{row.title | safe}}</div>{% endif %}
                   {% if row.descr %}<div class="table__descr">{{row.descr}}</div>{% endif %}
                 </div>
               </div>
