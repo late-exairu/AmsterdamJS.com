@@ -1,11 +1,14 @@
 .event
-	padding: 142px 0 128px
+	padding: 142px 0 52px
 	background-size: cover
 	background-position: center
 	background-repeat: no-repeat
+	background-color: $red
 	position: relative
 	overflow: hidden
-	&:after
+	z-index: 1
+	
+	// &:after
 		position: absolute
 		content: ''
 		display: block
@@ -55,53 +58,75 @@
 			padding: 0 14px
 
 	&__content
-		max-width: 630px
 		padding-top: 20px
-		margin-right: 40px
+		width: 100%
+		display: flex
+		margin-bottom: 60px
 		+tablet
 			margin-right: 0
-			margin-bottom: 75px
-			max-width: 660px
 			padding-top: 0
+			margin-bottom: 40px
 		+md
 			max-width: 100%
+			margin-bottom: 20px
 		+sm
 			margin-bottom: 0
+			flex-direction: column
+	&__left
+		max-width: 55%
+		width: 100%
+		+sm
+			max-width: 100%
+
+	&__right
+		max-width: 45%
+		padding-left: 5%
+		width: 100%
+		text-align: left
+		+sm
+			max-width: 100%
+			padding: 0
+			margin: 40px 0 0
+	
 	&__info
-		padding-top: 22px
 		flex-shrink: 0
 		+tablet
+			// display: flex
+			// flex-wrap: wrap
+		+md
 			display: flex
 			flex-wrap: wrap
+			justify-content: center
 		+sm
 			padding-top: 50px
 		+xs
 			display: block
+			padding-top: 0
 	&__title
 		&:not(:last-child)
-			margin-bottom: 56px
+			margin-bottom: 78px
 			+tablet
 				margin-bottom: 38px
 			+md
 				margin-bottom: 32px
 	&__descr
 	&__item
-		margin: 0 auto 50px
+		
 		&:not(:last-child)
-			margin-bottom: 50px
+			margin-bottom: 30px
 			+tablet
-				&:not(:nth-child(2n))
-					// margin-right: 26px
-					margin-bottom: 50px
-					margin: 0 auto 50px
-			+xs
-				&:not(:nth-child(2n))
-					// margin-right: 0
-					margin-bottom: 22px
-					margin: 0 auto 50px
+				margin-bottom: 36px
+			+md
+				margin-bottom: 12px
+				margin: 0 15px 10px
 		&_lg
 			+md
-				width: 100%
+				margin: 0 15px 10px
+
+		+xs
+			margin-bottom: 10px
+			br
+				display: none
 
 
 

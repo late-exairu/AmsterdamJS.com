@@ -8,14 +8,16 @@
       {% for item in sponsors.items %}
       <div class="sponsors__item">
         <div class="logos {{item.mod}}">
-          <div class="logos__info">
-            <div class="logos__title">{{item.title}}</div>
-            <div class="logos__empty"></div>
-          </div>
-          <div class="logos__content">
-            {% for logo in item.logos %}
-            <a href="{{logo.href}}" class="logos__link" target="_blank"><img src="img/logos/{{logo.src}}" alt=""/></a>
-            {% endfor %}
+          <div class="logos__inner">
+            <div class="logos__info">
+              <div class="logos__title">{{item.title}}</div>
+              <div class="logos__empty"></div>
+            </div>
+            <div class="logos__content">
+              {% for logo in item.logos %}
+              <a href="{{logo.href}}" class="logos__link" target="_blank"><img src="img/logos/{{logo.src}}" alt=""/></a>
+              {% endfor %}
+            </div>
           </div>
         </div>
       </div>

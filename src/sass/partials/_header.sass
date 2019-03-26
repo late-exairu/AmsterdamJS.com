@@ -6,22 +6,95 @@
 	transition: background-color .3s ease
 	z-index: 11
 	overflow: hidden
-	&.is-red
-		background-color: $red
+	&.is-sticked
+		background-color: $white
+
+		.nav__item
+			color: $black
+			&:hover
+				color: $black
+
+
+		.header
+			&__mini-logo
+				// transform: translate(0, 0)
+				opacity: 1
+			&__btn
+				.btn
+					background-color: $yellow
+					&:hover
+						text-decoration: underline
+
 		+md
 			background-color: transparent
+
 	&.is-active
 		+md
-			background-color: $red
+			pointer-events: auto
+			// background-color: $grayL
+
+			.header
+				&__content
+					visibility: visible
+					opacity: 1
+					pointer-events: auto
+				&__mini-logo
+					transform: translate(0, 0)
+				&__btn
+					.btn
+						background-color: $yellow
+			.burger
+				&__item
+					background: $black
+
+			.nav__item
+				color: $black
+				&:hover
+					color: $yellow
+
+			&:before
+				visibility: visible
+				opacity: 1
+				transform: scale(1)
+				pointer-events: auto
 	+md
 		display: flex
 		flex-direction: column
 		align-items: flex-end
 		padding: 15px
+		pointer-events: none
+
+		&:before
+			content: ''
+			position: fixed
+			left: 0
+			right: 0
+			top: 0
+			bottom: 0
+			background: $grayL
+			z-index: 0
+			visibility: hidden
+			opacity: 0
+			transition: all linear 0.3s
+			transform: scale(0.95)
+			pointer-events: none
+
+	&__mini-logo
+		display: block
+		width: 50px
+		height: 50px
+		position: absolute
+		left: 0
+		top: 0
+		// transform: translate(0, -50px)
+		opacity: 0
+		background: url(../img/logo_mini.svg)
+		background-size: 100%
+		transition: all .2s
 	&__inner
 		display: flex
 		align-items: center
-		justify-content: space-between
+		justify-content: flex-end
 		width: 100%
 		+md
 			flex-direction: column
@@ -31,8 +104,11 @@
 		+mdmin
 			display: flex!important
 		+md
-			display: none
+			visibility: hidden
 			width: 100%
+			opacity: 0
+			transition: all .5s
+			pointer-events: none
 	&__socials
 		padding-left: 48px
 		min-width: 150px
@@ -49,6 +125,7 @@
 		display: none
 		+md
 			display: flex
+			pointer-events: auto
 	&__nav
 		+md
 			position: relative
@@ -65,13 +142,23 @@
 				flex-direction: column
 				align-items: center
 				flex-wrap: nowrap
+
+				&__item
+					color: $black
 		&:not(:last-child)
 			+md
 				margin-bottom: 20px
 	&__btn
-		min-width: 150px
+		min-width: 180px
 		display: flex
 		justify-content: flex-end
+		a
+			height: 50px
+			background: #f8f8f8
+			padding: 14px 30px
+
+			&:hover
+				background: $yellow
 		+md
 			min-width: unset
 			display: block
@@ -85,13 +172,13 @@
 	+md
 		display: block
 	&__item
-		height: 48px
+		height: 50px
 		align-items: center
 		justify-content: center
 		display: flex
 		text-decoration: none
 		color: $white
-		padding: 0 13px
+		padding: 0 12px
 		transition: color .3s ease
 		+hover
 			color: $yellow
@@ -110,19 +197,20 @@
 	background-color: transparent
 	border: none
 	flex-direction: column
+	padding: 10px
 	&.is-active
 		.burger
 			&__item
 				&:nth-child(2n)
 					opacity: 0
 				&:first-child
-					transform: translate(0, 9px) rotate(45deg)
+					transform: translate(0, 12px) rotate(45deg)
 				&:last-child
-					transform: translate(0, -9px) rotate(-45deg)
+					transform: translate(0, -12px) rotate(-45deg)
 	&__item
-		width: 28px
+		width: 30px
 		height: 4px
 		background-color: $white
 		transition: opacity .3s ease, transform .3s ease
 		&:not(:last-child)
-			margin-bottom: 5px
+			margin-bottom: 8px

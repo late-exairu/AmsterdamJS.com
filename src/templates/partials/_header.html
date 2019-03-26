@@ -6,27 +6,20 @@
   </button>
   <div class="header__content js-header-content">
     <div class="header__inner">
-      <div class="header__socials">
-        <ul class="socials">
-          <li class="socials__item"><a href="https://twitter.com/amsterdamjs" target="_blank" class="socials__link">{{mixins.icon('tw')}}</a></li>
-          <li class="socials__item"><a href="https://www.facebook.com/amsterdamjs" target="_blank" class="socials__link">{{mixins.icon('fb')}}</a></li>
-          <li class="socials__item"><a href="https://www.youtube.com/JSNation" target="_blank" class="socials__link">{{mixins.icon('yt')}}</a></li>
-        </ul>
-      </div>
+      <a href="/" class="header__mini-logo"></a>
       <div class="header__nav">
         <nav class="nav">
           {% if innerPage %}
           <a class="nav__item js-scroll-to" href="/">conference page</a>
           {% else %}
           <a class="nav__item js-scroll-to" href="#event">the event</a>
-          <a class="nav__item js-scroll-to" href="#speakers">speakers</a>
           <a class="nav__item js-scroll-to" href="#location">location</a>
-          <a class="nav__item js-scroll-to" href="#schedule">schedule</a>
+          <a class="nav__item js-scroll-to" href="#speakers">speakers</a>
+          <a class="nav__item js-scroll-to" href="/workshops">workshops</a>
           <!--<a class="nav__item js-scroll-to" href="#schedule">schedule</a>-->
           <!--<a class="nav__item js-scroll-to" href="#tour">tour day</a>-->
-          <a class="nav__item js-scroll-to" href="#diversity">diversity</a>
           <a class="nav__item js-scroll-to" href="#sponsors">sponsors</a>
-          <a class="nav__item js-scroll-to" href="/workshops">workshops</a>
+          <a class="nav__item js-scroll-to" href="#contact">contact us</a>
           {% endif %}
         </nav>
       </div>

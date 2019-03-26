@@ -7,7 +7,7 @@
       <ul class="tabs__header">
         {% for tab in schedule %}
         <li>
-          <a href="#" class="btn btn_border btn_red js-tab-link {% if tab.active %}is-active{% endif %}" data-tab-name="{{tab.name}}">
+          <a href="#" class="btn js-tab-link {% if tab.active %}is-active{% endif %}" data-tab-name="{{tab.name}}">
             <span class="btn__text">{{tab.title}}</span>
           </a>
         </li>

@@ -5,7 +5,7 @@
 
 {% macro info(conf) %}
 <div class="info">
-  <div class="info__icon">{{icon(conf.icon)}}</div>
+  <div class="info__num">{{conf.num}}</div>
   <div class="info__content">
     <div class="info__title">{{conf.title}}</div>
     <div class="info__descr">{{conf.descr | safe}}</div>
@@ -36,7 +36,38 @@
           </ul>
         </div>
         {% if conf.tag %}
-        <div class="teammate__tag" style="background-color: {{conf.tagBG}}; color: {{conf.color}};">{{conf.tag}}</div>
+        <div class="teammate__tag" style="--tag-clr: {{conf.tagBG}}; color: {{conf.color}};">{{conf.tag}}</div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endmacro %}
+
+{% macro hosts(conf) %}
+<div class="teammate {{conf.mod}} {% if conf.host %}teammate_host{% endif %}">
+  <div class="teammate__top">
+    <div class="teammate__img" style="background-image: url(img/speakers/{{conf.img}})"></div>
+  </div>
+  <div class="teammate__content">
+
+    <div class="teammate__inner">
+      <div class="teammate__inner-content">
+        <div class="teammate__name">{{conf.name}}</div>
+        <div class="teammate__company">{{conf.company}}</div>
+        <div class="teammate__info">{{conf.info | safe}}</div>
+      </div>
+      <div class="teammate__footer">
+        <div class="teammate__socials">
+          <ul class="socials">
+            {% for item in conf.socials %}
+            <li class="socials__item"><a class="socials__link" target="_blank" href="{{item.link}}">{{icon(item.icon)}}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% if conf.tag %}
+        <div class="teammate__tag" style="--tag-clr: {{conf.tagBG}}; color: {{conf.color}};">{{conf.tag}}</div>
         {% endif %}
       </div>
     </div>

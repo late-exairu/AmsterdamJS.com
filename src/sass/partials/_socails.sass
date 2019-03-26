@@ -1,5 +1,32 @@
 .socials
 	display: flex
+	margin: auto 0
+
+	&_xl
+		.socials__link
+			width: 28px
+			height: 28px
+		.socials__item
+			&:not(:last-child)
+				margin-right: 30px
+		.icon
+			width: 100%
+			height: 100%
+
+	&_xxl
+		.socials__link
+			width: 49px
+			height: 37px
+		.socials__item
+			&:not(:last-child)
+				margin-right: 40px
+		.icon
+			width: 100%
+			height: 100%
+
+	+xs
+		justify-content: center
+
 	&__item
 		line-height: 0
 		font-size: 17px
@@ -8,6 +35,10 @@
 			+tablet
 				margin-right: 18px
 	&__link
+		display: block
+		width: 22px
+		text-align: center
+
 		.icon
 			fill: $white
 			transition: fill .3s ease

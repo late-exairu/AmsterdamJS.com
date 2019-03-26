@@ -32,6 +32,22 @@
 				display: flex
 				+tablet
 					display: none
+		
+		&:nth-child(1)
+			.date__inner:after
+				background-image: url(../img/date_1.jpg)
+				background-size: cover
+		
+		&:nth-child(2)
+			.date__inner:after
+				background-image: url(../img/date_2.jpg)
+				background-size: cover
+		
+		&:nth-child(3)
+			.date__inner:after
+				background-image: url(../img/date_3.jpg)
+				background-size: cover
+
 	&__icon
 		display: none
 		position: absolute
@@ -46,12 +62,23 @@
 .date
 	color: #ffffff
 	position: relative
-	text-align: center
 	display: flex
 	text-decoration: none
 	+hover
-		.date__name
-			text-decoration: none
+		&:before
+			transform: translate(6px, -14px)
+			width: calc(100% + 8px)
+			height: calc(100% + 8px)
+			+sm
+				width: calc(100% + -12px)
+		.date
+			&__name
+				text-decoration: none
+			&__inner
+				transform: translate(-10px, 10px)
+				&:after
+					transform: scale(1.15)
+
 	+sm
 
 		//width: 100%
@@ -65,20 +92,23 @@
 	&:before
 		top: 20px
 		left: -20px
-		width: calc(100% + 1px)
-		height: calc(100% + 1px)
+		width: 100%
+		height: 100%
+		transform: translate(0, 0)
+		transition: all .3s ease
 		+sm
 			left: 0
 			width: calc(100% - 20px)
 	&:after
 		top: 10px
 		left: -10px
-		width: calc(100% + 1px)
-		height: calc(100% + 1px)
+		width: 100%
+		height: 100%
 		+sm
 			left: 10px
 			width: calc(100% - 20px)
 	&__header
+		color: $white
 		+tablet
 			margin-bottom: 4px
 		+sm
@@ -87,19 +117,34 @@
 			justify-content: flex-end
 			align-items: baseline
 	&__title
-		font-size: 18px
+		font-size: 16px
 		+tablet
 			font-size: 16px
 		&:not(:last-child)
-			margin-bottom: 7px
+			margin-bottom: 14px
 	&__inner
+		overflow: hidden
 		position: relative
 		z-index: 2
-		border: 4px solid #ffffff
-		background-color: $red
-		padding: 19px 10px 27px
+		background-color: $white
+		padding: 14px 24px 24px
 		width: 237px
 		max-width: 100%
+		background-size: cover
+		transition: all .3s ease
+		transform: translate(0, 0)
+
+		&:after
+			content: ''
+			position: absolute
+			left: 0
+			top: 0
+			right: 0
+			bottom: 0
+			background: #f00
+			z-index: -1
+			transition: all .3s ease
+
 		+tablet
 			width: 218px
 			padding: 19px 13px 18px
@@ -111,7 +156,7 @@
 		+xs
 			padding: 18px 21px 21px 19px
 	&__date
-		+gotBlack
+		+gotB
 		font-size: 80px
 		letter-spacing: 0.4px
 		color: inherit
@@ -123,8 +168,8 @@
 			margin-right: 10px
 			line-height: 1
 	&__name
-		color: $yellow
-		font-size: 24px
+		color: $white
+		font-size: 22px
 		line-height: 1.4
 		text-decoration: underline
 		display: block
@@ -135,14 +180,15 @@
 		+sm
 			font-size: 24px
 		&:not(:last-child)
-			margin-bottom: 22px
+			margin: 17px 0 18px
 			+tablet
 				margin-bottom: 15px
 			+md
 				margin-bottom: 13px
 	&__info
 		text-align: left
-		padding: 0 11px
+		padding: 0
+		color: $white
 		+md
 			padding: 0 10px 0 0
 		+xs
