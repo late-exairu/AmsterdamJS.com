@@ -15,7 +15,7 @@
             </div>
             <div class="logos__content">
               {% for logo in item.logos %}
-              <a href="{{logo.href}}" class="logos__link" target="_blank"><img src="img/logos/{{logo.src}}" alt=""/></a>
+              <a href="{{logo.href}}" class="logos__link {% if logo.mod %}{{ logo.mod }}{% endif %}" target="_blank"><img src="img/logos/{{logo.src}}" /></a>
               {% endfor %}
             </div>
           </div>
