@@ -10,9 +10,9 @@
 		padding: 90px 20px 60px
 
 	+tablet
-		padding: 90px 20px 60px
+		padding: 90px 58px 60px
 	+md
-		padding: 45px 20px 15px
+		padding: 45px 40px 15px
 	+xs
 		padding: 15px 15px 15px
 
@@ -46,18 +46,19 @@
 		margin-bottom: 0
 
 		+tablet
-			margin: 0 0 50px
+			margin: 23px 0 50px
 		+md
 			// margin-bottom: 57px
 		+xs
-			margin-bottom: 30px
+			margin: 0 0 49px
 
 	&__content
 		display: flex
 		justify-content: space-between
-		margin: auto 0
+		margin: 46px 0
 
 		+tablet
+			margin: 0 0
 		+md
 			flex-direction: column
 
@@ -67,6 +68,8 @@
 		+md
 			text-align: center
 			max-width: none
+		+xs
+			text-align: left
 
 	&__right
 		+md
@@ -74,6 +77,9 @@
 	&__bottom
 		display: flex
 		justify-content: space-between
+
+		+tablet
+			margin: auto 0 0
 
 		+xs
 			flex-direction: column-reverse
@@ -89,6 +95,9 @@
 		padding: 0 0 0 102px
 
 		+tablet
+			font-size: 40px
+			padding: 0 0 0 79px
+			margin: 0 0 36px
 
 		+md
 			font-size: 34px
@@ -96,23 +105,29 @@
 			padding-left: 0
 
 		+xs
-			font-size: 22px
-			margin-bottom: 20px
+			font-size: 24px
+			margin-bottom: 36px
 			line-height: 1.34
+			padding-left: 38px
 	&__descr
 		+got
 		font-size: 18px
 		line-height: 2
 		margin-bottom: 28px
 		+tablet
+			font-size: 14px
+			max-width: 500px
 
 		+md
 			font-size: 16px
 			line-height: 1.6
 			margin-bottom: 15px
+			max-width: none
 
 		+xs
 			font-size: 14px
+			line-height: 1.76
+			margin-bottom: 34px
 
 
 	&__techs-title
@@ -144,7 +159,7 @@
 				min-width: 247px
 				width: 100%
 		+xs
-			margin: 10px 0 15px
+			margin: 40px 0 15px
 
 
 	&_min
