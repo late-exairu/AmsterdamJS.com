@@ -193,6 +193,9 @@
 			width: 100%
 
 .burger
+	position: relative
+	right: -10px
+	top: -10px
 	-webkit-appearance: none
 	background-color: transparent
 	border: none
@@ -204,13 +207,13 @@
 				&:nth-child(2n)
 					opacity: 0
 				&:first-child
-					transform: translate(0, 12px) rotate(45deg)
+					transform: translate(0, 8px) rotate(45deg)
 				&:last-child
-					transform: translate(0, -12px) rotate(-45deg)
+					transform: translate(0, -8px) rotate(-45deg)
 	&__item
-		width: 30px
-		height: 4px
+		width: 28px
+		height: 3px
 		background-color: $white
 		transition: opacity .3s ease, transform .3s ease
 		&:not(:last-child)
-			margin-bottom: 8px
+			margin-bottom: 5px
