@@ -100,7 +100,8 @@
 		+sm
 			padding-top: 50px
 		+xs
-			display: block
+			display: flex
+			flex-wrap: wrap
 			padding-top: 0
 	&__title
 		&:not(:last-child)
@@ -115,14 +116,15 @@
 		&:not(:last-child)
 			margin-bottom: 30px
 			+tablet
-				margin-bottom: 36px
+				margin: 0 0 22px
 			+md
 				margin-bottom: 12px
-				margin: 0 15px 10px
+				margin: 0 10px 18px
+			+xs
+				width: 43%
 		&_lg
 			+md
 				margin: 0 15px 10px
-
 		+xs
 			margin-bottom: 10px
 			br
