@@ -11,7 +11,9 @@
 
 	+tablet
 		padding: 90px 58px 60px
-	+md
+	// +md
+		padding: 45px 30px 45px
+	+sm
 		padding: 45px 40px 15px
 	+xs
 		padding: 15px 15px 15px
@@ -46,8 +48,8 @@
 		margin-bottom: 0
 
 		+tablet
-			margin: 23px 0 50px
-		+md
+			margin: 23px 0 46px
+		+sm
 			// margin-bottom: 57px
 		+xs
 			margin: 0 0 49px
@@ -58,20 +60,27 @@
 		margin: auto 0
 
 		+tablet
-			margin: 46px 0
-		+md
+			margin: 0
+			margin: auto 0
+			position: relative
+			top: -30px
+
+		+sm
+			margin: auto 0
 			flex-direction: column
+			top: 0
 
 	&__left
 		text-align: left
 		max-width: 640px
-		+md
+		+sm
 			text-align: center
 			max-width: none
 		+xs
 			text-align: left
 
 	&__right
+		flex: 0 0 auto
 		+md
 		
 	&__bottom
@@ -101,6 +110,10 @@
 
 		+md
 			font-size: 34px
+			padding: 0 0 0 30px
+
+		+sm
+			font-size: 34px
 			margin-bottom: 16px
 			padding-left: 0
 
@@ -118,7 +131,7 @@
 			font-size: 14px
 			max-width: 500px
 
-		+md
+		+sm
 			font-size: 16px
 			line-height: 1.6
 			margin-bottom: 15px
@@ -140,7 +153,7 @@
 			font-size: 18px
 			line-height: 1.5
 			margin-bottom: 68px
-		+md
+		+sm
 			text-align: center
 			font-size: 14px
 			line-height: 1.6
@@ -153,7 +166,7 @@
 			height: 66px
 			padding: 0 30px
 			+gotM
-		+md
+		+sm
 			//padding: 0 10px
 			.btn
 				min-width: 247px
@@ -172,7 +185,7 @@
 			display: none
 		+tablet
 			padding: 94px 20px
-		+md
+		+sm
 			padding: 44px 20px
 		+xs
 			padding: 44px 20px
