@@ -23,12 +23,14 @@ workshops: {
     {
       rows: [
         {
-          title: 'Kyle Simpson, Jun&nbsp;6',
-          subtitle: 'Full-day Workshop: Digging Into Node.js',
+          title: 'Matteo Collina, Jun&nbsp;6',
+          subtitle: 'Full-day Workshop: From zero to a REST API with Node.js',
           descr: "
-          <p>It's no secret that Node.js has taken the JavaScript world by storm. But where do you get started when all you see are tens of thousands of packages/frameworks on npm?</p>
-          <p>The best place to start is always at the foundation, and that's what this course focuses on. In this workshop, we'll focus on the fundamental concepts in Node.js, and build them up to understand how we can get the most of Node.js in our applications.</p>
-          <p>We'll cover: CLI programming, file system access, asynchrony, streams, HTTP servers/routing, database persistence, and child processes.</p>
+          <p>A front-end developer that is starting to dwell into Node land face a paradigm change: Node.js is not a Browser. It all starts with the users, as a Browser as one human being in front. A Node.js server can interact with 100s or 1000s of humans at the same time.</p>
+          <p>In this course we will dig into the various key components of the Node.js runtime, from EventEmitters to Streams, from fs to http, and do a quick dive on the event loop covering both promises, async/await and process.nextTick. We will learn that Node.js does not come with batteries, and we need to get them from npm and add them to our dependencies.</p>
+          <p>The web is populated by blog post, articles and courses that includes several anti-patterns that we have directly seen causing maintainability or performance issues down the line. This course will walk you through some key rules to learn.</p>
+          <p>In the last part of this course we will briefly look into how an emergent framework, Fastify, embeds these concepts. We will build a tiny REST application to work with a db (MongoDB): we will use validations, errors, async/await, and a little bit of glue.</p>
+          <p>Last but not least, automated tests are must-have practice for Node.js development, and we will explore how to test our routes.</p>
           "
         }
       ]
@@ -131,6 +133,28 @@ team: {
       tagBG: '#fff40d',
       tag: 'Language',
       color: '#ae4f01'
+    }, {
+      img: 'matteo.jpg',
+      name: 'Matteo Collina',
+      company: 'NearForm, Italy',
+      info: 'Node.js TSC member, PhD, Technical Director @ NearForm, IoT Expert, Consultant, author of Pino and Fastify. Co-author of the book "Node.js Cookbook, Third Edition" edited by Packt.',
+      socials: [{
+          link: 'https://github.com/mcollina',
+          icon: 'gh'
+        },
+        {
+          link: 'https://twitter.com/matteocollina',
+          icon: 'tw'
+        },
+        {
+          link: 'http://matteocollina.com',
+          icon: 'site'
+        },
+      ],
+      tagBG: '#7AB464',
+      tag: 'NodeJS',
+      color: '#fff',
+      decor: true
     },{
       img: 'alex-lobera.jpg',
       name: 'Alex Lobera',
@@ -150,9 +174,9 @@ team: {
           icon: 'med'
         },
       ],
-      tagBG: '#fff40d',
-      tag: 'Language',
-      color: '#ae4f01'
+      tagBG: '#f200fa',
+      tag: 'GraphQL',
+      color: '#400042',
     },{
       img: 'anthony-antoine.jpg',
       name: 'Anthony Antoine',
@@ -164,9 +188,9 @@ team: {
           icon: 'gh'
         }
       ],
-      tagBG: '#fff40d',
-      tag: 'Language',
-      color: '#ae4f01'
+      tagBG: '#4EBA87',
+      tag: 'VueJS',
+      color: '#fff',
     },{
       img: 'victor-bury.jpg',
       name: 'Victor Bury',
@@ -182,9 +206,9 @@ team: {
           icon: 'tw'
         }
       ],
-      tagBG: '#fff40d',
-      tag: 'Language',
-      color: '#ae4f01'
+      tagBG: '#4EBA87',
+      tag: 'VueJS',
+      color: '#fff',
     },{
       img: 'maurice-de-beijer.jpg',
       name: 'Maurice de Beijer',
@@ -204,10 +228,51 @@ team: {
           icon: 'med'
         },
       ],
-      tagBG: '#fff40d',
-      tag: 'Language',
-      color: '#ae4f01'
+      tagBG: '#00ed24',
+      tag: 'Performance',
+      color: '#00410a',
     },
+    {
+      img: 'slobodan.jpg',
+      name: 'Slobodan Stojanovic',
+      company: 'CloudHorizon, Serbia',
+      info: "Co-author of the book \"Serverless applications with Node.js\". CTO at CloudHorizon",
+      socials: [
+        {
+          link: 'https://github.com/stojanovic',
+          icon: 'gh'
+        },{
+          link: 'https://twitter.com/slobodan_',
+          icon: 'tw'
+        }
+      ],
+      tagBG: '#7AB464',
+      tag: 'NodeJS',
+      color: '#fff',
+    }, {
+      img: 'michel-weststrate.jpg',
+      name: 'MICHEL WESTSTRATE',
+      company: 'Consultant, The Netherlands',
+      info: 'Full-stack lead developer, TypeScript expert and an author of <a href="https://github.com/mobxjs/mobx">MobX</a>.',
+      socials: [{
+          link: 'https://github.com/mweststrate',
+          icon: 'gh'
+        },
+        {
+          link: 'https://github.com/mweststrate',
+          icon: 'tw'
+        },
+        {
+          link: 'http://michel.codes/',
+          icon: 'site'
+        },
+
+
+      ],
+      tagBG: '#61DAFB',
+      tag: 'TypeScript',
+      color: '#030303'
+    }
   ]
 }
 ---
