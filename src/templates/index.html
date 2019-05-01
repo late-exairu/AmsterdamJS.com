@@ -927,57 +927,31 @@ sponsors: {
   }, ]
 }
 performancesTeam: [{
-    img: 'speaker-2.png',
-    name: 'METTIN PARZINSKI',
-    company: 'Goodboy Digital, UK',
-    info: 'Creative coder, all about Javascript, WebGL and optimisation. Creator of PixiJS.',
+    img: 'polyop.jpg',
+    name: 'Polyop',
+    company: 'WebGL, React, Web Audio API, and Web MIDI API, UK',
+    info: 'An electronic music and audiovisual group from London, established by producer Jack Driscoll and visual artist Alex Kempton in 2016. The visuals in their show have been created entirely in Javascript using WebGL. Polyop have developed a spectacular audiovisual show set in an alternate universe. The show follows a mysterious demi-god across the polyhedral-plane, inhabited by strange planets, entities and nomad aliens, to the sound of 90’s techno breakbeat and acid performed live on hardware synthesisers and drum machines.',
     socials: [{
-      link: '#',
+      link: 'https://twitter.com/polyopuk',
       icon: 'tw'
     }, {
-      link: '#',
-      icon: 'gh'
+      link: 'http://www.polyop.uk/',
+      icon: 'site'
     }, ],
     decor: true
   }, {
-    img: 'speaker-2.png',
-    name: 'METTIN PARZINSKI',
-    company: 'Goodboy Digital, UK',
-    info: 'Creative coder, all about Javascript, WebGL and optimisation. Creator of PixiJS.',
+    img: 'orca.jpg',
+    name: 'AliceEffekt — ORCA',
+    company: 'Node.js, Japan',
+    info: 'AliceEffekt is formed by Devine Lu Linvega, a true digital nomad and a polymath working on a series of experimental tools and applications. Devine has created a set of live coding tools for rapid iteration and creation of rythms based on Node.js. His latest creation: ORCA is a full blown text based sequencer with impressive cappabilities and distinct aesthetic that engulfs the user in a textual fashion rarely seen in live performance.',
     socials: [{
-      link: '#',
+      link: 'https://twitter.com/neauoire',
       icon: 'tw'
     }, {
-      link: '#',
-      icon: 'gh'
+      link: 'https://aliceffekt.bandcamp.com/',
+      icon: 'site'
     }, ]
-  }, {
-    img: 'speaker-2.png',
-    name: 'CAROLYN STRANSKY',
-    company: 'Framer X, The Netherlands',
-    info: 'SDE & Evangelist at Microsoft. Author of BabylonJS & VorlonJS. Composing music in a free time http://soundcloud.com/david-rousset.',
-    socials: [{
-      link: '#',
-      icon: 'tw'
-    }, {
-      link: '#',
-      icon: 'gh'
-    }],
-    decor: true
-  }, {
-    img: 'speaker-2.png',
-    name: 'METTIN PARZINSKI',
-    company: 'Goodboy Digital, UK',
-    info: 'Creative coder, all about Javascript, WebGL and optimisation. Creator of PixiJS.',
-    socials: [{
-      link: '#',
-      icon: 'tw'
-    }, {
-      link: '#',
-      icon: 'gh'
-    }, ],
-    decor: true
-  }, ]
+  } ]
 ---
 {% extends "layouts/_layout.html" %}
 
@@ -1009,7 +983,7 @@ performancesTeam: [{
   <p>And, of course, the conference wouldn’t be complete without an afterparty! Amsterdam is known for its wild nightlife and all our attendees get an invitation to join in.</p>",
   descrMod: 'info-section__descr_lg'
   })}}
-  <!-- {% include "partials/_performances.html" %} -->
+  {% include "partials/_performances.html" %}
   {% include "partials/_schedule.html" %}
   {% include "partials/_awards.html" %}
   {% include "partials/_nominations.html" %}
