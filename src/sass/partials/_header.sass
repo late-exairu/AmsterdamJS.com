@@ -96,6 +96,7 @@
 		align-items: center
 		justify-content: flex-end
 		width: 100%
+		padding-left: 40px
 		+md
 			flex-direction: column
 			height: calc(100vh - 22px - 30px)
@@ -159,6 +160,8 @@
 
 			&:hover
 				background: $yellow
+		+tablet
+			min-width: 120px
 		+md
 			min-width: unset
 			display: block
