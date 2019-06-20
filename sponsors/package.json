@@ -1,5 +1,5 @@
 {
-  "name": "ReactDay.de",
+  "name": "jsnation-sponsors",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,21 +7,8 @@
     "dev": "gulp watch-no-browser",
     "test": "echo \"Success!\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/React-Amsterdam/FrontendAmsterdam.com.git"
-  },
-  "keywords": [],
-  "author": "PixelsCommander <denis.radin@gmail.com> (http://pixelscommander.com)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/React-Amsterdam/FrontendAmsterdam.com/issues"
-  },
-  "homepage": "https://github.com/React-Amsterdam/FrontendAmsterdam.com#readme",
   "dependencies": {
-    "gulp": "^3.9.1"
-  },
-  "devDependencies": {
+    "gulp": "^3.9.1",
     "autoprefixer": "^7.0.1",
     "browser-sync": "^2.18.12",
     "cssnano": "^3.10.0",
