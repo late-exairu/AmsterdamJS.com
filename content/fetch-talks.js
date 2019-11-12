@@ -31,7 +31,6 @@ const queryPages = /* GraphQL */ `
                 where: { conferenceEvent: { year: $eventYear } }
               ) {
                 label
-                overlayMode
               }
             }
           }
@@ -71,7 +70,6 @@ const fetchData = async(client, vars) => {
       speaker: talk.name,
       from: talk.place,
       label: pieceOfSpeakerInfoes.label,
-      labelColor: (pieceOfSpeakerInfoes.overlayMode || '').toLowerCase(),
     }));
 
   const tracks = [...new Set(talks.map(({ track }) => track))]
