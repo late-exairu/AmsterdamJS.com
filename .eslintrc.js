@@ -1,9 +1,12 @@
-{
+module.exports = {
   "parser": "babel-eslint",
   "env": {
     "browser": true,
     "node": true
   },
+  plugins: [
+    'graphql'
+  ],
   "rules": {
     "no-undef": 1,
     "no-unused-vars": 1,
@@ -27,6 +30,10 @@
     "space-before-blocks": 2,
     "space-before-function-paren": [2, "never"],
     "constructor-super": 2,
-    "arrow-spacing": 2
+    "arrow-spacing": 2,
+    "graphql/template-strings": ['error', {
+      env: 'literal',
+      validators: 'all',
+    }]
   }
 }

@@ -30,7 +30,7 @@ const queryPages = /* GraphQL */ `
   }
 `;
 
-const fetchData = async(client, vars) => {
+const fetchData = async (client, vars) => {
   const data = await client
     .request(queryPages, vars)
     .then(res => res.conf.year[0].speakers);
@@ -42,7 +42,7 @@ const fetchData = async(client, vars) => {
       avatar: item.speaker.avatar || {},
     }))
     .map(
-      async({
+      async ({
         bio,
         githubUrl,
         twitterUrl,
