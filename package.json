@@ -4,7 +4,6 @@
   "scripts": {
     "build": "gulp build --production",
     "start": "gulp",
-    "precommit": "lint-staged",
     "lint": "eslint --ignore-pattern 'src/js/lib/' --cache --format=node_modules/eslint-formatter-pretty src/js/",
     "lint-fix": "npm run lint -- --fix",
     "update-schema": "graphql get-schema"
