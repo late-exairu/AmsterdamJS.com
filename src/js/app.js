@@ -9,6 +9,11 @@ import scrollTo from './_scrollTo';
 import GoogleMap from './_map';
 import Video from './_video';
 
+$('.faq__question').click(function() {
+  $(this).parent('.faq__item').toggleClass('open');
+  $(this).siblings('.faq__ansver').slideToggle();
+});
+
 tabs();
 noTouch();
 header();
