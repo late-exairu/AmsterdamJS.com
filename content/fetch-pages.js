@@ -38,7 +38,6 @@ const fetchData = async(client, vars) => {
     }),
     {}
   );
-  console.log("TCL: fetchData -> pages", pages)
   return {
     pages,
   };

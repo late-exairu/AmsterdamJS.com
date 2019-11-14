@@ -12,16 +12,9 @@
           {% if innerPage %}
           <a class="nav__item js-scroll-to" href="/">conference page</a>
           {% else %}
-          <a class="nav__item js-scroll-to" href="#location">location</a>
-          <!--<a class="nav__item js-scroll-to" href="#schedule">schedule</a>-->
-          <!--<a class="nav__item js-scroll-to" href="https://medium.com/@amsterdamjs/are-you-ready-for-jsnation-2019-f344f52e062b" target="_blank">attendee guide</a>-->
-          <!--<a class="nav__item js-scroll-to" href="#tour">tour day</a>-->
-          <a class="nav__item js-scroll-to" href="#awards">OS Awards</a>
-          <a class="nav__item js-scroll-to" href="#diversity">diversity</a>
-          <a class="nav__item js-scroll-to" href="#sponsors">sponsors</a>
-          <!-- <a class="nav__item js-scroll-to" href="/workshops">workshops</a>-->
-          <!-- <a class="nav__item js-scroll-to" href="/js-jobs">JavaScript jobs</a>-->
-          <a class="nav__item js-scroll-to" href="#contact">contact us</a>
+            {% for item in pages[pageKey].pageNavigation.headerNav %}
+              <a class="nav__item js-scroll-to" href="{{item.href}}">{{item.text}}</a>
+            {% endfor %}
           {% endif %}
         </nav>
       </div>

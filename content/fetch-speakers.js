@@ -1,4 +1,5 @@
 const { markdownToHtml } = require('./markdown');
+const { getLabelColor: getlabelColor } = require('./utils');
 
 const queryPages = /* GraphQL */ `
   query($conferenceTitle: ConferenceTitle, $eventYear: EventYear) {
@@ -8,6 +9,7 @@ const queryPages = /* GraphQL */ `
       year: conferenceEvents(where: { year: $eventYear }) {
         id
         status
+        openForTalks
         speakers: pieceOfSpeakerInfoes {
           status
           id
@@ -30,12 +32,28 @@ const queryPages = /* GraphQL */ `
   }
 `;
 
+const getSocials = speaker => {
+  const ICONS = {
+    githubUrl: 'gh',
+    twitterUrl: 'tw',
+    mediumUrl: 'med',
+    ownSite: 'site',
+  };
+  const { githubUrl, twitterUrl, mediumUrl, ownSite, companySite } = speaker;
+  const socials = Object.entries({ githubUrl, twitterUrl, mediumUrl, ownSite, companySite })
+    .map(([key, val]) => (val && { link: val, icon: ICONS[key] }))
+    .filter(Boolean);
+  return socials;
+};
+
 const fetchData = async (client, vars) => {
   const data = await client
     .request(queryPages, vars)
-    .then(res => res.conf.year[0].speakers);
+    .then(res => ({ speakers: res.conf.year[0].speakers, openForTalks: res.conf.year[0].openForTalks }));
 
-  const speakers = data
+  const { openForTalks } = data;
+
+  const speakers = data.speakers
     .map(item => ({
       ...item.speaker,
       ...item,
@@ -44,8 +62,6 @@ const fetchData = async (client, vars) => {
     .map(
       async ({
         bio,
-        githubUrl,
-        twitterUrl,
         speaker,
         avatar,
         ...item
@@ -53,14 +69,15 @@ const fetchData = async (client, vars) => {
         ...item,
         company: `${item.company}, ${item.country}`,
         avatar: avatar.url,
-        text: await markdownToHtml(bio),
-        github: githubUrl,
-        twitter: twitterUrl,
+        bio: await markdownToHtml(bio),
+        socials: getSocials(item),
+        ...getlabelColor(item.label),
       })
     );
 
   return {
     speakers: await Promise.all(speakers),
+    speakersBtn: openForTalks ? 'CALL FOR SPEAKERS' : false,
   };
 };
 

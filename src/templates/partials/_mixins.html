@@ -17,7 +17,7 @@
 {% macro teammate(conf) %}
 <div class="teammate {{conf.mod}} {% if conf.decor %}teammate_decor{% endif %}">
   <div class="teammate__top">
-    <div class="teammate__img" style="background-image: url(img/speakers/{{conf.img}})"></div>
+    <div class="teammate__img" style="background-image: url({{conf.avatar}})"></div>
   </div>
   <div class="teammate__content">
 
@@ -25,7 +25,7 @@
       <div class="teammate__inner-content">
         <div class="teammate__name">{{conf.name}}</div>
         <div class="teammate__company">{{conf.company}}</div>
-        <div class="teammate__info">{{conf.info | safe}}</div>
+        <div class="teammate__info">{{conf.bio | safe}}</div>
       </div>
       <div class="teammate__footer">
         <div class="teammate__socials">
@@ -35,8 +35,8 @@
             {% endfor %}
           </ul>
         </div>
-        {% if conf.tag %}
-        <div class="teammate__tag" style="--tag-clr: {{conf.tagBG}}; color: {{conf.color}};">{{conf.tag}}</div>
+        {% if conf.label %}
+        <div class="teammate__tag" style="--tag-clr: {{conf.tagBG}}; color: {{conf.color}};">{{conf.label}}</div>
         {% endif %}
       </div>
     </div>

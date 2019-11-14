@@ -29,7 +29,6 @@ const fetchData = async(client, vars) => {
       codeOfConductMain: await markdownToHtml(conf.codeOfConductMain),
     }));
 
-  console.log("TCL: fetchData -> conference", conference)
   return {
     conference,
   };
