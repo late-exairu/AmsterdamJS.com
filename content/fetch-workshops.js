@@ -1,12 +1,16 @@
+const { markdownToHtml } = require('./markdown');
+const { prepareSpeakers } = require('./utils');
+const { speakerFragment } = require('./fragments');
+
 const queryPages = /* GraphQL */ `
-  query($conferenceTitle: ConferenceTitle, $eventYear: EventYear) {
-    conf: conferenceBrand(where: { title: $conferenceTitle }) {
+  query ($conferenceTitle: ConferenceTitle, $eventYear: EventYear) {
+    conf: conferenceBrand(where: {title: $conferenceTitle}) {
       id
       status
-      year: conferenceEvents(where: { year: $eventYear }) {
+      year: conferenceEvents(where: {year: $eventYear}) {
         id
         status
-        schedule: daySchedules(where: { workshops_some: {} }) {
+        schedule: daySchedules(where: {workshops_some: {}}) {
           id
           status
           additionalEvents
@@ -18,17 +22,23 @@ const queryPages = /* GraphQL */ `
             prerequisites
             content
             additionalInfo
+            level
             speaker {
               name
+              info: pieceOfSpeakerInfoes(where: {conferenceEvent: {year: $eventYear, conferenceBrand: {title: $conferenceTitle}}}) {
+                ...speaker
+              }
             }
           }
         }
       }
     }
   }
+
+  ${speakerFragment}
 `;
 
-const fetchData = async(client, vars) => {
+const fetchData = async (client, vars) => {
   const data = await client
     .request(queryPages, vars)
     .then(res => res.conf.year[0].schedule);
@@ -39,15 +49,30 @@ const fetchData = async(client, vars) => {
       ...day.workshops.map(ws => ({
         ...ws,
         trainer: ws.speaker.name,
-        speaker: undefined,
-        ...day.additionalEvents && day.additionalEvents.find(({ title }) => title === ws.title),
+        ...(day.additionalEvents &&
+          day.additionalEvents.find(({ title }) => title === ws.title)),
       })),
     ],
     []
   );
 
+
+  const allWorkshops = await Promise.all(
+    workshops.map(async wrp => ({
+      ...wrp,
+      description: await markdownToHtml(wrp.description),
+      additionalInfo: await markdownToHtml(wrp.additionalInfo),
+    }))
+  );
+
+  const trainers = await Promise.all(await prepareSpeakers(allWorkshops.map(ws => ws.speaker.info[0])));
+
   return {
-    workshops,
+    trainers,
+    workshops: allWorkshops,
+    speakers: {
+      workshops: trainers
+    }
   };
 };
 

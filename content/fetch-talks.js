@@ -51,9 +51,9 @@ const fetchData = async(client, vars) => {
     .request(queryPages, vars)
     .then(res => res.conf.year[0].schedule[0]);
 
-  if (!data) {
-    throw new Error('Schedule not set for this event yet');
-  }
+    if (!data) {
+      throw new Error('Schedule not set for this event yet');
+    }
 
   const talks = data.talks
     .map(({ title, description, timeString, track, speaker }) => ({
@@ -79,12 +79,16 @@ const fetchData = async(client, vars) => {
     })
     .map(({ name }) => name);
 
-  const schedule = tracks.map(track => ({
+  const schedule = tracks.map((track, ind) => ({
     tab: track,
+    title: track,
+    name: `${10 + ind}`,
     list: [...data.additionalEvents, ...talks]
       .filter(event => event.track === track)
       .sort(byTime),
   }));
+
+  schedule[0].active = true;
 
   return {
     schedule,

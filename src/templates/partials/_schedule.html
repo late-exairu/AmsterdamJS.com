@@ -19,7 +19,7 @@
         {% for tab in schedule %}
         <div class="table js-tab {% if tab.active %}is-active{% endif %}" data-tab="{{tab.name}}">
           <div class="table__body">
-            {% for row in tab.rows %}
+            {% for row in tab.list %}
             <div class="table__row">
               {% if row.time %}<div class="table__col table__col_sm">{{row.time}}</div>{% endif %}
               <div class="table__row-content">

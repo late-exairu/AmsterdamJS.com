@@ -1,3 +1,5 @@
+const { markdownToHtml } = require('./markdown');
+
 const tagColors = {
   'NodeJS': {
     tagBG: '#7AB464',
@@ -17,11 +19,48 @@ const tagColors = {
   }
 };
 
+const getSocials = speaker => {
+  const ICONS = {
+    githubUrl: 'gh',
+    twitterUrl: 'tw',
+    mediumUrl: 'med',
+    ownSite: 'site',
+  };
+  const { githubUrl, twitterUrl, mediumUrl, ownSite, companySite } = speaker;
+  const socials = Object.entries({ githubUrl, twitterUrl, mediumUrl, ownSite, companySite })
+    .map(([key, val]) => (val && { link: val, icon: ICONS[key] }))
+    .filter(Boolean);
+  return socials;
+};
+
 const getLabelColor = label => {
   const colors = tagColors[label] || tagColors.default;
   return colors;
 };
 
+const prepareSpeakers = speakers => speakers
+  .map(item => ({
+    ...item.speaker,
+    ...item,
+    avatar: item.speaker.avatar || {},
+  }))
+  .map(
+    async ({
+      bio,
+      speaker,
+      avatar,
+      ...item
+    }) => ({
+      ...item,
+      company: `${item.company}, ${item.country}`,
+      avatar: avatar.url,
+      bio: await markdownToHtml(bio),
+      socials: getSocials(item),
+      ...getLabelColor(item.label),
+    })
+  );
+
 module.exports = {
-  getLabelColor
+  getLabelColor,
+  prepareSpeakers
 };

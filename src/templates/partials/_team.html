@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="team__title title">{{team.title}}</div>
     <div class="team__inner">
-      {% for item in speakers %}
+      {% for item in speakers[pageKey] %}
       <div class="team__item">
         {{mixins.teammate(item)}}
       </div>

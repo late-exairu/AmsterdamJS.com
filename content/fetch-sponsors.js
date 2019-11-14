@@ -10,6 +10,10 @@ const queryPages = /* GraphQL */ `
           status
           id
           category
+          order
+          avatar {
+            url
+          }
           sponsor {
             id
             status
@@ -26,7 +30,13 @@ const queryPages = /* GraphQL */ `
   }
 `;
 
-const fetchData = async(client, vars) => {
+const sortByOrder = (a, b) => {
+  const aInd = a.order || 0;
+  const bInd = b.order || 0;
+  return aInd - bInd;
+};
+
+const fetchData = async (client, vars) => {
   const data = await client
     .request(queryPages, vars)
     .then(res => res.conf.year[0].sponsors);
@@ -35,7 +45,7 @@ const fetchData = async(client, vars) => {
     .map(item => ({
       ...item.sponsor,
       ...item,
-      avatar: item.sponsor.avatar || {},
+      avatar: item.avatar || item.sponsor.avatar || {},
     }))
     .map(({ site, avatar, title, width, category }) => ({
       category,
@@ -50,10 +60,31 @@ const fetchData = async(client, vars) => {
     Silver: 'Silver',
     Partner: 'Partners',
   };
-  const sponsors = ['Gold', 'Silver', 'Partner'].map(cat => ({
-    title: titlesMap[cat],
-    list: sponsorsList.filter(({ category }) => category === cat),
-  }));
+
+  const sponsors = [
+    {
+      title: 'Platinum',
+      list: sponsorsList.filter(({ category }) => category === 'Platinum').sort(sortByOrder),
+    },
+    {
+      title: 'Gold',
+      mod: 'logos_md',
+      list: sponsorsList.filter(({ category }) => category === 'Gold').sort(sortByOrder),
+    },
+    {
+      title: 'Silver',
+      mod: 'logos_sm',
+      list: sponsorsList.filter(
+        ({ category }) => category === 'ProductionPartner'
+      ).sort(sortByOrder),
+    },
+    {
+      title: 'Partner',
+      mod: 'logos_xs',
+      list: sponsorsList.filter(({ category }) => category === 'Partner').sort(sortByOrder),
+    },
+  ];
+
 
   return {
     sponsors,

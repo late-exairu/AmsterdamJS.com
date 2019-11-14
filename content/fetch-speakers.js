@@ -1,5 +1,4 @@
-const { markdownToHtml } = require('./markdown');
-const { getLabelColor: getlabelColor } = require('./utils');
+const { prepareSpeakers } = require('./utils');
 
 const queryPages = /* GraphQL */ `
   query($conferenceTitle: ConferenceTitle, $eventYear: EventYear) {
@@ -32,20 +31,6 @@ const queryPages = /* GraphQL */ `
   }
 `;
 
-const getSocials = speaker => {
-  const ICONS = {
-    githubUrl: 'gh',
-    twitterUrl: 'tw',
-    mediumUrl: 'med',
-    ownSite: 'site',
-  };
-  const { githubUrl, twitterUrl, mediumUrl, ownSite, companySite } = speaker;
-  const socials = Object.entries({ githubUrl, twitterUrl, mediumUrl, ownSite, companySite })
-    .map(([key, val]) => (val && { link: val, icon: ICONS[key] }))
-    .filter(Boolean);
-  return socials;
-};
-
 const fetchData = async (client, vars) => {
   const data = await client
     .request(queryPages, vars)
@@ -53,30 +38,10 @@ const fetchData = async (client, vars) => {
 
   const { openForTalks } = data;
 
-  const speakers = data.speakers
-    .map(item => ({
-      ...item.speaker,
-      ...item,
-      avatar: item.speaker.avatar || {},
-    }))
-    .map(
-      async ({
-        bio,
-        speaker,
-        avatar,
-        ...item
-      }) => ({
-        ...item,
-        company: `${item.company}, ${item.country}`,
-        avatar: avatar.url,
-        bio: await markdownToHtml(bio),
-        socials: getSocials(item),
-        ...getlabelColor(item.label),
-      })
-    );
+  const speakers = await prepareSpeakers(data.speakers);
 
   return {
-    speakers: await Promise.all(speakers),
+    speakers: { main: await Promise.all(speakers) },
     speakersBtn: openForTalks ? 'CALL FOR SPEAKERS' : false,
   };
 };
