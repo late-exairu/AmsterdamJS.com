@@ -166,4 +166,25 @@
 {% endmacro %}
 
 
-
+{% macro extendedEvent(event) %}
+<div class="cards__content">
+        <div class="cards__item">
+          <div class="card card_reverse">
+<div class="card__inner">
+  <div class="card__col card__content">
+    <div class="card__title">{{ event.title | safe }}</div>
+    <div class="card__descr">
+      {{ event.description | safe }}
+    </div>
+    <a href="{{ event.locationLink }}" class="card__link">{{ event.location | safe }}</a>
+  </div>
+  <div class="card__col card__col_sm">
+    <div class="card__img">
+      <img src="{{ event.image.url }}" alt=""/>
+    </div>
+  </div>
+</div>
+ </div>
+        </div>
+      </div>
+{% endmacro %}
