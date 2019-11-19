@@ -134,18 +134,18 @@
 </ul>
 {% endmacro %}
 
-{% macro card(conf) %}
-<div class="card {{conf.mod}}">
+{% macro jobCard(job) %}
+<div class="card {{job.mod}}">
   <div class="card__inner">
     <div class="card__col card__col_sm">
       <div class="card__img">
-        <img src="{{conf.img}}" alt=""/>
+        <img src="{{job.image}}" alt=""/>
       </div>
     </div>
     <div class="card__col card__content">
-      {% if conf.title %}<div class="card__title">{{conf.title}}</div>{% endif %}
-      {% if conf.descr %}<div class="card__descr descr">{{conf.descr | safe}}</div>{% endif %}
-      <a href="{{conf.link}}" class="card__link">Learn more</a>
+      {% if job.title %}<div class="card__title">{{job.title}}</div>{% endif %}
+      {% if job.description %}<div class="card__descr descr">{{job.description | safe}}</div>{% endif %}
+      <a href="{{job.link}}" class="card__link">Learn more</a>
     </div>
   </div>
 </div>
