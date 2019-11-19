@@ -1,5 +1,5 @@
 ---
-
+pageKey: faq
 innerPage: true
 
 ---
@@ -7,14 +7,12 @@ innerPage: true
 
 {% block content %}
 
-{# variable example #}
-
 {% include "partials/_header.html" %}
 
 <main class="main">
   {{mixins.hero({
   img: 'img/coc.jpg',
-  title: 'FAQ'
+  title: pages[pageKey].titlePage
   })}}
 
   {% include "partials/_faq.html" %}

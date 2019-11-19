@@ -1,8 +1,8 @@
 <div class="table-wrapper">
   <div class="wrapper">
-    <div class="table-wrapper__title title">{{workshopsSection.title | safe}}</div>
+    <div class="table-wrapper__title title">{{ pages[pageKey].pageSections.title | safe }}</div>
     <div class="table-wrapper__descr descr">
-      {{workshops.descr | safe}}
+      {{ pages[pageKey].pageSections.description | safe }}
     </div>
     <div class="table-wrapper__content">
       <div class="table table_sm">
