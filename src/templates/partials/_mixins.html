@@ -118,34 +118,34 @@
 </div>
 {% endmacro %}
 
-{% macro faq(conf) %}
+{% macro faqSection(conf) %}
 <h3 class="faq__section-title">{{conf.sectionTitle}}</h3>
 
 <ul class="faq">
-	{% for item in conf.list %}
+	{% for item in conf.items %}
 	<li class="faq__item">
 		<svg class="faq__arrow" role="img" aria-hidden="true">
 			<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#arrow-r"></use>
 		</svg>
-		<div class="faq__question">{{item.question}}</div>
-		<div class="faq__ansver">{{item.ansver | safe}}</div>
+		<div class="faq__question">{{item.question | safe}}</div>
+		<div class="faq__ansver">{{item.answer | safe}}</div>
 	</li>
 	{% endfor %}
 </ul>
 {% endmacro %}
 
-{% macro card(conf) %}
-<div class="card {{conf.mod}}">
+{% macro jobCard(job) %}
+<div class="card {{job.mod}}">
   <div class="card__inner">
     <div class="card__col card__col_sm">
       <div class="card__img">
-        <img src="{{conf.img}}" alt=""/>
+        <img src="{{job.image}}" alt=""/>
       </div>
     </div>
     <div class="card__col card__content">
-      {% if conf.title %}<div class="card__title">{{conf.title}}</div>{% endif %}
-      {% if conf.descr %}<div class="card__descr descr">{{conf.descr | safe}}</div>{% endif %}
-      <a href="{{conf.link}}" class="card__link">Learn more</a>
+      {% if job.title %}<div class="card__title">{{job.title}}</div>{% endif %}
+      {% if job.description %}<div class="card__descr descr">{{job.description | safe}}</div>{% endif %}
+      <a href="{{job.link}}" class="card__link">Learn more</a>
     </div>
   </div>
 </div>
@@ -166,4 +166,25 @@
 {% endmacro %}
 
 
-
+{% macro extendedEvent(event) %}
+<div class="cards__content">
+        <div class="cards__item">
+          <div class="card card_reverse">
+<div class="card__inner">
+  <div class="card__col card__content">
+    <div class="card__title">{{ event.title | safe }}</div>
+    <div class="card__descr">
+      {{ event.description | safe }}
+    </div>
+    <a href="{{ event.locationLink }}" class="card__link">{{ event.location | safe }}</a>
+  </div>
+  <div class="card__col card__col_sm">
+    <div class="card__img">
+      <img src="{{ event.image.url }}" alt=""/>
+    </div>
+  </div>
+</div>
+ </div>
+        </div>
+      </div>
+{% endmacro %}

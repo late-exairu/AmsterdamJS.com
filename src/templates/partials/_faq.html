@@ -6,10 +6,7 @@
 	</div>
 
 	{% for faq in faqs %}
-		{{mixins.faq({
-			sectionTitle: faq.sectionTitle,
-			list: faq.items
-		})}}
+		{{mixins.faqSection(faq)}}
 	{% endfor %}
   </div>
 </section>

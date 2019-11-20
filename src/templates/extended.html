@@ -1,5 +1,5 @@
 ---
-title: Amsterdam JSNation Conference 2020
+pageKey: extended
 innerPage: true
 ---
 {% extends "layouts/_layout.html" %}
@@ -13,7 +13,7 @@ innerPage: true
 <main class="main">
   {{mixins.hero({
   img: 'img/extended.jpg',
-  title: 'Extended program'
+  title: pages[pageKey].titlePage
   })}}
   <div class="bg-red">
     <div class="wrapper">
@@ -26,30 +26,11 @@ innerPage: true
     <div class="wrapper">
       <div class="cards__title title">Community preparty</div>
       <div class="cards__descr descr"><p>The day before the conference, the local JS community would love to connect with the international attendees in an informal setup. Are you a JS developer from Amsterdam? Did you come to the city day prior to the event? Attending workshops and have no plans for an evening? Feel free to join an unofficial preparty organized by the community in the center of Amsterdam.</p></div>
-      <div class="cards__content">
-        <div class="cards__item">
-          <div class="card card_reverse">
-            <div class="card__inner">
-              <div class="card__col card__content">
-                <div class="card__title">TonTon Club Centrum 20:00</div>
-<!--                <div class="card__soc-link">-->
-<!--                  <a href="#" target="_blank" class="link"><span class="link__icon">{{mixins.icon('sl')}}</span>#april-12-tonton</a>-->
-<!--                </div>-->
-                <div class="card__descr">
-                  <p>We’re looking for developers with side projects, who love to check out codepen.io or open-source github repo’s, design systems and style guides. People who understand that shipping fast doesn’t mean you ship bad quality.</p>
-                </div>
-                <a href="#" class="card__link">Sint Annendwarsstraat 6, <br/>
-                  1012 HC Amsterdam</a>
-              </div>
-              <div class="card__col card__col_sm">
-                <div class="card__img">
-                  <img src="img/ext-card-1.png" alt=""/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+      {% for event in extendeds.preparty %}
+        {{mixins.extendedEvent(event) }}
+      {% endfor %}
+
     </div>
   </section>
   {{mixins.infoSection({
@@ -86,30 +67,11 @@ innerPage: true
     <div class="wrapper">
       <div class="cards__title title">Meet with the communityk</div>
       <div class="cards__descr descr"><p>Join other conference visitors or local community members at one of the meeting points (some required prior registration), or connect with people directly at JS Nation Slack, to form your own activity. Nobody knows when that Saturday ends.</p></div>
-      <div class="cards__content">
-        <div class="cards__item">
-          <div class="card card_reverse">
-            <div class="card__inner">
-              <div class="card__col card__content">
-                <div class="card__title">TonTon Club Centrum 20:00</div>
-<!--                <div class="card__soc-link">-->
-<!--                  <a href="#" target="_blank" class="link"><span class="link__icon">{{mixins.icon('sl')}}</span>#april-12-tonton</a>-->
-<!--                </div>-->
-                <div class="card__descr">
-                  <p>We’re looking for developers with side projects, who love to check out codepen.io or open-source github repo’s, design systems and style guides. People who understand that shipping fast doesn’t mean you ship bad quality.</p>
-                </div>
-                <a href="#" class="card__link">Sint Annendwarsstraat 6, <br/>
-                  1012 HC Amsterdam</a>
-              </div>
-              <div class="card__col card__col_sm">
-                <div class="card__img">
-                  <img src="img/ext-card-1.png" alt=""/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+      {% for event in extendeds.community %}
+        {{mixins.extendedEvent(event) }}
+      {% endfor %}
+
     </div>
   </section>
 </main>
