@@ -24,7 +24,7 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-es2015": "^6.3.13",
     "babel-runtime": "^5.0.0",
-    "browser-sync": "^2.10.0",
+    "browser-sync": "^2.26.7",
     "css-mqpacker": "^6.0.2",
     "del": "^3.0.0",
     "eslint": "^4.3.0",
@@ -41,7 +41,7 @@
     "gulp-if": "^2.0.0",
     "gulp-include": "^2.0.3",
     "gulp-notify": "^3.2.0",
-    "gulp-nunjucks-render": "^2.0.0",
+    "gulp-nunjucks-render": "^2.2.3",
     "gulp-plumber": "^1.0.1",
     "gulp-postcss": "^7.0.1",
     "gulp-prettify": "^0.5.0",
@@ -51,11 +51,11 @@
     "gulp-svgmin": "^1.2.0",
     "gulp-svgstore": "^5.0.5",
     "gulp-util": "^3.0.7",
-    "htmlhint": "^0.9.13",
+    "htmlhint": "^0.11.0",
     "husky": "^0.14.3",
-    "jquery": "^3.1.1",
+    "jquery": "^3.4.1",
     "lint-staged": "^7.0.4",
-    "lodash": "^4.3.0",
+    "lodash": "^4.17.15",
     "lost": "^7.1.0",
     "postcss-csso": "^3.0.0",
     "require-dir": "^1.0.0",
@@ -71,6 +71,6 @@
     "svgxuse": "^1.2.6",
     "swiper": "^4.4.6",
     "vinyl-ftp": "^0.6.1",
-    "webpack-bundle-analyzer": "^3.1.0"
+    "webpack-bundle-analyzer": "^3.6.0"
   }
 }
