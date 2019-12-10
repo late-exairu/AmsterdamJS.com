@@ -5,6 +5,7 @@ const textContent = require('./fetch-texts');
 const pageContent = require('./fetch-pages');
 const brandContent = require('./fetch-brand');
 const speakerContent = require('./fetch-speakers');
+const performanceContent = require('./fetch-performance');
 const sponsorContent = require('./fetch-sponsors');
 const talksContent = require('./fetch-talks');
 const workshopContent = require('./fetch-workshops');
@@ -29,6 +30,7 @@ const getContent = async () => {
     pageContent,
     brandContent,
     speakerContent,
+    performanceContent,
     sponsorContent,
     talksContent,
     workshopContent,

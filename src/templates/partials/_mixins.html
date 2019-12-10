@@ -14,10 +14,10 @@
 {% endmacro %}
 
 
-{% macro teammate(conf) %}
-<div class="teammate {{conf.mod}} {% if conf.decor %}teammate_decor{% endif %}">
+{% macro teammate(conf, classes) %}
+<div class="teammate {{ classes }} {{conf.mod}} {% if conf.decor %}teammate_decor{% endif %}">
   <div class="teammate__top">
-    <div class="teammate__img" style="background-image: url({{conf.img}})"></div>
+    <div class="teammate__img" style="background-image: url({{conf.avatar}})"></div>
   </div>
   <div class="teammate__content">
 
