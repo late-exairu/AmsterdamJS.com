@@ -2,18 +2,16 @@
   <div class="map-section__slider">
     <div class="swiper-container slider js-slider">
       <div class="swiper-wrapper">
-        <div class="swiper-slide slide">
-          <div class="slide__inner" style="background-image: url(img/node-js-hall.gif)"></div>
-        </div>
-        <div class="swiper-slide slide">
-          <div class="slide__inner" style="background-image: url(img/nodejs-hall2.jpg?v=2)"></div>
-        </div>
-
+        {% for slide in extendeds.location__slide %}
+          <div class="swiper-slide slide">
+            <div class="slide__inner" style="background-image: url({{ slide.image.url }})"></div>
+          </div>
+        {% endfor %}
       </div>
     </div>
   </div>
   <div class="wrapper">
-    <div class="map-section__title title">Summertime JS festival with unique audio/video experience</div>
+    <div class="map-section__title title">{{pages[pageKey].pageSections.locationSection.title}}</div>
     <div class="map-section__top">
       <!-- <div class="map-section__subtitle is-active js-map-title">Main hall</div> -->
       <!-- <div class="map-section__subtitle js-map-title">NodeJS hall</div>
@@ -30,16 +28,10 @@
       <div class="map-section__content-wrap">
         <div class="map-section__content js-map-content is-active">
           <div class="map-section__descr descr">
-            <p>
-              JSNation conference will gather 1200+ JS pros at Theater Amsterdam, a place built to empower performers with the most sophisticated audio/video setup in the Western Europe so be prepared to watch inspiring presentations in front of 500 square meters panoramic screen.
-            </p>
-
+            {{ pagesPieceOfTexts.location__descr | safe }}
           </div>
           <div class="map-section__footer">
-            <p>Danzigerkade 5<br/>
-              1013 AP Amsterdam
-            </p>
-            <a href="https://goo.gl/maps/qo83aD3mz3ewt5Ws5" class="map-section__link">View on map</a>
+            {{ pagesPieceOfTexts.location__place | safe }}
           </div>
         </div>
         <!-- <div class="map-section__content js-map-content">
