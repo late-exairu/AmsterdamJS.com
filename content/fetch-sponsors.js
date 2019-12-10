@@ -64,27 +64,32 @@ const fetchData = async (client, vars) => {
   const sponsors = [
     {
       title: 'Platinum',
-      list: sponsorsList.filter(({ category }) => category === 'Platinum').sort(sortByOrder),
+      list: sponsorsList
+        .filter(({ category }) => category === 'Platinum')
+        .sort(sortByOrder),
     },
     {
       title: 'Gold',
       mod: 'logos_md',
-      list: sponsorsList.filter(({ category }) => category === 'Gold').sort(sortByOrder),
+      list: sponsorsList
+        .filter(({ category }) => category === 'Gold')
+        .sort(sortByOrder),
     },
     {
       title: 'Silver',
       mod: 'logos_sm',
-      list: sponsorsList.filter(
-        ({ category }) => category === 'ProductionPartner'
-      ).sort(sortByOrder),
+      list: sponsorsList
+        .filter(({ category }) => category === 'ProductionPartner')
+        .sort(sortByOrder),
     },
     {
       title: 'Partner',
       mod: 'logos_xs',
-      list: sponsorsList.filter(({ category }) => category === 'Partner').sort(sortByOrder),
+      list: sponsorsList
+        .filter(({ category }) => category === 'Partner')
+        .sort(sortByOrder),
     },
-  ];
-
+  ].filter(({ list }) => list.length);
 
   return {
     sponsors,
