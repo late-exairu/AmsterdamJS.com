@@ -1,7 +1,7 @@
 <div class="map">
   <div class="map__pins">\
     <div class="map__pin pin pin_lg js-pin" {{ extendeds.location__slide[0].registerLink }}>
-      {{ extendeds.location__slide[0].subtitle }}
+      {{ extendeds.location__slide[0].subtitle | safe }}
       <img src="img/marker.svg" alt=""/>
     </div>
 
