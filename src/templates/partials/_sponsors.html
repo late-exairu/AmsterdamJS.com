@@ -1,11 +1,11 @@
 <section class="sponsors" id="sponsors">
   <div class="wrapper">
-    <div class="sponsors__title title">{{sponsors.title}}</div>
-    {% if sponsors.descr %}
-    <div class="sponsors__descr descr">{{sponsors.descr | safe}}</div>
+    <div class="sponsors__title title">{{pages[pageKey].pageSections.sponsorsSection.title}}</div>
+    {% if sponsorsSection.descr %}
+    <div class="sponsors__descr descr">{{sponsorsSection.descr | safe}}</div>
     {% endif %}
     <div class="sponsors__content">
-      {% for item in sponsors.items %}
+      {% for item in sponsors %}
       <div class="sponsors__item">
         <div class="logos {{item.mod}}">
           <div class="logos__inner">
@@ -14,8 +14,8 @@
               <div class="logos__empty"></div>
             </div>
             <div class="logos__content">
-              {% for logo in item.logos %}
-              <a href="{{logo.href}}" class="logos__link {% if logo.mod %}{{ logo.mod }}{% endif %}" target="_blank"><img src="img/logos/{{logo.src}}" /></a>
+              {% for logo in item.list %}
+              <a href="{{logo.link}}" class="logos__link {% if logo.mod %}{{ logo.mod }}{% endif %}" target="_blank"><img src="{{logo.img}}" /></a>
               {% endfor %}
             </div>
           </div>

@@ -14,9 +14,32 @@ gulp.task('deploy', function () {
     parallel: 10,
   });
 
+  // Always deploy HTML
   gulp.src([
-    './build/**/*.*'
+    './build/*.*'
   ])
+    .pipe(conn.dest(remotePath));
+
+  // Always deploy CSS
+  gulp.src([
+    './build/css/**/*.*'
+  ])
+    .pipe(conn.dest(`${remotePath}/css`));
+
+  // Always deploy JS
+  gulp.src([
+    './build/js/**/*.*'
+  ])
+    .pipe(conn.dest(`${remotePath}/js`));
+
+  // Compare size of other files before deploy
+  gulp.src([
+    './build/**/*.*',
+    '!./build/*.*',
+    '!./build/css/**/*.*',
+    '!./build/js/**/*.*'
+  ])
+    .pipe(conn.differentSize(remotePath))
     .pipe(conn.dest(remotePath));
 
   // uncomment to deploy last year versions

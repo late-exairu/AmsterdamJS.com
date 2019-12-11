@@ -1,0 +1,11 @@
+<section class="faq-desc">
+  <div class="wrapper">
+	<div class="faq-desc__intro">
+    {{ pagesPieceOfTexts.faq__descr | safe }}
+	</div>
+
+	{% for faq in faqs %}
+		{{mixins.faqSection(faq)}}
+	{% endfor %}
+  </div>
+</section>

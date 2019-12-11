@@ -4,15 +4,9 @@
     <div class="cards__descr descr"><p>Work for companies taking JavaScript game seriously, investing
       into tech education and local communities.</p></div>
     <div class="cards__content">
-      {% for card in cards %}
+      {% for job in jobs %}
       <div class="cards__item">
-        {{mixins.card({
-          mod: card.mod,
-          img: card.img,
-          title: card.title,
-          descr: card.descr,
-          link: card.link
-        })}}
+        {{mixins.jobCard(job)}}
       </div>
       {% endfor %}
     </div>

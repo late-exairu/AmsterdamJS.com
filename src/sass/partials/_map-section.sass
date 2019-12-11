@@ -100,8 +100,9 @@
 			margin-bottom: 29px
 	&__footer
 		display: flex
+		flex-direction: column
 		justify-content: space-between
-		align-items: flex-end
+		align-items: flex-start
 		font-size: 22px
 		line-height: 1.6
 		+got
@@ -113,6 +114,18 @@
 		+md
 			font-size: 16px
 			margin-top: auto
+		& p
+			width: 100%
+			display: flex;
+			justify-content: space-between;
+			& a
+				color: $yellow
+				font-size: 20px
+				text-decoration: underline
+				+hover
+					text-decoration: none
+				+tablet
+					display: none
 	&__link
 		color: $yellow
 		font-size: 20px

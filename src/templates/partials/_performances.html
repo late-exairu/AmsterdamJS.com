@@ -1,21 +1,13 @@
 <section class="team-horizontal team-horizontal_sm" id="performance">
   <div class="wrapper">
-    <div class="team-horizontal__title team-horizontal__title_mb-sm title">Last year's JS performances</div>
+    <div class="team-horizontal__title team-horizontal__title_mb-sm title">{{ pages.main.pageSections.performance.title }}</div>
     <div class="team-horizontal__descr descr">
-      In 2019, we initiated a Call for JavaScript Artists which allowed us to deliver a state-of-the-art afterparty program with audiovisual acts powered by NodeJS, WebGL, WebAudioAPI. Want to know the programme for 2020? <a class="link" href="#subscribe">Follow us</a>
+      {{ pagesPieceOfTexts.performance__descr | safe }}
     </div>
     <div class="team-horizontal__inner">
-      {% for item in performancesTeam %}
+      {% for person in speakers.performanceTeam %}
       <div class="team-horizontal__item">
-        {{mixins.teammate({
-        mod: 'teammate_horizontal',
-        img: item.img,
-        name: item.name,
-        company: item.company,
-        info: item.info,
-        socials: item.socials,
-        decor: item.decor
-        })}}
+        {{mixins.teammate(person, 'teammate_decor teammate_horizontal')}}
       </div>
       {% endfor %}
     </div>

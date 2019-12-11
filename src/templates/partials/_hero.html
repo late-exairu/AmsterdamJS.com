@@ -8,15 +8,15 @@
     <div class="hero__content">
       <div class="hero__left">
         <h1 class="hero__title">
-          Core library authors.<br/> Hands-on learning.<br/> Summer Amsterdam.
+          {{ pages.main.titlePage | safe }}
         </h1>
         <div class="hero__descr">
-          JavaScript is #1 on demand programming language in the world with 25 millions of developers behind it. Meet the ones who shape out the now and the future of the prospering nation. June 3-5, 2020.
+          {{ pages.main.pageSlogan | safe }}
         </div>
       </div>
       <div class="hero__right">
         <div class="event__info">
-          {% for item in info %}
+          {% for item in pages.main.pageStatistics.hero %}
           <div class="event__item {{item.mod}}">
             {{mixins.info({
             title: item.title,
@@ -31,13 +31,13 @@
 
     <div class="hero__bottom">
       <ul class="socials">
-          <li class="socials__item"><a href="https://twitter.com/thejsnation" target="_blank" class="socials__link">{{mixins.icon('tw')}}</a></li>
-          <li class="socials__item"><a href="https://www.facebook.com/amsterdamjs" target="_blank" class="socials__link">{{mixins.icon('fb')}}</a></li>
-          <li class="socials__item"><a href="https://www.youtube.com/JSNation" target="_blank" class="socials__link">{{mixins.icon('yt')}}</a></li>
-          <li class="socials__item"><a href="/slack" target="_blank" class="socials__link">{{mixins.icon('sl')}}</a></li>
-          <li class="socials__item"><a href="https://medium.com/@amsterdamjs" target="_blank" class="socials__link">{{mixins.icon('med')}}</a></li>
+          <li class="socials__item"><a href="{{ conference.twitterUrl }}" target="_blank" class="socials__link">{{mixins.icon('tw')}}</a></li>
+          <li class="socials__item"><a href="{{ conference.facebookUrl }}" target="_blank" class="socials__link">{{mixins.icon('fb')}}</a></li>
+          <li class="socials__item"><a href="{{ conference.youtubeUrl }}" target="_blank" class="socials__link">{{mixins.icon('yt')}}</a></li>
+          <li class="socials__item"><a href="{{ conference.slackUrl }}" target="_blank" class="socials__link">{{mixins.icon('sl')}}</a></li>
+          <li class="socials__item"><a href="{{ conference.mediumUrl }}" target="_blank" class="socials__link">{{mixins.icon('med')}}</a></li>
         </ul>
-
+      {% if speakersBtn %}
       <div class="hero__btn">
         <!--<a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLScfRsnB8Qv3JRHVc9Z6j0Ztc7O1jTeUbTnxLvQ9dtpmNneA1Q/viewform" class="btn btn_ttu btn_bg-yellow">
           <div class="btn__text">CALL FOR SPEAKERS</div>
@@ -53,6 +53,7 @@
           <div class="btn__text">FOLLOW FOR UPDATES</div>
         </a> -->
       </div>
+      {% endif %}
     </div>
   </div>
   <video class="hero__video" preload="auto" muted autoplay loop poster="img/hero_video.jpg">
