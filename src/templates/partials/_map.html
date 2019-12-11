@@ -1,7 +1,7 @@
 <div class="map">
   <div class="map__pins">\
-    <div class="map__pin pin pin_lg js-pin" data-lat="52.3831943" data-lng="4.9204799">
-      <p>Kromhouthal</p>
+    <div class="map__pin pin pin_lg js-pin" {{ extendeds.location__slide[0].registerLink }}>
+      {{ extendeds.location__slide[0].subtitle }}
       <img src="img/marker.svg" alt=""/>
     </div>
 
@@ -20,7 +20,7 @@
     <div class="map__decor map__decor_2"></div>
     <div class="map__decor map__decor_3"></div>
     <div class="map__decor map__decor_4"></div>
-    <div class="map__content js-map" data-key="AIzaSyAx93dTJlVUtFzowSlFUq6LcRL3ZQleM4I" data-center-lat="52.384183" data-center-lng="4.914727" data-icon="img/marker.svg"></div>
+    <div class="map__content js-map" data-key="AIzaSyAx93dTJlVUtFzowSlFUq6LcRL3ZQleM4I" {{ extendeds.location__slide[0].locationLink }} data-icon="img/marker.svg"></div>
     <!--<script async defer-->
     <!--src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-ZEocFpuybFyJZg92LhWsvIJdo56S34s"></script>-->
   </div>
