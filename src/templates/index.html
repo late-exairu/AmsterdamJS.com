@@ -111,7 +111,9 @@ performancesTeam: [{
   descrMod: 'info-section__descr_lg'
   })}}
   {% include "partials/_performances.html" %}
-  {% include "partials/_schedule.html" %}
+  {% if schedule.length %}
+    {% include "partials/_schedule.html" %}
+  {% endif %}
   {% include "partials/_awards.html" %}
   {% include "partials/_nominations.html" %}
   {% include "partials/_progress.html" %}
