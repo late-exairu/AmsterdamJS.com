@@ -24,6 +24,15 @@ const createClient = ({ endpoint, token }) => {
 };
 
 const client = createClient(credentials);
+const queriesData = [];
+
+const getQueriesData = content => {
+  try {
+    const { fetchData, ...data } = content;
+    if (!Object.keys(data).length) return;
+    queriesData.push(data);
+  } catch (err) {}
+};
 
 const getContent = async () => {
   const fetchAll = [
@@ -42,6 +51,7 @@ const getContent = async () => {
     committeeContent,
   ].map(async content => {
     try {
+      getQueriesData(content);
       return await content.fetchData(client, { conferenceTitle, eventYear });
     } catch (err) {
       console.error(err);
@@ -49,22 +59,21 @@ const getContent = async () => {
   });
 
   const contentArray = await Promise.all(fetchAll);
-  const contentMap = contentArray.reduce(
-    (content, piece) => {
-      try {
-        const newKeys = Object.keys(piece);
-        const existentKeys = Object.keys(content);
-        const intersectedKeys = newKeys.filter(k => existentKeys.includes(k));
-        intersectedKeys.forEach(k => { piece[k] = { ...content[k], ...piece[k] }; });
-      }
-      catch (err) {}
-      return { ...content, ...piece };
-    },
-    {}
-  );
+  const contentMap = contentArray.reduce((content, piece) => {
+    try {
+      const newKeys = Object.keys(piece);
+      const existentKeys = Object.keys(content);
+      const intersectedKeys = newKeys.filter(k => existentKeys.includes(k));
+      intersectedKeys.forEach(k => {
+        piece[k] = { ...content[k], ...piece[k] };
+      });
+    } catch (err) {}
+    return { ...content, ...piece };
+  }, {});
   return contentMap;
 };
 
 module.exports = {
   getContent,
+  queriesData,
 };
