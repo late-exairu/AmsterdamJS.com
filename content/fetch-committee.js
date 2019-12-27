@@ -40,13 +40,13 @@ const fetchData = async (client, vars) => {
   );
 
   return {
-    speakers: { committee: await Promise.all([...speakers, ...speakers]) },
+    speakers: { committee: await Promise.all([...speakers]) },
   };
 };
 
 module.exports = {
   fetchData,
   queryPages,
-  getData: data => data.conf.year[0].faqs,
+  getData: data => data.conf.year[0].committee,
   story: 'Programme Committee',
 };
