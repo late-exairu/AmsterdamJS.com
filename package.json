@@ -9,7 +9,9 @@
     "storybook": "start-storybook -p 6006 --ci",
     "build-storybook": "build-storybook",
     "deploy:storybook": "storybook-to-ghpages",
-    "update-schema": "graphql get-schema"
+    "update-schema": "graphql get-schema",
+    "prestart": "relative-deps",
+    "-prepare": "yarn relative-deps"
   },
   "repository": "asd",
   "license": "ISC",
@@ -30,6 +32,7 @@
     "@storybook/addons": "^5.2.8",
     "@storybook/react": "^5.2.8",
     "@storybook/storybook-deployer": "^2.8.1",
+    "@focus-reactive/gitnation-content": "../GitNationContent/",
     "autoprefixer": "^8.3.0",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^8.0.6",
@@ -75,6 +78,7 @@
     "lost": "^7.1.0",
     "postcss-csso": "^3.0.0",
     "react-json-view": "^1.19.1",
+    "relative-deps": "^0.2.0",
     "remark-html": "^10.0.0",
     "remark-parse": "^7.0.1",
     "require-dir": "^1.0.0",
@@ -92,5 +96,8 @@
     "swiper": "^4.4.6",
     "vinyl-ftp": "^0.6.1",
     "webpack-bundle-analyzer": "^3.6.0"
+  },
+  "relativeDependencies": {
+    "@focus-reactive/gitnation-content": "../GitNationContent/"
   }
 }
