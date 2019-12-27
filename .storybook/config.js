@@ -10,11 +10,10 @@ const theme = create({
   brandImage: 'https://jsnation.com/img/face.svg',
 });
 
-
 addParameters({
   options: {
     theme,
   },
 });
 
-configure(require.context('../content', true, /\.stories\.js$/), module);
+configure(() => require('./index.stories'), module);
