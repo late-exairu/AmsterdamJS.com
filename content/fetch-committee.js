@@ -35,12 +35,12 @@ const fetchData = async (client, vars) => {
     .request(queryPages, vars)
     .then(res => res.conf.year[0].committee);
 
-  const speakers = await prepareSpeakers(
+  const committeeMembers = await prepareSpeakers(
     data.map(speaker => ({ speaker, decor: true }))
   );
 
   return {
-    speakers: { committee: await Promise.all([...speakers]) },
+    speakers: { committee: await Promise.all([...committeeMembers]) },
   };
 };
 
