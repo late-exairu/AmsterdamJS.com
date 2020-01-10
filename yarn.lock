@@ -1192,8 +1192,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
-"@focus-reactive/gitnation-content@../GitNationContent/":
+"@focus-reactive/graphql-content-layer@^1.0.0":
   version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@focus-reactive/graphql-content-layer/-/graphql-content-layer-1.0.0.tgz#cfab2a7ee3f6a623191a05c50ec4b98612607407"
+  integrity sha512-tamvNUnV9Tdu4IygtlWylxxAeJoOBKAk/CF06R02niqs/y35AL64j0/+BXEK0m2Hv29QeQvbXjyGvVJ2GYkhzA==
   dependencies:
     graphql-request "^1.8.2"
     react-json-view "^1.19.1"
@@ -13706,7 +13708,7 @@ regenerator-runtime@^0.12.1:
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
   integrity sha512-odxIc1/vDlo4iZcfXqRYFj0vpXFNoGdKMAUieAlFYO6m/nl5e9KR/beGf41z4a1FI+aQgtjhuaSlDxQ0hmkrHg==
 
-regenerator-runtime@^0.13.2:
+regenerator-runtime@^0.13.2, regenerator-runtime@^0.13.3:
   version "0.13.3"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.3.tgz#7cf6a77d8f5c6f60eb73c5fc1955b2ceb01e6bf5"
   integrity sha512-naKIZz2GQ8JWh///G7L3X6LaQUAMp2lvb1rvwwsURe/VXwD6VMfr+/1NuNw3ag8v2kY1aQ/go5SNn79O9JU7yw==

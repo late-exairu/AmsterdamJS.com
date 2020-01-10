@@ -1,3 +1,3 @@
-const stories = require('@focus-reactive/gitnation-content/dist/content.stories');
+const stories = require('@focus-reactive/graphql-content-layer/dist/content.stories');
 
 module.exports = [stories];

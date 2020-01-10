@@ -7,8 +7,7 @@ var prettify       = require('gulp-prettify');
 var frontMatter    = require('gulp-front-matter');
 var config         = require('../config');
 var data           = require('gulp-data');
-// var { getContent } = require('../../content');
-var { getContent } = require('@focus-reactive/gitnation-content');
+var { getContent } = require('@focus-reactive/graphql-content-layer');
 const fs = require('fs');
 const path = require('path');
 
