@@ -98,6 +98,6 @@
     "webpack-bundle-analyzer": "^3.6.0"
   },
   "relativeDependencies": {
-    "@focus-reactive/gitnation-content": "../GitNationContent/"
+    "@focus-reactive/graphql-content-layer": "../graphql-content-layer/"
   }
 }
