@@ -86,5 +86,6 @@ const prepareSpeakers = speakers => speakers
 
 module.exports = {
   getLabelColor,
-  prepareSpeakers
+  prepareSpeakers,
+  tagColors,
 };
