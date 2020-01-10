@@ -32,7 +32,7 @@
     "@storybook/addons": "^5.2.8",
     "@storybook/react": "^5.2.8",
     "@storybook/storybook-deployer": "^2.8.1",
-    "@focus-reactive/gitnation-content": "../GitNationContent/",
+    "@focus-reactive/graphql-content-layer": "^1.0.0",
     "autoprefixer": "^8.3.0",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^8.0.6",
