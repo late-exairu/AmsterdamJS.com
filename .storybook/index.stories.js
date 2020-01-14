@@ -1,3 +1,6 @@
-const stories = require('@focus-reactive/graphql-content-layer/dist/content.stories');
+const conferenceSettings = require('../gulp/conference-settings');
+const {
+  passConferenceSettings,
+} = require('@focus-reactive/graphql-content-layer/dist/content.stories');
 
-module.exports = [stories];
+passConferenceSettings(conferenceSettings);
