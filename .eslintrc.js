@@ -2,11 +2,13 @@ module.exports = {
   "parser": "babel-eslint",
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "jquery":  true,
   },
-  plugins: [
-    'graphql'
-  ],
+  "globals": {
+    "google": "readonly",
+    "YT": "readonly",
+  },
   "rules": {
     "no-undef": 1,
     "no-unused-vars": 1,
@@ -31,9 +33,5 @@ module.exports = {
     "space-before-function-paren": [2, "never"],
     "constructor-super": 2,
     "arrow-spacing": 2,
-    "graphql/template-strings": ['error', {
-      env: 'literal',
-      validators: 'all',
-    }]
   }
 }
