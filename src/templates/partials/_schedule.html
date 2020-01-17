@@ -1,9 +1,10 @@
 <section class="schedule" id="schedule">
   <div class="wrapper">
     <div class="schedule__title title">
-      Schedule
+      {{ scheduleTitle }}
     </div>
     <div class="tabs">
+      {% if (schedule.length > 1) %}
       <ul class="tabs__header">
         {% for tab in schedule %}
         <li>
@@ -12,9 +13,9 @@
           </a>
         </li>
         {% endfor %}
-
-
       </ul>
+      {% endif %}
+
       <div class="tabs__content">
         {% for tab in schedule %}
         <div class="table js-tab {% if tab.active %}is-active{% endif %}" data-tab="{{tab.name}}">
