@@ -14,29 +14,54 @@
 {% endmacro %}
 
 
-{% macro teammate(conf, classes) %}
-<div class="teammate {{ classes }} {{conf.mod}} {% if conf.decor %}teammate_decor{% endif %}">
+{% macro avatarWithDetails(activity, item) %}
+  <div class="teammate__details">
+    {% if (activity) %}
+      <div class="activity-holder">
+        <div class="slider" style="color: {{item.tagBG}};">
+          <div class="s-item__col ">
+            <div class="slider__title s-item__text">
+              {% if (activity.isLightning) %}
+                <span title="Lightning Talk">&#128498</span>
+              {% endif %}
+              <span>{{activity.timeString}}</span>
+              <span>{{activity.track.name}}</span>
+            </div>
+            <div class="s-item__title">{{activity.title}}</div>
+            {# <div class="s-item__text">
+              <p>{{activity.description}}</p>
+            </div> #}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+{% endmacro %}
+
+{% macro teammate(person, classes) %}
+<div class="teammate {{ classes }} {{person.mod}} {% if person.decor %}teammate_decor{% endif %}">
   <div class="teammate__top">
-    <div class="teammate__img" style="background-image: url({{conf.avatar}})"></div>
+    <div class="teammate__img" style="background-image: url({{person.avatar}})"></div>
+    {{ avatarWithDetails(person.activities.talks[0], person) }}
   </div>
   <div class="teammate__content">
 
     <div class="teammate__inner">
       <div class="teammate__inner-content">
-        <div class="teammate__name">{{conf.name}}</div>
-        <div class="teammate__company">{{conf.company}}</div>
-        <div class="teammate__info">{{conf.bio | safe}}</div>
+        <div class="teammate__name">{{person.name}}</div>
+        <div class="teammate__company">{{person.company}}</div>
+        <div class="teammate__info">{{person.bio | safe}}</div>
       </div>
       <div class="teammate__footer">
         <div class="teammate__socials">
           <ul class="socials">
-            {% for item in conf.socials %}
+            {% for item in person.socials %}
             <li class="socials__item"><a class="socials__link" target="_blank" href="{{item.link}}">{{icon(item.icon)}}</a></li>
             {% endfor %}
           </ul>
         </div>
-        {% if conf.label %}
-        <div class="teammate__tag" style="--tag-clr: {{conf.tagBG}}; color: {{conf.color}};">{{conf.label}}</div>
+        {% if person.label %}
+        <div class="teammate__tag" style="--tag-clr: {{person.tagBG}}; color: {{person.color}};">{{person.label}}</div>
         {% endif %}
       </div>
     </div>
