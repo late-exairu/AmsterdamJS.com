@@ -3,6 +3,10 @@ const tagColors = {
     tagBG: '#7AB464',
     color: '#fff',
   },
+  'NestJS': {
+    tagBG: '#ea2845',
+    color: '#fff',
+  },
   WebGL: {
     tagBG: '#ff7302',
     color: '#ffffff',
