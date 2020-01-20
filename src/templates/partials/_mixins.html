@@ -18,19 +18,13 @@
   <div class="teammate__details">
     {% if (activity) %}
       <div class="activity-holder">
-        <div class="slider" style="color: {{item.tagBG}};">
+        <div class="slider">
           <div class="s-item__col ">
             <div class="slider__title s-item__text">
-              {% if (activity.isLightning) %}
-                <span title="Lightning Talk">&#128498</span>
-              {% endif %}
               <span>{{activity.timeString}}</span>
               <span>{{activity.track.name}}</span>
             </div>
             <div class="s-item__title">{{activity.title}}</div>
-            {# <div class="s-item__text">
-              <p>{{activity.description}}</p>
-            </div> #}
           </div>
         </div>
       </div>
