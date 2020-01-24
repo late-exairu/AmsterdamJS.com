@@ -21,7 +21,6 @@ dates: [{
   scrollTo: '#hangout-day'
 }]
 
-
 nominations: [{
   text: 'Breakthrough of the year',
   bg: [{
@@ -78,7 +77,32 @@ performancesTeam: [{
       link: 'https://aliceffekt.bandcamp.com/',
       icon: 'site'
     }, ]
-  } ]
+  }
+]
+
+
+popularVideos: [{
+  link: 'https://www.youtube.com/embed/uzOgTliQIh4',
+  title: 'JSNation TV',
+  desc: 'Interview with Krzysztof Kotowicz'
+},{
+  link: 'https://www.youtube.com/embed/2CyXnwEPiHA',
+  title: 'JSNation TV',
+  desc: 'Interview with Gleb Bahmutov'
+},{
+  link: 'https://www.youtube.com/embed/hNaNjBBAdBo',
+  title: 'Ruben Bridgewater',
+  desc: 'Error handling: doing it right!'
+},{
+  link: 'https://www.youtube.com/embed/1KQngEZ8qH4',
+  title: 'Krzysztof Kotowicz',
+  desc: 'Securing the DOM from the Bottom Up'
+},{
+  link: 'https://www.youtube.com/embed/fB4nWp4SJ6Q',
+  title: 'Jennifer Voss',
+  desc: 'Tales from the QA crypt'
+}]
+
 ---
 {% extends "layouts/_layout.html" %}
 
@@ -118,6 +142,8 @@ performancesTeam: [{
   {% include "partials/_awards.html" %}
   {% include "partials/_nominations.html" %}
   {% include "partials/_progress.html" %}
+  {% include "partials/_tweets.html" %}
+  {% include "partials/_pop-videos.html" %}
   {% include "partials/_sponsors.html" %}
 </main>
 
