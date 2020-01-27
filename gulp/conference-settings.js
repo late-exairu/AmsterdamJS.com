@@ -35,6 +35,10 @@ const tagColors = {
     tagBG: '#61DAFB',
     color: '#030303',
   },
+  Svelte: {
+    tagBG: '#ff5200',
+    color: '#fff',
+  },
   default: {
     tagBG: 'black',
     color: 'white',
