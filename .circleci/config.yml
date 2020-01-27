@@ -54,8 +54,7 @@ jobs:
           command: |
             if [ $CIRCLE_BRANCH = "master" ]; then
               CMS_ENDPOINT=$CMS_ENDPOINT/master CMS_TOKEN=$CMS_TOKEN yarn deploy:storybook
+              curl -X POST -H 'Content-type: application/json' --data '{"text":"Storybook for JSNation is deployed to https://gitnation.github.io/JSNation.com"}' $SLACK_CMS_UPDATE
             fi
-            if [ $CIRCLE_BRANCH != "master" ]; then
-              CMS_ENDPOINT=$CMS_ENDPOINT/master CMS_TOKEN=$CMS_TOKEN yarn deploy:storybook
-            fi
+
 
