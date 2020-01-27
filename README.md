@@ -8,6 +8,9 @@ Clone this repo and then in command line type:
 * `npm install` or `yarn` - install all dependencies
 * `gulp` - run dev-server and let magic happen, or
 * `gulp build` - build project from sources
+* `yarn storybook` - start Storybook locally (http://localhost:6006/)
+
+Deployed Storybook: https://gitnation.github.io/JSNation.com (with production credentials)
 
 --
 
