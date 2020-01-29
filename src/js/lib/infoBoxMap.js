@@ -222,7 +222,7 @@ InfoBox.prototype.createInfoBoxDiv_ = function() {
 
       // Workaround for Google bug that causes the cursor to change to a pointer
       // when the mouse moves over a marker underneath InfoBox.
-      this.eventListeners_.push(google.maps.event.addDomListener(this.div_, 'mouseover', function(e) {
+      this.eventListeners_.push(google.maps.event.addDomListener(this.div_, 'mouseover', function() {
         this.style.cursor = 'default';
       }));
     }
@@ -317,7 +317,6 @@ InfoBox.prototype.getCloseClickHandler_ = function() {
 InfoBox.prototype.panBox_ = function(disablePan) {
 
   var map;
-  var bounds;
   var xOffset = 0, yOffset = 0;
 
   if (!disablePan) {
@@ -385,7 +384,6 @@ InfoBox.prototype.panBox_ = function(disablePan) {
 
           // Move the map to the shifted center.
           //
-          var c = map.getCenter();
           map.panBy(xOffset, yOffset);
         }
       }

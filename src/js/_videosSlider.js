@@ -1,17 +1,15 @@
-import {CLASSES} from './_classes';
 import Swiper from 'swiper';
 
 export default function videosSlider() {
-
   var galleryThumbs = new Swiper('.js-video-thumbs', {
     spaceBetween: 10,
     slidesPerView: 'auto',
     freeMode: true,
     watchSlidesVisibility: true,
-    watchSlidesProgress: true
+    watchSlidesProgress: true,
   });
 
-  var galleryTop = new Swiper('.js-video-slider', {
+  new Swiper('.js-video-slider', {
     slidesPerView: 'auto',
     centeredSlides: true,
     spaceBetween: 80,
@@ -33,7 +31,6 @@ export default function videosSlider() {
       1024: {
         spaceBetween: 80,
       },
-    }
+    },
   });
-
 }

@@ -1,10 +1,9 @@
 import {CLASSES} from './_classes';
 export default function scrollTo() {
-  $(CLASSES.scrollLink).on('click', function(e) {
+  $(CLASSES.scrollLink).on('click', function() {
     function close() {
       $(CLASSES.burger).removeClass(CLASSES.active);
       $(CLASSES.header).removeClass(CLASSES.active);
-      // $(CLASSES.headerContent).slideUp();
     }
     close();
     $('html, body').stop().animate({

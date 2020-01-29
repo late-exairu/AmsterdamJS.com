@@ -2,7 +2,7 @@ import {CLASSES} from './_classes';
 import Swiper from 'swiper';
 
 export default class GoogleMap {
-  constructor(conf) {
+  constructor() {
     this.wrapper = $(CLASSES.map);
     this.key = this.wrapper.data('key');
     this.center = {
@@ -276,12 +276,6 @@ export default class GoogleMap {
     const self = this;
     this.infoBoxes = [];
     this.markers = [];
-    const icon = {
-      url: this.marker.icon,
-      scaledSize: new google.maps.Size(this.marker.w, this.marker.h), // scaled size
-      origin: new google.maps.Point(0, 0), // origin
-      anchor: new google.maps.Point(this.marker.w / 2, this.marker.h) // anchor
-    };
     const boxOptions = {
       content: '',
       disableAutoPan: false,
@@ -308,7 +302,6 @@ export default class GoogleMap {
           path: google.maps.SymbolPath.CIRCLE,
           scale: 0
         }
-        // icon: icon
       });
       const text = $(el).html();
 
