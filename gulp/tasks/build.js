@@ -54,7 +54,6 @@ function build(cb) {
       'nunjucks',
       'webpack',
       'copy',
-      'list-pages',
       'hash',
       'update-references:css',
       'update-references:js',
@@ -69,7 +68,6 @@ function build(cb) {
       'nunjucks',
       'webpack',
       'copy',
-      'list-pages',
       cb
     );
   }
