@@ -5,7 +5,7 @@
       <a href="{{item.scrollTo}}" class="date js-scroll-to">
         <div class="date__inner">
           <div class="date__header">
-            <div class="date__title">{{item.title}}</div>
+            <div class="date__title">{{item.title | safe}}</div>
             <div class="date__date">{{item.date}}</div>
           </div>
           <div class="date__name">{{item.name}}</div>
