@@ -6,7 +6,6 @@ import header from './_header';
 import breakpointChangeImage from './_breakpointChangeImage';
 import 'svgxuse';
 import scrollTo from './_scrollTo';
-import videosSlider from './_videosSlider';
 import GoogleMap from './_map';
 import Video from './_video';
 
@@ -20,7 +19,6 @@ noTouch();
 header();
 breakpointChangeImage();
 scrollTo();
-videosSlider();
 new GoogleMap();
 new Video({
   btn: CLASSES.videoBtn
