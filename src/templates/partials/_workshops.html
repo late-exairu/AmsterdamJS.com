@@ -11,7 +11,13 @@
           {% for item in workshops %}
           <div class="table__section workshops__block">
             <div class="table__row">
-              <div class="table__col table__col_sm workshops__block-detail-name workshops__block-trainers">{{item.trainersTitle | safe}}</div>
+              <div class="table__col table__col_sm workshops__block-detail-name workshops__block-trainers">
+                <ul>
+                  {% for trainer in item.trainers %}
+                    <li>{{ trainer.name }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
               <div class="table__row-content workshops__block-info">
                 <div class="table__col table__col_lg">
                   <div class="table__title">
@@ -68,22 +74,22 @@
             </div>
             {% endif %}
 
-            {% if item.startingTime  %}
             <div class="table__row">
               <div class="table__col table__col_sm workshops__block-detail-name">Workshop schedule</div>
               <div class="table__row-content workshops__block-info">
                 <div class="table__col table__col_lg">
                   <div class="table__descr">
-                  <span>{{item.dateString }}</span>
-                  <span>, {{item.startingTime | safe}}</span>
-                  {% if item.duration  %}
-                    <span>till {{item.duration | safe}}</span>
+                  <strong>{{item.dateString }}</strong>
+                  {% if item.schedule  %}
+                    <span> starting </span>
+                    <strong>{{item.schedule.starting }}</strong>
+                    <span>till </span>
+                    <strong>{{item.schedule.ending }}</strong>
                   {% endif %}
                   </div>
                 </div>
               </div>
             </div>
-            {% endif %}
 
             {% if item.location  %}
             <div class="table__row">
