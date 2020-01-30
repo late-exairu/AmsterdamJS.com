@@ -21,8 +21,12 @@
               <div class="table__row-content workshops__block-info">
                 <div class="table__col table__col_lg">
                   <div class="table__title">
-                  <h2 class="workshops__block-title">
-                  {{ item.title }}</div>
+                    <h2 class="workshops__block-title">
+                    <span class="workshops__block-anchor" id="{{ item.slug }}"></span>
+                    <a class="workshops__block-link" href="#{{ item.slug }}">
+                    {{ item.title }}
+                    </a>
+                  </div>
                   </h2>
                 </div>
               </div>
