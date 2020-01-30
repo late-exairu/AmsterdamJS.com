@@ -1,4 +1,4 @@
-<div class="table-wrapper">
+<div class="table-wrapper workshops">
   <div class="wrapper">
     <div class="table-wrapper__title title">{{ pages[pageKey].pageSections.title | safe }}</div>
     <div class="table-wrapper__descr descr">
@@ -7,17 +7,97 @@
     <div class="table-wrapper__content">
       <div class="table table_sm">
         <div class="table__body">
-          {% for section in workshops %}
-          <div class="table__section">
+          {% for item in workshops %}
+          <div class="table__section workshops__block">
+
             <div class="table__row">
-              <div class="table__col table__col_sm">{{section.title | safe}}</div>
-              <div class="table__row-content">
+              <div class="table__col table__col_sm workshops__block-detail-name workshops__block-trainers">{{item.trainersTitle | safe}}</div>
+              <div class="table__row-content workshops__block-info">
                 <div class="table__col table__col_lg">
-                  {% if section.additionalInfo %}<div class="table__title">{{section.additionalInfo | safe }}</div>{% endif %}
-                  {% if section.description | safe  %}<div class="table__descr">{{section.description | safe}}</div>{% endif %}
+                  <div class="table__title">
+                  <h2 class="workshops__block-title">
+                  {{ item.title }}</div>
+                  </h2>
                 </div>
               </div>
             </div>
+
+            {% if item.description  %}
+            <div class="table__row">
+              <div class="table__col table__col_sm workshops__block-detail-name"></div>
+              <div class="table__row-content workshops__block-info">
+                <div class="table__col table__col_lg">
+                  <div class="table__descr">{{item.description | safe}}</div>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+
+            {% if item.toc  %}
+            <div class="table__row">
+              <div class="table__col table__col_sm workshops__block-detail-name">Table of contents</div>
+              <div class="table__row-content workshops__block-info">
+                <div class="table__col table__col_lg">
+                  <div class="table__descr">{{item.toc | safe}}</div>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+
+
+            {% if item.prerequisites  %}
+            <div class="table__row">
+              <div class="table__col table__col_sm workshops__block-detail-name">Prerequisites</div>
+              <div class="table__row-content workshops__block-info">
+                <div class="table__col table__col_lg">
+                  <div class="table__descr">{{item.prerequisites | safe}}</div>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+
+
+            {% if item.level  %}
+            <div class="table__row">
+              <div class="table__col table__col_sm workshops__block-detail-name">Workshop level</div>
+              <div class="table__row-content workshops__block-info">
+                <div class="table__col table__col_lg">
+                  <div class="table__descr">{{item.level | safe}}</div>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+
+            {% if item.startingTime  %}
+            <div class="table__row">
+              <div class="table__col table__col_sm workshops__block-detail-name">Workshop schedule</div>
+              <div class="table__row-content workshops__block-info">
+                <div class="table__col table__col_lg">
+                  <div class="table__descr">
+                  <span>{{item.dateString }}</span>
+                  <span>, {{item.startingTime | safe}}</span>
+                  {% if item.duration  %}
+                    <span>till {{item.duration | safe}}</span>
+                  {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+
+            {% if item.location  %}
+            <div class="table__row">
+              <div class="table__col table__col_sm workshops__block-detail-name">location</div>
+              <div class="table__row-content workshops__block-info">
+                <div class="table__col table__col_lg">
+                  <div class="table__descr">
+                  <span>{{item.location | safe}}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+
           </div>
           {% endfor %}
         </div>
