@@ -24,10 +24,19 @@
             <div class="table__row">
               {% if row.time %}<div class="table__col table__col_sm">{{row.time}}</div>{% endif %}
               <div class="table__row-content">
-                <div class="table__col table__col_md">{{row.name | safe}}</div>
+                <div class="table__col table__col_md">
+                  <a class="anchor-item" href="#person-{{ row.speakerSlug }}">
+                    {{row.name | safe}}
+                  </a>
+                </div>
                 <div class="table__col table__col_lg {% if row.noInfo %}table__col_empty{% endif %}">
-                  {% if row.title %}<div class="table__title">{{row.title | safe}}</div>{% endif %}
-                  {% if row.descr %}<div class="table__descr">{{row.descr}}</div>{% endif %}
+                  <span class="anchor" id="{{ row.slug }}"></span>
+                  {% if row.title %}<div class="table__title">
+                    <a class="anchor-item" href="#{{ row.slug }}">
+                      {{row.title | safe}}
+                    </a>
+                  </div>{% endif %}
+                  {% if row.description %}<div class="table__descr">{{row.description}}</div>{% endif %}
                 </div>
               </div>
             </div>

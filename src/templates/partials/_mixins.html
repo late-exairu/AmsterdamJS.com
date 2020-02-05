@@ -25,6 +25,11 @@
               <span>{{activity.track.name}}</span>
             </div>
             <div class="s-item__title">{{activity.title}}</div>
+            <div class="s-item__description">
+            <a class="anchor-item" href="#{{ activity.slug }}">
+              see more...
+            </a>
+            </div>
           </div>
         </div>
       </div>
@@ -34,6 +39,7 @@
 
 {% macro teammate(person, classes) %}
 <div class="teammate {{ classes }} {{person.mod}} {% if person.decor %}teammate_decor{% endif %}">
+  <span class="anchor" id="person-{{ person.slug }}"></span>
   <div class="teammate__top">
     <div class="teammate__img" style="background-image: url({{person.avatar}})"></div>
     {{ avatarWithDetails(person.activities.talks[0], person) }}
@@ -42,7 +48,11 @@
 
     <div class="teammate__inner">
       <div class="teammate__inner-content">
-        <div class="teammate__name">{{person.name}}</div>
+        <div class="teammate__name">
+        <a class="anchor-item" href="#person-{{ person.slug }}">
+          {{person.name}}
+        </a>
+        </div>
         <div class="teammate__company">{{person.company}}</div>
         <div class="teammate__info">{{person.bio | safe}}</div>
       </div>

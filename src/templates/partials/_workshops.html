@@ -14,7 +14,11 @@
               <div class="table__col table__col_sm workshops__block-detail-name workshops__block-trainers">
                 <ul>
                   {% for trainer in item.trainers %}
-                    <li>{{ trainer.name }}</li>
+                    <li>
+                      <a class="anchor-item" href="#person-{{ trainer.slug }}">
+                      {{ trainer.name }}
+                      </a>
+                    </li>
                   {% endfor %}
                 </ul>
               </div>
@@ -22,8 +26,8 @@
                 <div class="table__col table__col_lg">
                   <div class="table__title">
                     <h2 class="workshops__block-title">
-                    <span class="workshops__block-anchor" id="{{ item.slug }}"></span>
-                    <a class="workshops__block-link" href="#{{ item.slug }}">
+                    <span class="anchor" id="{{ item.slug }}"></span>
+                    <a class="anchor-item" href="#{{ item.slug }}">
                     {{ item.title }}
                     </a>
                   </div>
