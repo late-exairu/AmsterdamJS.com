@@ -23,6 +23,10 @@ const tagColors = {
     tagBG: '#f200fa',
     color: '#400042',
   },
+  PWA: {
+    tagBG: '#d400fa',
+    color: '#fff',
+  },
   VueJS: {
     tagBG: '#4EBA87',
     color: '#fff',
