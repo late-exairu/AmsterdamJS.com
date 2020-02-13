@@ -1172,10 +1172,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
-"@focus-reactive/graphql-content-layer@1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@focus-reactive/graphql-content-layer/-/graphql-content-layer-1.3.1.tgz#1f6a9a217cbd695d9276054fed93c35d9e0d2032"
-  integrity sha512-5pO/DkRv82Wa9SetDQcWDg46MBOShU0G60mHeblus6oouDE0r3EHgm3M2gH6sFHRCOJNgiqqZGsmDK43CzXOEg==
+"@focus-reactive/graphql-content-layer@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@focus-reactive/graphql-content-layer/-/graphql-content-layer-1.4.1.tgz#e2da8739fb5162aee1c1de9fab58ce1234583ac4"
+  integrity sha512-pA4pzn7+lDKjuV6hvAxSYxE9SiuSBkTqzkQ2VqvN6j7M3JxrGz43L4+4w3nBMIp1tlz/qtmPZEiyLKc4z/qC1w==
   dependencies:
     "@focus-reactive/storybook-addon-graphcms" "^1.3.0"
     "@storybook/addon-actions" "^5.2.8"

@@ -9,6 +9,7 @@ import scrollTo from './_scrollTo';
 import videosSlider from './_videosSlider';
 import GoogleMap from './_map';
 import Video from './_video';
+import typing from './_typing';
 
 $('.faq__question').click(function() {
   $(this).parent('.faq__item').toggleClass('open');
@@ -21,6 +22,7 @@ header();
 breakpointChangeImage();
 scrollTo();
 videosSlider();
+typing();
 new GoogleMap();
 new Video({
   btn: CLASSES.videoBtn
