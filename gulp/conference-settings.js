@@ -3,7 +3,7 @@ const tagColors = {
     tagBG: '#7AB464',
     color: '#fff',
   },
-  'NestJS': {
+  NestJS: {
     tagBG: '#ea2845',
     color: '#fff',
   },
@@ -27,8 +27,8 @@ const tagColors = {
     tagBG: '#d400fa',
     color: '#fff',
   },
-  VueJS: {
-    tagBG: '#4EBA87',
+  'Vue.js': {
+    tagBG: '#0f9551',
     color: '#fff',
   },
   Performance: {
@@ -42,6 +42,10 @@ const tagColors = {
   Svelte: {
     tagBG: '#ff5200',
     color: '#fff',
+  },
+  'Machine Learning': {
+    tagBG: '#5e8de3',
+    color: '#c6013c',
   },
   default: {
     tagBG: 'black',
