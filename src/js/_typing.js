@@ -62,7 +62,7 @@ const performStep = (state, tm) =>
 
 const cycle = async steps => {
   const len = steps.length;
-  let i = 0;
+  let i = 6;
 
   while (true) {
     const state = steps[i];
