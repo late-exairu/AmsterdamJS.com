@@ -45,7 +45,7 @@ const tagColors = {
   },
   'Machine Learning': {
     tagBG: '#5e8de3',
-    color: '#c6013c',
+    color: '#fff',
   },
   default: {
     tagBG: 'black',
