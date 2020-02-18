@@ -47,6 +47,10 @@ const tagColors = {
     tagBG: '#5e8de3',
     color: '#fff',
   },
+  Deno: {
+    tagBG: '#434343',
+    color: '#fff',
+  },
   default: {
     tagBG: 'black',
     color: 'white',
