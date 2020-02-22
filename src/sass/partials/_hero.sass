@@ -48,14 +48,17 @@
 			background-color: rgba(0, 0, 0, .3)
 
 	.type__animation-cursor
-		width: 3px
-		height: 40px
+		width: 0.05em
+		min-width: 2px
+		height: 1em
 		background-color: #fff
-		display: inline-block
+		display: none
 		position: relative
-		top: 5px
-		left: -11px
+		top: 0.1em
+		left: -0.25em
 		animation: type__animation-cursor 700ms infinite
+		+sm
+			display: inline-block
 
 
 	&__inner
@@ -286,6 +289,7 @@
 		left: 0
 		z-index: 0
 		object-fit: cover
+
 
 .intro
 	z-index: 1

@@ -67,7 +67,6 @@ const cycle = async steps => {
   while (true) {
     const state = steps[i];
     const { hold } = state;
-    console.log('TCL: state', state);
     await performStep(state, hold);
     i++;
     if (i >= len) i = 0;
@@ -80,9 +79,11 @@ const render = state => {
 };
 
 const typingAnimation = () => {
+  const isDesktop = window.innerWidth > 375;
+  if (isDesktop) return;
   textComponent = document.querySelector('.type__animation-text');
+  if (!textComponent) return;
   cycle(stateSteps);
-  // render({ text: 'JS.' });
 };
 
 export default typingAnimation;
