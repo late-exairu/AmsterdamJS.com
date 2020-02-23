@@ -1,0 +1,454 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/faq.html 1`] = `
+"<!doctype html>
+<html>
+  <head>
+    <meta charset=\\"utf-8\\" />
+    <title>Amsterdam JSNation Conference 2020</title>
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\" />
+    <meta name=\\"keywords\\" content=\\"javascript, conference, amsterdamjs, jsnation, vuejs, react, angular, frameworks\\">
+    <meta name=\\"description\\" content=\\"Amsterdam JSNation is a 2-day event focusing exclusively on JavaScript development. At our conference, inspiring talks meet fresh ideas and good people - you’ll hear all you need to know about the latest trends in JS tech, see stellar speakers, meet new friends and colleagues, and connect with key people in the industry. Plus, all of that in one of Europe's top destinations.\\">
+    <meta property=\\"og:url\\" content=\\"https://jsnation.com\\" />
+    <meta property=\\"og:title\\" content=\\"Amsterdam JSNation Conference 2020, June 3-5\\" />
+    <meta property=\\"og:description\\" content=\\"\\" Amsterdam JSNation is a 2-day event focusing exclusively on JavaScript development. At our conference, inspiring talks meet fresh ideas and good people - you’ll hear all you need to know about the latest trends in JS tech, see stellar speakers, meet new friends and colleagues, and connect with key people in the industry. Plus, all of that in one of Europe's top destinations.\\" />
+    <meta property=\\"og:image\\" content=\\"https://jsnation.com/img/og2020.png\\" />
+    <meta name=\\"twitter:card\\" content=\\"summary_large_image\\" />
+    <meta name=\\"twitter:site\\" content=\\"@amsterdamjs\\" />
+    <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\" />
+    <link rel=\\"stylesheet\\" media=\\"all\\" href=\\"css/app.css\\" />
+    <link rel=\\"shortcut icon\\" href=\\"img/favicon.ico\\" />
+  </head>
+  <body>
+    <!-- BEGIN content -->
+    <div class=\\"out\\">
+      <header class=\\"header js-header\\">
+        <button class=\\"header__burger burger js-burger\\">
+          <span class=\\"burger__item\\"></span>
+          <span class=\\"burger__item\\"></span>
+          <span class=\\"burger__item\\"></span>
+        </button>
+        <div class=\\"header__content js-header-content\\">
+          <div class=\\"header__inner\\">
+            <a href=\\"/\\" class=\\"header__mini-logo\\"></a>
+            <div class=\\"header__nav\\">
+              <nav class=\\"nav\\">
+                <a class=\\"nav__item js-scroll-to\\" href=\\"/\\">conference page</a>
+                <a class=\\"nav__item js-scroll-to\\" href=\\"/faq\\">FAQ</a>
+              </nav>
+            </div>
+            <div class=\\"header__btn\\">
+              <!-- <a href=\\"http://twitter.com/thejsnation\\" class=\\"btn\\"><span class=\\"btn__text\\">follow for updates</span></a> -->
+              <a href=\\"https://www.eventbrite.com/e/jsnation-conference-2020-tickets-71547014045\\" class=\\"btn\\"><span class=\\"btn__text\\">tickets</span></a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class=\\"main\\">
+        <section class=\\"hero hero_min\\" style=\\"background-image: url(img/coc.jpg)\\">
+          <div class=\\"hero__logo\\">
+            <a href=\\"/\\" class=\\"logo\\">
+              <img src=\\"img/logo.svg\\" alt=\\"\\" />
+            </a>
+          </div>
+          <h1 class=\\"hero__title\\">
+          </h1>
+        </section>
+        <section class=\\"faq-desc\\">
+          <div class=\\"wrapper\\">
+            <div class=\\"faq-desc__intro\\">
+              <p>Our team is always striving to provide the best support to help you with any questions related to conference attendance and to make information more transparent and instantly accessible, we've started gathering most frequently asked questions on the page below.</p>
+              <p>If you can't find an answer to your question below - contact us via hi@jsnation.com.</p>
+            </div>
+            <h3 class=\\"faq__section-title\\">Tickets, invoices, refunds</h3>
+            <ul class=\\"faq\\">
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>Does my ticket to the conference include workshops also?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>If your ticket states “Early Bird ticket”/”Regular ticket”/”Late Bird ticket”, it only includes a conference day pass. If your ticket states “Combo: Workshop + Conference Day”, it includes both conference day pass and a workshop.</p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>How can I change the name in my ticket?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>You can easily change the name in the ticket in your Eventbrite account. Just log in and edit the attendee information. Pay attention that only the ticket buyer can re-assign tickets.</p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>If I can’t visit the conference, can I give the ticket to my friend/colleague?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>Yes, you can. Simply log in to your Eventbrite account and re-assign the ticket to this person. Pay attention that only a ticket buyer can re-assign tickets.</p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>How can I add VAT to the Eventbrite invoice? </p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>Go to your Eventbrite account, click “edit”, add the VAT number in the corresponding box, resend the confirmation email. </p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>Do you provide refunds if my visa is not approved?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>Yes, we can make a refund if your visa for travel was not approved. Please send us the declining letter from the embassy or any other confirming documents.</p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>Do you provide refunds if decided not to travel?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>No, we do not provide refunds in this case due to our policies. The reason of such non-refund policy is that we calculate and pre-pay for event facilities and catering in advance.</p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>Can you issue an invoice for my order?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>Yes, it is possible to pay via invoice. Please, send your company details to <a href=\\"mailto:hi@jsnation.com\\">hi@jsnation.com</a> and we will issue it for you: </p>
+                  <ul>
+                    <li>company name</li>
+                    <li>company address</li>
+                    <li>VAT number.</li>
+                  </ul>
+                  <p>As soon as we receive the payment, we'll send you a promo-code to activate the tickets.</p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>I bought a ticket to workshop, but have another date in my ticket. What is the correct date? </p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>Please, be attentive with the dates! </p>
+                  <p>The correct date is indicated in the name of the ticket – example: “Advanced React Workshop (June 4)”. The ticket will also state the main date of the conference – June 5, although you might not have bought a ticket to the conference itself – this is how eventbrite works, and we cannot change it, unfortunately. Pay attention to what the name of the workshop says. </p>
+                  <p>If you have doubts – consult the website or email us hi@jsnation.com.</p>
+                </div>
+              </li>
+            </ul>
+            <h3 class=\\"faq__section-title\\">Discounts, diversity scholarship, etc.</h3>
+            <ul class=\\"faq\\">
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>Do you have any discount for students?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>Yes, we can provide a student discount. Student ticket price is 150 EUR (excluding VAT). Pease, send us a scan or a photo of your relevant students ID and we’ll issue a promocode for you.</p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>Do you provide any group discounts?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>Yes, to get a group discount please choose “Team Ticket” on Eventbrite. And some extra discounts are possible when buying more than 10 tickets.</p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>I was selected for a Diversity scholarship, what does it include?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>It includes the conference day (not workshops), food at the conference and afterparty. </p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>How can I apply for React Open Source Awards?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>We will publish a React Open Source projects application form, where you can submit your project. Make sure you follow us on social media and subscribe to our newsletter. </p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>Do you provide any special tickets or discount for diversity groups?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>Yes, we do run a diversity scholarship program. Free diversity tickets are distributed via community channels and also via application form. Follow our <a href=\\"https://medium.com/@amsterdamjs\\">medium blog</a> for details.</p>
+                </div>
+              </li>
+            </ul>
+            <h3 class=\\"faq__section-title\\">Organisational questions</h3>
+            <ul class=\\"faq\\">
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>Where can I find all logistics and organisational information?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>You will get an email with all the information you’ll need at the conference about a week before the event. We will also add a link to a page with all organisational details to the website.</p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>Do you have a kids corner at the event?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>Unfortunately, we won't have facilities for kids this time.</p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>Is there a place to store my luggage during the event?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>There always is a wardrobe/cloakroom, but neither we nor the venue can be held accountable for attendee’s belongings. For big pieces of luggage, we suggest to leave them in a hotel luggage room or special luggage lockers.</p>
+                </div>
+              </li>
+            </ul>
+            <h3 class=\\"faq__section-title\\">Food for conference attendees</h3>
+            <ul class=\\"faq\\">
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>Do you serve any food at the events?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>Yes, we serve hot lunch and coffee/pastries/snacks both at the conference and the workshops.</p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>Do you have vegetarian/vegan/gluten free options at the event and workshops?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>Yes, we have vegetarian, vegan and gluten-free food for lunch at the conference. As for workshops – please let us know in advance if you have any special meal preferences.</p>
+                </div>
+              </li>
+            </ul>
+            <h3 class=\\"faq__section-title\\">Other questions</h3>
+            <ul class=\\"faq\\">
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>Can I join the conference as a volunteer?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>Yes, you can. Please, send us brief information about yourself: your experience in volunteering (optional) at conferences or any event organizing. Also please be sure that you’re going to be available on the day of the event and the day before it.</p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>What do I need to bring with me to the workshop?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>Laptop and charger. </p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>We are a community/also a tech conference. Could we collaborate with your conference?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>Yes, of course! We’d be happy if you become our info-partner. Please, drop us a line at <a href=\\"mailto:hi@jsnation.com\\">hi@jsnation.com</a> and we’ll get back to you with all the information.</p>
+                </div>
+              </li>
+            </ul>
+            <h3 class=\\"faq__section-title\\">Visa</h3>
+            <ul class=\\"faq\\">
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">
+                  <p>Can you issue an invitation letter to apply for a visa?</p>
+                </div>
+                <div class=\\"faq__ansver\\">
+                  <p>Yes, we can issue an invitation letter to make the process of getting visa easier. Please, send to <a href=\\"mailto:hi@jsnation.com\\">hi@jsnation.com</a> the following details according to your travel document, as well as your ticket to the conference:</p>
+                  <ul>
+                    <li>First name:</li>
+                    <li>Last name:</li>
+                    <li>Date of birth:</li>
+                    <li>Nationality:</li>
+                    <li>Passport number:</li>
+                    <li>Date of issue:</li>
+                    <li>Expiration date:</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <footer class=\\"footer\\" id=\\"contact\\">
+        <div class=\\"wrapper\\">
+          <div class=\\"footer__title title\\">Contact Us</div>
+          <div class=\\"footer__inner\\">
+            <div class=\\"footer__content\\">
+              <ul class=\\"footer__nav\\">
+                <li><a href=\\"/sponsors\\">Sponsorship Opportunities</a></li>
+                <li><a href=\\"/coc\\">Code Of Conduct</a></li>
+                <li><a href=\\"/2019\\">Last year's event (2019)</a></li>
+                <li><a href=\\"mailto:hi@jsnation.com\\">Email Us!</a></li>
+                <li><a href=\\"/faq\\">FAQ</a></li>
+              </ul>
+            </div>
+            <div class=\\"footer__socials\\">
+              <ul class=\\"socials socials_xxl\\">
+                <li class=\\"socials__item\\"><a href=\\"https://twitter.com/thejsnation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-tw\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                    </svg>
+                  </a></li>
+                <li class=\\"socials__item\\"><a href=\\"https://www.facebook.com/thejsnation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-fb\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-fb\\"></use>
+                    </svg>
+                  </a></li>
+                <li class=\\"socials__item\\"><a href=\\"https://www.youtube.com/JSNation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-yt\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-yt\\"></use>
+                    </svg>
+                  </a></li>
+                <li class=\\"socials__item\\"><a href=\\"https://jsnation.com/slack\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-sl\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-sl\\"></use>
+                    </svg>
+                  </a></li>
+                <li class=\\"socials__item\\"><a href=\\"https://medium.com/@amsterdamjs\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-med\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-med\\"></use>
+                    </svg>
+                  </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class=\\"footer__bot\\" style=\\"background-image: url(img/footer-bg.png);\\">
+          <div class=\\"footer-logo\\">
+            <div class=\\"footer-logo__subtitle\\">Event by</div>
+            <div class=\\"footer-logo__img\\"><img src=\\"img/face.svg\\" alt=\\"\\" /></div>
+            <a href=\\"https://gitnation.org/\\" target=\\"_blank\\" class=\\"footer-logo__text\\">
+              <img src=\\"img/gn.svg\\" alt=\\"\\" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- END content -->
+    <!-- BEGIN scripts -->
+    <script type=\\"text/javascript\\" src=\\"js/app.js\\"></script>
+    <!-- END scripts -->
+    <!--LiveInternet counter-->
+    <script type=\\"text/javascript\\">
+      document.write(\\"<a class='li-counter' href='//www.liveinternet.ru/click' \\" + \\"target=_blank><img src='//counter.yadro.ru/hit?t38.6;r\\" + escape(document.referrer) + ((typeof(screen) == \\"undefined\\") ? \\"\\" : \\";s\\" + screen.width + \\"*\\" + screen.height + \\"*\\" + (screen.colorDepth ? screen.colorDepth : screen.pixelDepth)) + \\";u\\" + escape(document.URL) + \\";h\\" + escape(document.title.substring(0, 150)) + \\";\\" + Math.random() + \\"' alt='' title='LiveInternet' \\" + \\"border='0' width='31' height='31'><\\\\/a>\\")
+
+    </script>
+    <!--/LiveInternet-->
+    <script type=\\"text/javascript\\">
+      var _gauges = _gauges || [];
+      (function()
+      {
+        var t = document.createElement('script');
+        t.type = 'text/javascript';
+        t.async = true;
+        t.id = 'gauges-tracker';
+        t.setAttribute('data-site-id', '58496fdd4b2ffa62230141f0');
+        t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+        t.src = 'https://d36ee2fcip1434.cloudfront.net/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      ! function(f, b, e, v, n, t, s)
+      {
+        if (f.fbq) return;
+        n = f.fbq = function()
+        {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1374905195888955'); // Insert your pixel ID here.
+      fbq('track', 'PageView');
+
+    </script>
+    <noscript><img height=\\"1\\" width=\\"1\\" style=\\"display:none\\" src=\\"https://www.facebook.com/tr?id=1374905195888955&ev=PageView&noscript=1\\" /></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+  </body>
+</html>
+"
+`;

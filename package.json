@@ -4,6 +4,8 @@
   "scripts": {
     "build": "gulp build --production",
     "start": "gulp",
+    "test:build": "gulp test",
+    "test:build-update": "gulp test -u",
     "test:migration": "yarn jest --watch",
     "lint": "eslint --ignore-pattern 'src/js/lib/' --cache --format=node_modules/eslint-formatter-pretty src/js/",
     "lint-fix": "npm run lint -- --fix",

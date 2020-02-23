@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/coc.html 1`] = `
+"<!doctype html>
+<html>
+  <head>
+    <meta charset=\\"utf-8\\" />
+    <title>Amsterdam JSNation Conference 2020</title>
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\" />
+    <meta name=\\"keywords\\" content=\\"javascript, conference, amsterdamjs, jsnation, vuejs, react, angular, frameworks\\">
+    <meta name=\\"description\\" content=\\"Amsterdam JSNation is a 2-day event focusing exclusively on JavaScript development. At our conference, inspiring talks meet fresh ideas and good people - you’ll hear all you need to know about the latest trends in JS tech, see stellar speakers, meet new friends and colleagues, and connect with key people in the industry. Plus, all of that in one of Europe's top destinations.\\">
+    <meta property=\\"og:url\\" content=\\"https://jsnation.com\\" />
+    <meta property=\\"og:title\\" content=\\"Amsterdam JSNation Conference 2020, June 3-5\\" />
+    <meta property=\\"og:description\\" content=\\"\\" Amsterdam JSNation is a 2-day event focusing exclusively on JavaScript development. At our conference, inspiring talks meet fresh ideas and good people - you’ll hear all you need to know about the latest trends in JS tech, see stellar speakers, meet new friends and colleagues, and connect with key people in the industry. Plus, all of that in one of Europe's top destinations.\\" />
+    <meta property=\\"og:image\\" content=\\"https://jsnation.com/img/og2020.png\\" />
+    <meta name=\\"twitter:card\\" content=\\"summary_large_image\\" />
+    <meta name=\\"twitter:site\\" content=\\"@amsterdamjs\\" />
+    <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\" />
+    <link rel=\\"stylesheet\\" media=\\"all\\" href=\\"css/app.css\\" />
+    <link rel=\\"shortcut icon\\" href=\\"img/favicon.ico\\" />
+  </head>
+  <body>
+    <!-- BEGIN content -->
+    <div class=\\"out\\">
+      <header class=\\"header js-header\\">
+        <button class=\\"header__burger burger js-burger\\">
+          <span class=\\"burger__item\\"></span>
+          <span class=\\"burger__item\\"></span>
+          <span class=\\"burger__item\\"></span>
+        </button>
+        <div class=\\"header__content js-header-content\\">
+          <div class=\\"header__inner\\">
+            <a href=\\"/\\" class=\\"header__mini-logo\\"></a>
+            <div class=\\"header__nav\\">
+              <nav class=\\"nav\\">
+                <a class=\\"nav__item js-scroll-to\\" href=\\"/\\">conference page</a>
+                <a class=\\"nav__item js-scroll-to\\" href=\\"/faq\\">FAQ</a>
+              </nav>
+            </div>
+            <div class=\\"header__btn\\">
+              <!-- <a href=\\"http://twitter.com/thejsnation\\" class=\\"btn\\"><span class=\\"btn__text\\">follow for updates</span></a> -->
+              <a href=\\"https://www.eventbrite.com/e/jsnation-conference-2020-tickets-71547014045\\" class=\\"btn\\"><span class=\\"btn__text\\">tickets</span></a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class=\\"main\\">
+        <section class=\\"hero hero_min\\" style=\\"background-image: url(img/coc.jpg)\\">
+          <div class=\\"hero__logo\\">
+            <a href=\\"/\\" class=\\"logo\\">
+              <img src=\\"img/logo.svg\\" alt=\\"\\" />
+            </a>
+          </div>
+          <h1 class=\\"hero__title\\">
+          </h1>
+        </section>
+        <div class=\\"text-content\\">
+          <div class=\\"wrapper\\">
+            <div class=\\"text-content__inner\\">
+              <div class=\\"text \\">
+                <div class=\\"text__descr descr\\">
+                  <p>All attendees, speakers, sponsors and volunteers at Amsterdam JSNation are required to follow this code of conduct. Organisers will enforce it throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.</p>
+                  <p>In case you need help or assistance, don't hesitate to approach our crew (wearing branded T-shirts), send an email to our CoC enforcement team - coc@gitnation.org or call +44 7376 237 299.</p>
+                </div>
+              </div>
+              <div class=\\"text \\">
+                <h2 class=\\"text__title\\">Short Version</h2>
+                <div class=\\"text__descr descr\\">
+                  <p>Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.</p>
+                </div>
+              </div>
+              <div class=\\"text \\">
+                <h2 class=\\"text__title\\">Long Version</h2>
+                <div class=\\"text__descr descr\\">
+                  <p>Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, technology choices, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</p>
+                  <p>Participants asked to stop any harassing behavior are expected to comply immediately.</p>
+                  <p>Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualised images, activities, or other material. Booth staff (including volunteers) should not use sexualised clothing/uniforms/costumes, or otherwise create a sexualised environment. If a participant engages in harassing behavior, the conference organisers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.</p>
+                  <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they'll be wearing branded clothing and/or badges. Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
+                  <p>We expect participants to follow these rules at conference and workshop venues and conference-related social events</p>
+                  <p>Original source and credit: <a href='http://2012.jsconf.us/#/about' target='_blank'>http://2012.jsconf.us/#/about</a> & The Ada Initiative <br /> Please help by translating or improving: <a href='http://github.com/leftlogic/confcodeofconduct.com' target='_blank'>http://github.com/leftlogic/confcodeofconduct.com</a> <br /> This work is licensed under a Creative Commons Attribution 3.0 Unported License</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class=\\"footer\\" id=\\"contact\\">
+        <div class=\\"wrapper\\">
+          <div class=\\"footer__title title\\">Contact Us</div>
+          <div class=\\"footer__inner\\">
+            <div class=\\"footer__content\\">
+              <ul class=\\"footer__nav\\">
+                <li><a href=\\"/sponsors\\">Sponsorship Opportunities</a></li>
+                <li><a href=\\"/coc\\">Code Of Conduct</a></li>
+                <li><a href=\\"/2019\\">Last year's event (2019)</a></li>
+                <li><a href=\\"mailto:hi@jsnation.com\\">Email Us!</a></li>
+                <li><a href=\\"/faq\\">FAQ</a></li>
+              </ul>
+            </div>
+            <div class=\\"footer__socials\\">
+              <ul class=\\"socials socials_xxl\\">
+                <li class=\\"socials__item\\"><a href=\\"https://twitter.com/thejsnation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-tw\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                    </svg>
+                  </a></li>
+                <li class=\\"socials__item\\"><a href=\\"https://www.facebook.com/thejsnation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-fb\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-fb\\"></use>
+                    </svg>
+                  </a></li>
+                <li class=\\"socials__item\\"><a href=\\"https://www.youtube.com/JSNation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-yt\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-yt\\"></use>
+                    </svg>
+                  </a></li>
+                <li class=\\"socials__item\\"><a href=\\"https://jsnation.com/slack\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-sl\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-sl\\"></use>
+                    </svg>
+                  </a></li>
+                <li class=\\"socials__item\\"><a href=\\"https://medium.com/@amsterdamjs\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-med\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-med\\"></use>
+                    </svg>
+                  </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class=\\"footer__bot\\" style=\\"background-image: url(img/footer-bg.png);\\">
+          <div class=\\"footer-logo\\">
+            <div class=\\"footer-logo__subtitle\\">Event by</div>
+            <div class=\\"footer-logo__img\\"><img src=\\"img/face.svg\\" alt=\\"\\" /></div>
+            <a href=\\"https://gitnation.org/\\" target=\\"_blank\\" class=\\"footer-logo__text\\">
+              <img src=\\"img/gn.svg\\" alt=\\"\\" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- END content -->
+    <!-- BEGIN scripts -->
+    <script type=\\"text/javascript\\" src=\\"js/app.js\\"></script>
+    <!-- END scripts -->
+    <!--LiveInternet counter-->
+    <script type=\\"text/javascript\\">
+      document.write(\\"<a class='li-counter' href='//www.liveinternet.ru/click' \\" + \\"target=_blank><img src='//counter.yadro.ru/hit?t38.6;r\\" + escape(document.referrer) + ((typeof(screen) == \\"undefined\\") ? \\"\\" : \\";s\\" + screen.width + \\"*\\" + screen.height + \\"*\\" + (screen.colorDepth ? screen.colorDepth : screen.pixelDepth)) + \\";u\\" + escape(document.URL) + \\";h\\" + escape(document.title.substring(0, 150)) + \\";\\" + Math.random() + \\"' alt='' title='LiveInternet' \\" + \\"border='0' width='31' height='31'><\\\\/a>\\")
+
+    </script>
+    <!--/LiveInternet-->
+    <script type=\\"text/javascript\\">
+      var _gauges = _gauges || [];
+      (function()
+      {
+        var t = document.createElement('script');
+        t.type = 'text/javascript';
+        t.async = true;
+        t.id = 'gauges-tracker';
+        t.setAttribute('data-site-id', '58496fdd4b2ffa62230141f0');
+        t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+        t.src = 'https://d36ee2fcip1434.cloudfront.net/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      ! function(f, b, e, v, n, t, s)
+      {
+        if (f.fbq) return;
+        n = f.fbq = function()
+        {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1374905195888955'); // Insert your pixel ID here.
+      fbq('track', 'PageView');
+
+    </script>
+    <noscript><img height=\\"1\\" width=\\"1\\" style=\\"display:none\\" src=\\"https://www.facebook.com/tr?id=1374905195888955&ev=PageView&noscript=1\\" /></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+  </body>
+</html>
+"
+`;

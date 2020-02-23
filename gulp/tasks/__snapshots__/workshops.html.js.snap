@@ -1,0 +1,1493 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`] = `
+"<!doctype html>
+<html>
+  <head>
+    <meta charset=\\"utf-8\\" />
+    <title>Workshops at Amsterdam JSNation Conference</title>
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\" />
+    <meta name=\\"keywords\\" content=\\"javascript, conference, workshops, jsnation, amsterdamjs, vuejs, react, angular, frameworks\\">
+    <meta name=\\"description\\" content=\\"Amsterdam JSNation is a 3-day event focusing exclusively on JavaScript development. At our conference, inspiring talks meet fresh ideas and good people - you’ll hear all you need to know about the latest trends in JS tech, see stellar speakers, meet new friends and colleagues, and connect with key people in the industry. Plus, all of that in one of Europe&#39;s top destinations.\\">
+    <meta property=\\"og:url\\" content=\\"https://jsnation.com\\" />
+    <meta property=\\"og:title\\" content=\\"Amsterdam JSNation Conference 2020, June 3-5\\" />
+    <meta property=\\"og:description\\" content=\\"Amsterdam JSNation is a 3-day event focusing exclusively on JavaScript development. At our conference, inspiring talks meet fresh ideas and good people - you’ll hear all you need to know about the latest trends in JS tech, see stellar speakers, meet new friends and colleagues, and connect with key people in the industry. Plus, all of that in one of Europe&#39;s top destinations.\\" />
+    <meta property=\\"og:image\\" content=\\"https://jsnation.com/img/og2020.png\\" />
+    <meta name=\\"twitter:card\\" content=\\"summary_large_image\\" />
+    <meta name=\\"twitter:site\\" content=\\"@amsterdamjs\\" />
+    <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\" />
+    <link rel=\\"stylesheet\\" media=\\"all\\" href=\\"css/app.css\\" />
+    <link rel=\\"shortcut icon\\" href=\\"img/favicon.ico\\" />
+  </head>
+  <body>
+    <!-- BEGIN content -->
+    <div class=\\"out\\">
+      <header class=\\"header js-header\\">
+        <button class=\\"header__burger burger js-burger\\">
+          <span class=\\"burger__item\\"></span>
+          <span class=\\"burger__item\\"></span>
+          <span class=\\"burger__item\\"></span>
+        </button>
+        <div class=\\"header__content js-header-content\\">
+          <div class=\\"header__inner\\">
+            <a href=\\"/\\" class=\\"header__mini-logo\\"></a>
+            <div class=\\"header__nav\\">
+              <nav class=\\"nav\\">
+                <a class=\\"nav__item js-scroll-to\\" href=\\"/\\">conference page</a>
+                <a class=\\"nav__item js-scroll-to\\" href=\\"/faq\\">FAQ</a>
+              </nav>
+            </div>
+            <div class=\\"header__btn\\">
+              <!-- <a href=\\"http://twitter.com/thejsnation\\" class=\\"btn\\"><span class=\\"btn__text\\">follow for updates</span></a> -->
+              <a href=\\"https://www.eventbrite.com/e/jsnation-conference-2020-tickets-71547014045\\" class=\\"btn\\"><span class=\\"btn__text\\">tickets</span></a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class=\\"main\\">
+        <section class=\\"hero hero_min\\" style=\\"background-image: url(img/workshops.jpg)\\">
+          <div class=\\"hero__logo\\">
+            <a href=\\"/\\" class=\\"logo\\">
+              <img src=\\"img/logo.svg\\" alt=\\"\\" />
+            </a>
+          </div>
+          <h1 class=\\"hero__title\\"> Learn from the best cherry-picked trainers </h1>
+        </section>
+        <!--<div class=\\"bg-red\\">
+    <div class=\\"info-wrapper\\">
+      <div class=\\"wrapper\\">
+        <div class=\\"info-wrapper__inner\\">
+          
+<div class=\\"info\\">
+  <div class=\\"info__num\\"></div>
+  <div class=\\"info__content\\">
+    <div class=\\"info__title\\">Trainers</div>
+    <div class=\\"info__descr\\"></div>
+  </div>
+</div>
+
+          
+<div class=\\"info\\">
+  <div class=\\"info__num\\"></div>
+  <div class=\\"info__content\\">
+    <div class=\\"info__title\\">Tickets</div>
+    <div class=\\"info__descr\\"></div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>-->
+        <div class=\\"table-wrapper workshops\\">
+          <div class=\\"wrapper\\">
+            <div class=\\"table-wrapper__title title\\">Workshops <br />on June 3 and 4</div>
+            <div class=\\"table-wrapper__descr descr\\">
+            </div>
+            <div class=\\"table-wrapper__content\\">
+              <div class=\\"table table_sm\\">
+                <div class=\\"table__body\\">
+                  <div class=\\"table__section workshops__block\\">
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name workshops__block-trainers\\">
+                        <ul>
+                          <li>
+                            <a class=\\"anchor-item\\" href=\\"#person-kurtis-kemple\\"> Kurtis Kemple </a>
+                          </li>
+                          <li>
+                            <a class=\\"anchor-item\\" href=\\"#person-nader-dabit\\"> Nader Dabit </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__title\\">
+                            <h2 class=\\"workshops__block-title\\">
+                              <span class=\\"anchor\\" id=\\"building-web-applications-with-react-aws-amplify\\"></span>
+                              <a class=\\"anchor-item\\" href=\\"#building-web-applications-with-react-aws-amplify\\"> Building Web Applications with React &amp; AWS Amplify </a>
+                          </div>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\"></div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <p>In this workshop we'll learn how to build cloud-enabled web applications with React &#x26; AWS Amplify.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Table of contents</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <ul>
+                              <li>Authentication</li>
+                              <li>GraphQL API with AWS AppSync</li>
+                              <li>REST API with a Lambda Function</li>
+                              <li>Adding Storage with Amazon S3</li>
+                              <li>Hosting</li>
+                              <li>Analytics</li>
+                              <li>Removing / Deleting Services</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Workshop level</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">Intermediate Javascript developers.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Workshop schedule</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <strong>June, 3</strong>
+                            <span> starting </span>
+                            <strong>9:00</strong>
+                            <span>till </span>
+                            <strong>17:00</strong>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Location</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <span>
+                              <p><a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"table__section workshops__block\\">
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name workshops__block-trainers\\">
+                        <ul>
+                          <li>
+                            <a class=\\"anchor-item\\" href=\\"#person-alex-lobera\\"> Alex Lobera </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__title\\">
+                            <h2 class=\\"workshops__block-title\\">
+                              <span class=\\"anchor\\" id=\\"graph-ql-api-from-zero-to-production\\"></span>
+                              <a class=\\"anchor-item\\" href=\\"#graph-ql-api-from-zero-to-production\\"> GraphQL API – From Zero to Production </a>
+                          </div>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\"></div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <p>GraphQL is an excellent technology to model data and expose it in a very flexible way. It enables product teams to compose data requirements on the client and efficiently query APIs. However, this new paradigm also brings new concerns and potential issues. In this workshop, you will learn how to effectively migrate REST APIs to GraphQL avoiding common pitfalls.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Table of contents</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <ul>
+                              <li>Thinking in GraphQL: Switching from REST to GraphQL; Schema Fundamentals; GraphQL API</li>
+                              <li>Scheme Design</li>
+                              <li>Real-world GraphQL</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Prerequisites</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">JavaScript developers with some experience implementing REST APIs (ideally in Node.js). No experience with GraphQL is required to attend this workshop.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Workshop level</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">Beginner/intermediate Node.js developer.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Workshop schedule</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <strong>June, 3</strong>
+                            <span> starting </span>
+                            <strong>9:00</strong>
+                            <span>till </span>
+                            <strong>17:00</strong>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Location</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <span>
+                              <p><a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"table__section workshops__block\\">
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name workshops__block-trainers\\">
+                        <ul>
+                          <li>
+                            <a class=\\"anchor-item\\" href=\\"#person-kitze\\"> Kitze </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__title\\">
+                            <h2 class=\\"workshops__block-title\\">
+                              <span class=\\"anchor\\" id=\\"react-advanced\\"></span>
+                              <a class=\\"anchor-item\\" href=\\"#react-advanced\\"> React Advanced </a>
+                          </div>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\"></div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <p>Full-day, hands-on coding workshop to explore advanced patterns and new features in React. React may be just a simple UI library, but it involves a pretty big ecosystem around it. Explaining the basics and internals is not enough, so in this module we're going to explain the best practices, we're going to learn to \\"think in React\\", and apply solutions to real problems that you might encounter in the process of building an app.</p>
+                            <p>We'll explore all the advanced techniques for making flexible and maintainable React components. We'll see how using popular patterns like Higher Order Components, Compound Components, Render Props etc. can help us in simplifying things, making our components more reusable and our apps more declarative.</p>
+                            <p>React 16 comes with some major changes and an update to the core algorithm. In this module, we'll explore some practical use-cases for Hooks, Portals, Fragments, Error Boundaries etc. We'll see how the new Context API can simplify state-management and we'll play with a new feature called react-call-return.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Table of contents</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <ul>
+                              <li>Hooks</li>
+                              <li>React Context API</li>
+                              <li>Higher Order Components</li>
+                              <li>Render Props</li>
+                              <li>Compound Components</li>
+                              <li>Practical use-cases for Portals, Fragments, React.lazy and Suspense&#x3C;</li>
+                              <li>and more..</li>
+                            </ul>
+                            <p>Learn more about workshops from Kitze on his <a href=\\"https://www.reactacademy.io/\\">website</a>.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Prerequisites</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">Experience with modern JavaScript features and fundamental React concepts.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Workshop level</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">Intermediate/Advanced JavaScript/React Developers.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Workshop schedule</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <strong>June, 3</strong>
+                            <span> starting </span>
+                            <strong>9:00</strong>
+                            <span>till </span>
+                            <strong>17:00</strong>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Location</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <span>
+                              <p><a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"table__section workshops__block\\">
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name workshops__block-trainers\\">
+                        <ul>
+                          <li>
+                            <a class=\\"anchor-item\\" href=\\"#person-matteo-collina\\"> Matteo Collina </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__title\\">
+                            <h2 class=\\"workshops__block-title\\">
+                              <span class=\\"anchor\\" id=\\"optimize-node-js-applications\\"></span>
+                              <a class=\\"anchor-item\\" href=\\"#optimize-node-js-applications\\"> Optimize Node.js Applications </a>
+                          </div>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\"></div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <p>At 10am on Black Friday, your phone rings: the new JS application you deployed came under too much load, and the site has gone down! Your employer is losing sales opportunities... your employer is losing money! But you don’t lose your cool. You log into your cloud provider and tweak your autoscaling settings. Now the deployment can handle the load spike but with four times the number of servers, which is four times the cost. The next day, you try to analyze what happened and begin to optimize your application to prepare for future load spikes. This workshop is a journey into the world of Node.js performance, taking a look at the available tools and optimization techniques inspired by insight gained from glimpsing under the hood of Node and V8.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Table of contents</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <p>Morning – Introduction to <a href=\\"https://clinicjs.org/\\">Node Clinic</a>:</p>
+                            <ul>
+                              <li>Solving performance problems</li>
+                              <li>Problems within Node.js applications</li>
+                              <li>Promises, Async/Await</li>
+                              <li>Diagnosing and solving problems in external services</li>
+                              <li>Exercise: resolving different performance problems (I/O, event loop) with the use of Node Clinic.</li>
+                            </ul>
+                            <p>Afternoon – Flamegraph Deep Dive:</p>
+                            <ul>
+                              <li>When to optimize</li>
+                              <li>Benchmarking Overview: Load Testing, Soak Testing, Micro-benchmarking</li>
+                              <li>Performance Workflow.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Workshop level</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">Mid-Senior Javascript developers.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Workshop schedule</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <strong>June, 4</strong>
+                            <span> starting </span>
+                            <strong>9:00</strong>
+                            <span>till </span>
+                            <strong>17:00</strong>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Location</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <span>
+                              <p><a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"table__section workshops__block\\">
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name workshops__block-trainers\\">
+                        <ul>
+                          <li>
+                            <a class=\\"anchor-item\\" href=\\"#person-tejas-kumar\\"> Tejas Kumar </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__title\\">
+                            <h2 class=\\"workshops__block-title\\">
+                              <span class=\\"anchor\\" id=\\"type-script-workshop\\"></span>
+                              <a class=\\"anchor-item\\" href=\\"#type-script-workshop\\"> TypeScript Workshop </a>
+                          </div>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\"></div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <p>TypeScript is taking the web platform by storm, mainly because it is so syntactically similar to JavaScript, but comes with powerful scalability features that create more robust products. In this workshop, we will examine an existing JavaScript codebase, port it over to TypeScript, and refactor parts of it to see the value TypeScript can provide.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Table of contents</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <ul>
+                              <li>Intro to TypeScript and types</li>
+                              <li>The basics: Primitives, interfaces, classes, generics</li>
+                              <li>Practical take on JS project migration</li>
+                              <li>\\"any\\", \\"never\\", and \\"unknown\\". Your buddies for life!</li>
+                              <li>Real-life benefits - easy refactorings, autocomplete</li>
+                              <li>and more...</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Prerequisites</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">Familiarity with React, JavaScript and modern syntax features (ES2015).</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Workshop schedule</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <strong>June, 4</strong>
+                            <span> starting </span>
+                            <strong>9:00</strong>
+                            <span>till </span>
+                            <strong>17:00</strong>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Location</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <span>
+                              <p><a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"table__section workshops__block\\">
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name workshops__block-trainers\\">
+                        <ul>
+                          <li>
+                            <a class=\\"anchor-item\\" href=\\"#person-mikhail-kuznetcov\\"> Mikhail Kuznetcov </a>
+                          </li>
+                          <li>
+                            <a class=\\"anchor-item\\" href=\\"#person-alex-korzhikov\\"> Alex Korzhikov </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__title\\">
+                            <h2 class=\\"workshops__block-title\\">
+                              <span class=\\"anchor\\" id=\\"build-full-featured-frontend-app-with-svelte-3h-workshop\\"></span>
+                              <a class=\\"anchor-item\\" href=\\"#build-full-featured-frontend-app-with-svelte-3h-workshop\\"> Build Full Featured Frontend App with Svelte (3h Workshop) </a>
+                          </div>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\"></div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <p>Svelte is a new prominent JS framework exposing “write less do more” philosophy. During this workshop you will get proficiency as a Svelte developer. We will be building an app that mimics the famous Q&#x26;A website stackoverflow.com. Will start developing from simple front end components, later we'll connect it to a real running backend and then test it and optimise for production. Attending a workshop is the fastest way to acquire a body of knowledge about building web apps with Svelte. </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Table of contents</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <ul>
+                              <li>Introduction &#x26; Local Configuration </li>
+                              <li>Why Svelte? </li>
+                              <li>Setup App &#x26; Create Components </li>
+                              <li>Make App Modular with Routing &#x26; First Class UX </li>
+                              <li>Add Real Data &#x26; State Management </li>
+                              <li>Test and Prepare App for Production</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Prerequisites</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">Installed software – NPM, git, VSCode (or other IDE of choice), docker (for running backend). </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Workshop level</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">Junior/medior level of frontend knowledge.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Workshop schedule</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <strong>June, 4</strong>
+                            <span> starting </span>
+                            <strong>9:00</strong>
+                            <span>till </span>
+                            <strong>12:00</strong>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Location</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <span>
+                              <p><a href=\\"https://goo.gl/maps/wsmBsffwvAoBnnWk9\\">IIRE</a></p>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"table__section workshops__block\\">
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name workshops__block-trainers\\">
+                        <ul>
+                          <li>
+                            <a class=\\"anchor-item\\" href=\\"#person-olivia-jack\\"> Olivia Jack </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__title\\">
+                            <h2 class=\\"workshops__block-title\\">
+                              <span class=\\"anchor\\" id=\\"live-coding-visuals-with-hydra-3h-workshop\\"></span>
+                              <a class=\\"anchor-item\\" href=\\"#live-coding-visuals-with-hydra-3h-workshop\\"> Live coding visuals with Hydra (3h Workshop) </a>
+                          </div>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\"></div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <p><a href=\\"https://hydra-editor.glitch.me/\\">Hydra</a> is a platform for live coding visuals in Javascript, in which each connected browser window can be used as a node of a modular and distributed video synthesizer. Multiple visual sources (oscillators, cameras, application windows, other connected windows) can be transformed, modulated, and composited via combining sequences of functions. The workshop will explore this flexible system to experiment with recursive and chaotic systems – fractals, fluid simulations, and tessellations - as elements of live performance.</p>
+                            <p><img src=\\"https://media.graphcms.com/wj8Gn8J3TQm0tll41OKt\\" alt=\\"performance-demo\\"></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Workshop schedule</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <strong>June, 4</strong>
+                            <span> starting </span>
+                            <strong>9:00</strong>
+                            <span>till </span>
+                            <strong>12:00</strong>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Location</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <span>
+                              <p><a href=\\"https://goo.gl/maps/wsmBsffwvAoBnnWk9\\">IIRE</a></p>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"table__section workshops__block\\">
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name workshops__block-trainers\\">
+                        <ul>
+                          <li>
+                            <a class=\\"anchor-item\\" href=\\"#person-markus-leutwyler\\"> Markus Leutwyler </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__title\\">
+                            <h2 class=\\"workshops__block-title\\">
+                              <span class=\\"anchor\\" id=\\"robotics-3h-workshop\\"></span>
+                              <a class=\\"anchor-item\\" href=\\"#robotics-3h-workshop\\"> Robotics (3h Workshop) </a>
+                          </div>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\"></div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <p>In this 3h practical Workshop for Robotics Beginners you’ll build your own Sumobot and then learn how to program it with JavaScript. We end with a sumo-style Battle of the Bots.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Table of contents</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <ul>
+                              <li>Javascript Robotics Primer</li>
+                              <li>Building the Sumobot (3-wheeled, battery-powered, wireless Robot)</li>
+                              <li>Installation and Configuration of the Robot Brain (Microcontroller plus Motor Driver)</li>
+                              <li>Programming your Robot using JavaScript and the johnny-five framework</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Prerequisites</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">Bring your own notebook (Linux, Mac or Windows) with Node.js installed.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Workshop level</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">Anyone interested in Robotics.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Workshop schedule</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <strong>June, 4</strong>
+                            <span> starting </span>
+                            <strong>9:00</strong>
+                            <span>till </span>
+                            <strong>12:00</strong>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Location</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <span>
+                              <p><a href=\\"https://goo.gl/maps/wsmBsffwvAoBnnWk9\\">IIRE</a></p>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"table__section workshops__block\\">
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name workshops__block-trainers\\">
+                        <ul>
+                          <li>
+                            <a class=\\"anchor-item\\" href=\\"#person-maurice-de-beijer\\"> Maurice de Beijer </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__title\\">
+                            <h2 class=\\"workshops__block-title\\">
+                              <span class=\\"anchor\\" id=\\"getting-started-with-suspense-and-concurrent-rendering-in-react-3h-workshop\\"></span>
+                              <a class=\\"anchor-item\\" href=\\"#getting-started-with-suspense-and-concurrent-rendering-in-react-3h-workshop\\"> Getting Started with Suspense and Concurrent Rendering in React (3h Workshop) </a>
+                          </div>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\"></div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <p>React keeps on evolving and making hard things easier for the average developer. One case, where React was not particularly hard but very repetitive, is working with AJAX request. There is always the trinity of loading, success and possible error states that had to be handled each time. But no more as the <code>&#x3C;Suspense /></code> component makes life much easier. Another case is performance of larger and complex applications. Usually React is fast enough but with a large application rendering components can conflict with user interactions. Concurrent rendering will, mostly automatically, take care of this.</p>
+                            <p>Join Maurice with your laptop in this interactive workshop. You will learn all about using
+                              <Suspense />, showing loading indicators and handling errors. You will see how easy it is to get started with concurrent rendering. You will make suspense even more capable by combining it with concurrent rendering, the <code>useTransition()</code> hook and the
+                              <SuspenseList /> component.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Workshop schedule</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <strong>June, 4</strong>
+                            <span> starting </span>
+                            <strong>13:00</strong>
+                            <span>till </span>
+                            <strong>17:00</strong>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Location</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <span>
+                              <p><a href=\\"https://goo.gl/maps/wsmBsffwvAoBnnWk9\\">IIRE</a></p>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"table__section workshops__block\\">
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name workshops__block-trainers\\">
+                        <ul>
+                          <li>
+                            <a class=\\"anchor-item\\" href=\\"#person-corentin-leruth\\"> Corentin Leruth </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__title\\">
+                            <h2 class=\\"workshops__block-title\\">
+                              <span class=\\"anchor\\" id=\\"graph-ql-by-hackages-3h-workshop\\"></span>
+                              <a class=\\"anchor-item\\" href=\\"#graph-ql-by-hackages-3h-workshop\\"> GraphQL by Hackages (3h Workshop) </a>
+                          </div>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\"></div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <p>During this workshop, you will learn the basics about GraphQL – the query language created by Facebook. We will give you an introduction to GraphQL and why it could be a better fit for your next web api compared to REST. After this introduction, we will do some practices and write our own GraphQL server in JavaScript.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Table of contents</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <ul>
+                              <li>How to define a GraphQL schema</li>
+                              <li>How to create query types and implement resolver functions</li>
+                              <li>How to consume the GraphQL API we have created by making queries and mutations throughout the wonderful GraphQL interface.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Prerequisites</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">To better enjoy this session, participants will be asked to have good knowledge of JavaScript.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Workshop schedule</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <strong>June, 4</strong>
+                            <span> starting </span>
+                            <strong>13:00</strong>
+                            <span>till </span>
+                            <strong>17:00</strong>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Location</div>
+                      <div class=\\"table__row-content workshops__block-info\\">
+                        <div class=\\"table__col table__col_lg\\">
+                          <div class=\\"table__descr\\">
+                            <span>
+                              <p><a href=\\"https://goo.gl/maps/wsmBsffwvAoBnnWk9\\">IIRE</a></p>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class=\\"team\\" id=\\"speakers\\">
+          <div class=\\"wrapper\\">
+            <div class=\\"team__title title\\">Trainers</div>
+            <div class=\\"team__inner\\">
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-kurtis-kemple\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/J1KtkQdeSmuZnbvtv1P8)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-kurtis-kemple\\"> Kurtis Kemple </a>
+                        </div>
+                        <div class=\\"teammate__company\\">AWS, USA</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Web / Mobile / GraphQL enthusiast. DevRel at Amazon AWS. Co-organizer of NYC GraphQL meetup.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/kkemple\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/kurtiskemple\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-nader-dabit\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/glrjtl9T5awAzyT0DZVd)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-nader-dabit\\"> Nader Dabit </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Amazon AWS, USA</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Nader has been developing with React Native for over 2.5 years. He has worked with and trained developers from fortune 500 companies like Amazon, Visa, American Express, and Microsoft, helping them to get up to speed with React Native as quickly as possible.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/dabit3\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/dabit3\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-alex-lobera\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/jx66c2DKQ3KhZSOiLxXS)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-alex-lobera\\"> Alex Lobera </a>
+                        </div>
+                        <div class=\\"teammate__company\\">React GraphQL Academy, UK</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Founder at React GraphQL Academy and LeanJS. Developer and Coach passionate about JavaScript, React and GraphQL. Organizer of the JavaScript London Meetup and other popular meetups in the EU.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/alexlbr\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/alex_lobera\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-kitze\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/sDbtalRTKQ7lQXzPARHp)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-kitze\\"> Kitze </a>
+                        </div>
+                        <div class=\\"teammate__company\\">React Academy, Poland</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Kitze founded <a href=\\"https://reactacademy.io/\\">React Academy</a> to teach React and GraphQL around the world. He's the maker of <a href=\\"https://sizzy.co/\\">Sizzy</a> - the browser for designers and developers. He's documenting his journey <a href=\\"https://youtube.com/kitze\\">on YouTube</a>. He made products like <a href=\\"https://github.com/kitze/JSUI\\">JSUI</a>, <a href=\\"https://twizzy.app/\\">Twizzy</a>, <a href=\\"https://luckyretweet.co/\\">Lucky Retweet</a>, <a href=\\"https://ok-google.io/\\">OK Google</a>, etc.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/kitze\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/thekitze\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-matteo-collina\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/4LTWaL5SpOCr2oBbS8rq)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-matteo-collina\\"> Matteo Collina </a>
+                        </div>
+                        <div class=\\"teammate__company\\">NearForm, Italy</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Node.js TSC member, PhD, Technical Director @ NearForm, IoT Expert, Consultant, author of Pino and Fastify. Co-author of the book \\"Node.js Cookbook, Third Edition\\" edited by Packt.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/mcollina\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/matteocollina\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"http://matteocollina.com/\\">
+                                <svg class=\\"icon icon-med\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-med\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-tejas-kumar\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/FQtqvdGOQsSrpZD1rU4X)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-tejas-kumar\\"> Tejas Kumar </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Contiamo, Germany</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Tejas enjoys people, code, and talking about code to people. Having begun coding at age 8, today Tejas travels around the world, encouraging, educating and empowering developers in the web development community.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/TejasQ\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/tejaskumar_\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-mikhail-kuznetcov\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/t9XoPJGQUmaXcSvoNSl4)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-mikhail-kuznetcov\\"> Mikhail Kuznetcov </a>
+                        </div>
+                        <div class=\\"teammate__company\\">ING, Netherlands</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Mikhail is a developer with 10 years of expertise building web applications. He used a variety of frameworks, throughout his career starting with jQuery , AngularJS and Polymer; then he discovered VueJS and used it for several projects. Since 2019 he became a happy user of Svelte v3. Besides fullstack development for enterprise companies Mikhail is doing open source projects and <a href=\\"https://github.com/shershen08/conf-talks\\">speaks on meetups and conferences</a> about various topics in modern web development. Mikhail runs a local ​<a href=\\"https://www.meetup.com/Amsterdam-SvelteJS/\\">Svelte meetup group in Amsterdam</a>​.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/shershen08\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/legkoletat\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-alex-korzhikov\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/4Sy5Yq8jRuWQgvZSghmi)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-alex-korzhikov\\"> Alex Korzhikov </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Software Engineer, Netherlands</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Software engineer, team lead, ​<a href=\\"https://github.com/korzio/modern_javascript_frameworks\\">instructor​,</a> mentor, and ​<a href=\\"https://medium.com/@korzio\\">author of technical materials</a>​ in JavaScript, Node, ​<a href=\\"https://github.com/korzio/djv\\">JSON-Schema</a>​, Web Components, TypeScript.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/korzio\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/AlexKorzhikov\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-olivia-jack\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/izWu7SWFQwSdP8wBthcK)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-olivia-jack\\"> Olivia Jack </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Hydra, Colombia</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Programmer and artist who works frequently with open-source software, cartography, live coding, and experimental interfaces. She is the developer of Hydra, a platform for live-coding visuals inspired by analog video synthesis. She works with the performance laboratory ATI-erra, creating interactive visuals for dance and theater. She has also created software and interactive installations for CultureHub Art &#x26; Technology Center, el Museo de Bogotá, and Oakland Museum of California. Originally from San Francisco, she currently lives and works in Bogotá, Colombia.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/ojack\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/_ojack_\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://ojack.github.io/\\">
+                                <svg class=\\"icon icon-site\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-markus-leutwyler\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/l1e2ctw5TBqM5qemVHcS)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-markus-leutwyler\\"> Markus Leutwyler </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Nodebots Switzerland, Switzerland</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Markus works as the CEO and CTO of make.human.technology, where his focus is to make and keep technology human friendly. In his spare time, he likes to tinker with hardware, electronics and robots and thus this was how nodebots was born, at the intersection of the web and hardware.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"http://nodebots.ch/\\">
+                                <svg class=\\"icon icon-site\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-maurice-de-beijer\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/CgqbTtCjTxyCgI04TDNA)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-maurice-de-beijer\\"> Maurice de Beijer </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Independent Software Consultant and Trainer, Netherlands</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Maurice de Beijer is an independent software consultant and trainer. He specializes in JavaScript, React, and <a href=\\"http://asp.net/\\">ASP.NET Core</a>. His work includes a large, global, safety application for the oil and gas industry. Maurice is also active in the open source community. He teaches ECMAScript, TypeScript, React, RxJS and <a href=\\"http://asp.net/\\">ASP.NET</a> courses. Since 2005, he has received Microsoft’s Yearly Most Valuable Professional Award. Maurice is also active in the Dutch dotNed user group and helps organize its meetings.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-corentin-leruth\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/YqQpi8feQkinhxSw8HyW)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-corentin-leruth\\"> Corentin Leruth </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Hackages, Belgium</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Corentin is an Open Source Engineer, where he has been working mostly with JavaScript and especially with ReactJS. He's very interested in topics such as GraphQL, and OCaml/ReasonML. One of his favourite hobbies is to learn new technologies/concepts and when possible participate to open source project and to share what he has learnt.</p>
+                          <p>At Hackages, he has assisted in JavaScript formal trainings, built and run workshops on React, React Native, TypeScript and GraphQL and acted as a consultant with international companies including BIL and Supply Stack.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/tatchi\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/_tatchi\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class=\\"footer\\" id=\\"contact\\">
+        <div class=\\"wrapper\\">
+          <div class=\\"footer__title title\\">Contact Us</div>
+          <div class=\\"footer__inner\\">
+            <div class=\\"footer__content\\">
+              <ul class=\\"footer__nav\\">
+                <li><a href=\\"/sponsors\\">Sponsorship Opportunities</a></li>
+                <li><a href=\\"/coc\\">Code Of Conduct</a></li>
+                <li><a href=\\"/2019\\">Last year's event (2019)</a></li>
+                <li><a href=\\"mailto:hi@jsnation.com\\">Email Us!</a></li>
+                <li><a href=\\"/faq\\">FAQ</a></li>
+              </ul>
+            </div>
+            <div class=\\"footer__socials\\">
+              <ul class=\\"socials socials_xxl\\">
+                <li class=\\"socials__item\\"><a href=\\"https://twitter.com/thejsnation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-tw\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                    </svg>
+                  </a></li>
+                <li class=\\"socials__item\\"><a href=\\"https://www.facebook.com/thejsnation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-fb\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-fb\\"></use>
+                    </svg>
+                  </a></li>
+                <li class=\\"socials__item\\"><a href=\\"https://www.youtube.com/JSNation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-yt\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-yt\\"></use>
+                    </svg>
+                  </a></li>
+                <li class=\\"socials__item\\"><a href=\\"https://jsnation.com/slack\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-sl\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-sl\\"></use>
+                    </svg>
+                  </a></li>
+                <li class=\\"socials__item\\"><a href=\\"https://medium.com/@amsterdamjs\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-med\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-med\\"></use>
+                    </svg>
+                  </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class=\\"footer__bot\\" style=\\"background-image: url(img/footer-bg.png);\\">
+          <div class=\\"footer-logo\\">
+            <div class=\\"footer-logo__subtitle\\">Event by</div>
+            <div class=\\"footer-logo__img\\"><img src=\\"img/face.svg\\" alt=\\"\\" /></div>
+            <a href=\\"https://gitnation.org/\\" target=\\"_blank\\" class=\\"footer-logo__text\\">
+              <img src=\\"img/gn.svg\\" alt=\\"\\" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- END content -->
+    <!-- BEGIN scripts -->
+    <script type=\\"text/javascript\\" src=\\"js/app.js\\"></script>
+    <!-- END scripts -->
+    <!--LiveInternet counter-->
+    <script type=\\"text/javascript\\">
+      document.write(\\"<a class='li-counter' href='//www.liveinternet.ru/click' \\" + \\"target=_blank><img src='//counter.yadro.ru/hit?t38.6;r\\" + escape(document.referrer) + ((typeof(screen) == \\"undefined\\") ? \\"\\" : \\";s\\" + screen.width + \\"*\\" + screen.height + \\"*\\" + (screen.colorDepth ? screen.colorDepth : screen.pixelDepth)) + \\";u\\" + escape(document.URL) + \\";h\\" + escape(document.title.substring(0, 150)) + \\";\\" + Math.random() + \\"' alt='' title='LiveInternet' \\" + \\"border='0' width='31' height='31'><\\\\/a>\\")
+
+    </script>
+    <!--/LiveInternet-->
+    <script type=\\"text/javascript\\">
+      var _gauges = _gauges || [];
+      (function()
+      {
+        var t = document.createElement('script');
+        t.type = 'text/javascript';
+        t.async = true;
+        t.id = 'gauges-tracker';
+        t.setAttribute('data-site-id', '58496fdd4b2ffa62230141f0');
+        t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+        t.src = 'https://d36ee2fcip1434.cloudfront.net/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      ! function(f, b, e, v, n, t, s)
+      {
+        if (f.fbq) return;
+        n = f.fbq = function()
+        {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1374905195888955'); // Insert your pixel ID here.
+      fbq('track', 'PageView');
+
+    </script>
+    <noscript><img height=\\"1\\" width=\\"1\\" style=\\"display:none\\" src=\\"https://www.facebook.com/tr?id=1374905195888955&ev=PageView&noscript=1\\" /></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+  </body>
+</html>
+"
+`;

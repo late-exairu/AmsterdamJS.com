@@ -1,0 +1,2148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/index.html 1`] = `
+"<!doctype html>
+<html>
+  <head>
+    <meta charset=\\"utf-8\\" />
+    <title>Amsterdam JSNation Conference 2020</title>
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\" />
+    <meta name=\\"keywords\\" content=\\"javascript, conference, amsterdamjs, jsnation, vuejs, react, angular, frameworks\\">
+    <meta name=\\"description\\" content=\\"Amsterdam JSNation is a 2-day event focusing exclusively on JavaScript development. At our conference, inspiring talks meet fresh ideas and good people - you’ll hear all you need to know about the latest trends in JS tech, see stellar speakers, meet new friends and colleagues, and connect with key people in the industry. Plus, all of that in one of Europe&#39;s top destinations.\\">
+    <meta property=\\"og:url\\" content=\\"https://jsnation.com\\" />
+    <meta property=\\"og:title\\" content=\\"Amsterdam JSNation Conference 2020, June 3-5\\" />
+    <meta property=\\"og:description\\" content=\\"Amsterdam JSNation is a 2-day event focusing exclusively on JavaScript development. At our conference, inspiring talks meet fresh ideas and good people - you’ll hear all you need to know about the latest trends in JS tech, see stellar speakers, meet new friends and colleagues, and connect with key people in the industry. Plus, all of that in one of Europe&#39;s top destinations.\\" />
+    <meta property=\\"og:image\\" content=\\"https://jsnation.com/img/og2020.png\\" />
+    <meta name=\\"twitter:card\\" content=\\"summary_large_image\\" />
+    <meta name=\\"twitter:site\\" content=\\"@amsterdamjs\\" />
+    <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\" />
+    <link rel=\\"stylesheet\\" media=\\"all\\" href=\\"css/app.css\\" />
+    <link rel=\\"shortcut icon\\" href=\\"img/favicon.ico\\" />
+  </head>
+  <body>
+    <!-- BEGIN content -->
+    <div class=\\"out\\">
+      <header class=\\"header js-header\\">
+        <button class=\\"header__burger burger js-burger\\">
+          <span class=\\"burger__item\\"></span>
+          <span class=\\"burger__item\\"></span>
+          <span class=\\"burger__item\\"></span>
+        </button>
+        <div class=\\"header__content js-header-content\\">
+          <div class=\\"header__inner\\">
+            <a href=\\"/\\" class=\\"header__mini-logo\\"></a>
+            <div class=\\"header__nav\\">
+              <nav class=\\"nav\\">
+                <a class=\\"nav__item js-scroll-to\\" href=\\"#location\\">location</a>
+                <a class=\\"nav__item js-scroll-to\\" href=\\"#awards\\">OS Awards</a>
+                <a class=\\"nav__item js-scroll-to\\" href=\\"#diversity\\">diversity</a>
+                <a class=\\"nav__item js-scroll-to\\" href=\\"#sponsors\\">sponsors</a>
+                <a class=\\"nav__item js-scroll-to\\" href=\\"/workshops\\">workshops</a>
+                <a class=\\"nav__item js-scroll-to\\" href=\\"/faq\\">FAQ</a>
+                <a class=\\"nav__item js-scroll-to\\" href=\\"#contact\\">contact us</a>
+              </nav>
+            </div>
+            <div class=\\"header__btn\\">
+              <!-- <a href=\\"http://twitter.com/thejsnation\\" class=\\"btn\\"><span class=\\"btn__text\\">follow for updates</span></a> -->
+              <a href=\\"https://www.eventbrite.com/e/jsnation-conference-2020-tickets-71547014045\\" class=\\"btn\\"><span class=\\"btn__text\\">tickets</span></a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class=\\"main\\">
+        <div class=\\"bg-red intro\\">
+          <section class=\\"hero\\">
+            <div class=\\"hero__inner\\">
+              <div class=\\"hero__logo\\">
+                <a href=\\"/\\" class=\\"logo\\">
+                  <img src=\\"img/logo.svg\\" alt=\\"\\" />
+                </a>
+                <time class=\\"hero__date\\" datetime=\\"2020-06-3\\">June 3-5, Amsterdam</time>
+              </div>
+              <div class=\\"hero__content\\">
+                <div class=\\"hero__left\\">
+                  <h1 class=\\"hero__title\\"> Core library authors. Hands-on learning. The future of&nbsp;<span class=\\"type__animation-text\\">JS.</span>
+                    <div class=\\"type__animation-cursor\\"></div>
+                  </h1>
+                  <div class=\\"hero__descr\\"> JavaScript is #1 on demand programming language in the world with 25 millions of developers behind it. Meet the ones who shape out the now and the future of the prospering nation. </div>
+                </div>
+                <div class=\\"hero__right\\">
+                  <div class=\\"event__info\\">
+                    <div class=\\"event__item \\">
+                      <div class=\\"info\\">
+                        <div class=\\"info__num\\">3</div>
+                        <div class=\\"info__content\\">
+                          <div class=\\"info__title\\">days</div>
+                          <div class=\\"info__descr\\">Workshops <br /> + Conference</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"event__item \\">
+                      <div class=\\"info\\">
+                        <div class=\\"info__num\\">2</div>
+                        <div class=\\"info__content\\">
+                          <div class=\\"info__title\\">tracks</div>
+                          <div class=\\"info__descr\\">General<br /> + NodeJS</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"event__item vent__item_lg\\">
+                      <div class=\\"info\\">
+                        <div class=\\"info__num\\">1000</div>
+                        <div class=\\"info__content\\">
+                          <div class=\\"info__title\\">personalities</div>
+                          <div class=\\"info__descr\\">Sharing common<br /> language</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"hero__bottom\\">
+                <ul class=\\"socials\\">
+                  <li class=\\"socials__item\\"><a href=\\"https://twitter.com/thejsnation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a></li>
+                  <li class=\\"socials__item\\"><a href=\\"https://www.facebook.com/thejsnation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                      <svg class=\\"icon icon-fb\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-fb\\"></use>
+                      </svg>
+                    </a></li>
+                  <li class=\\"socials__item\\"><a href=\\"https://www.youtube.com/JSNation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                      <svg class=\\"icon icon-yt\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-yt\\"></use>
+                      </svg>
+                    </a></li>
+                  <li class=\\"socials__item\\"><a href=\\"https://jsnation.com/slack\\" target=\\"_blank\\" class=\\"socials__link\\">
+                      <svg class=\\"icon icon-sl\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-sl\\"></use>
+                      </svg>
+                    </a></li>
+                  <li class=\\"socials__item\\"><a href=\\"https://medium.com/@amsterdamjs\\" target=\\"_blank\\" class=\\"socials__link\\">
+                      <svg class=\\"icon icon-med\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-med\\"></use>
+                      </svg>
+                    </a></li>
+                </ul>
+                <div class=\\"hero__btn\\">
+                  <!--<a href=\\"https://docs.google.com/forms/u/1/d/e/1FAIpQLScfRsnB8Qv3JRHVc9Z6j0Ztc7O1jTeUbTnxLvQ9dtpmNneA1Q/viewform\\" class=\\"btn btn_ttu btn_bg-yellow\\">
+          <div class=\\"btn__text\\">CALL FOR SPEAKERS</div>
+        </a>-->
+                  <a href=\\"https://www.eventbrite.com/e/jsnation-conference-2020-tickets-71547014045\\" class=\\"btn btn_ttu btn_bg-yellow\\">
+                    <div class=\\"btn__text\\">RESERVE A SPOT</div>
+                  </a>
+                  <!-- <p class=\\"hero__btn-tip\\">CFP ends 29th February</p>-->
+                  <!-- <a href=\\"https://www.twitter.com/thejsnation\\" class=\\"btn btn_ttu btn_bg-yellow\\">
+          <div class=\\"btn__text\\">FOLLOW FOR UPDATES</div>
+        </a> -->
+                </div>
+              </div>
+            </div>
+            <video class=\\"hero__video\\" preload=\\"auto\\" muted autoplay loop poster=\\"img/hero_video.jpg\\">
+              <source src=\\"video/intro20.webm\\" type=\\"video/webm\\" />
+              <source src=\\"video/intro20.mp4\\" type=\\"video/mp4\\" />
+            </video>
+          </section>
+        </div>
+        <section class=\\"event\\" id=\\"event\\">
+          <!-- <video class=\\"event__video\\" preload=\\"auto\\" muted autoplay loop poster=\\"img/event.jpg\\">
+    <source src=\\"video/river.webm\\" type=\\"video/webm\\"/>
+    <source src=\\"video/river.mp4\\" type=\\"video/mp4\\"/>
+  </video> -->
+          <div class=\\"event__inner\\">
+            <div class=\\"event__content\\">
+              <div class=\\"event__left\\">
+                <div class=\\"event__title title\\"> The Event </div>
+                <div class=\\"event__descr descr\\">
+                  <p>JSNation is going to be the main happening of the JS scene in 2020. Want to know the future of the JavaScript ecosystem and get connected to the stellar crowd? The conference unites library authors and core teams with engineers having a summer Amsterdam as a background. We recognize JavaScript development as an art of engineering, and that's why the conference offers both a JS-driven art exhibition and audiovisual performances powered with JavaScript during the afterparty. The next day after the event, we'll explore the well-known Amsterdam museums together, and later on, we'll gather for a picnic/hangout in the Vondelpark. </p>
+                  <!-- <p>Already with us? Join our <a href=\\"/slack\\" target=\\"_blank\\" class=\\"link\\"><span class=\\"link__icon\\">
+<svg class=\\"icon icon-sl\\"><use xlink:href=\\"img/sprite.svg#icon-sl\\"></use></svg>
+</span>Slack</a>.</p> -->
+                </div>
+              </div>
+              <div class=\\"event__right\\">
+                <div class=\\"hero__techs-title\\">First authors and core teams that have joined the lineup: </div>
+                <ul class=\\"techs\\">
+                  <li class=\\"techs__item\\">
+                    <div class=\\"techs__img-box\\"><img class=\\"techs__img\\" src=\\"img/techs_webpack.png\\" /></div>
+                    <p class=\\"techs__title\\">Webpack</p>
+                  </li>
+                  <li class=\\"techs__item\\">
+                    <div class=\\"techs__img-box\\"><img class=\\"techs__img\\" src=\\"https://media.graphcms.com/hUzKbWbTe2JPccwz4doH\\" /></div>
+                    <p class=\\"techs__title\\">Deno</p>
+                  </li>
+                  <li class=\\"techs__item\\">
+                    <div class=\\"techs__img-box\\"><img class=\\"techs__img\\" src=\\"img/techs_node.png\\" /></div>
+                    <p class=\\"techs__title\\">Node.js</p>
+                  </li>
+                  <li class=\\"techs__item\\">
+                    <div class=\\"techs__img-box\\"><img class=\\"techs__img\\" src=\\"img/techs_three.png\\" /></div>
+                    <p class=\\"techs__title\\">Three.js</p>
+                  </li>
+                  <li class=\\"techs__item\\">
+                    <div class=\\"techs__img-box\\"><img class=\\"techs__img\\" src=\\"https://media.graphcms.com/pcyqiYpDRXGtdYeSprs8\\" /></div>
+                    <p class=\\"techs__title\\">Svelte</p>
+                  </li>
+                  <li class=\\"techs__item\\">
+                    <div class=\\"techs__img-box\\"><img class=\\"techs__img\\" src=\\"img/techs_vue.png\\" /></div>
+                    <p class=\\"techs__title\\">Vue.js</p>
+                  </li>
+                  <li class=\\"techs__item\\">
+                    <div class=\\"techs__img-box\\"><img class=\\"techs__img\\" src=\\"img/techs_angular.png\\" /></div>
+                    <p class=\\"techs__title\\">Angular</p>
+                  </li>
+                  <li class=\\"techs__item\\">
+                    <div class=\\"techs__img-box\\"><img class=\\"techs__img\\" src=\\"img/techs_nestjs_inv.png\\" /></div>
+                    <p class=\\"techs__title\\">NestJS</p>
+                  </li>
+                  <li class=\\"techs__item\\">
+                    <div class=\\"techs__img-box\\"><img class=\\"techs__img\\" src=\\"https://media.graphcms.com/mkPnhEJETVJMOTS7Xl8Q\\" /></div>
+                    <p class=\\"techs__title\\">TypeScript</p>
+                  </li>
+                </ul>
+                <div class=\\"hero__techs-title\\">Want to know the rest? <a class=\\"link\\" href=\\"#subscribe\\">Follow us</a></div>
+              </div>
+            </div>
+          </div>
+          <section class=\\"dates\\">
+            <div class=\\"dates__content\\">
+              <div class=\\"dates__item\\">
+                <a href=\\"/workshops\\" class=\\"date js-scroll-to\\">
+                  <div class=\\"date__inner\\">
+                    <div class=\\"date__header\\">
+                      <div class=\\"date__title\\">
+                        <p>Wednesday-Thursday</p>
+                        <p>June</p>
+                      </div>
+                      <div class=\\"date__date\\">
+                        <p>3-4th</p>
+                      </div>
+                    </div>
+                    <div class=\\"date__name\\">
+                      <p>Workshops</p>
+                    </div>
+                    <div class=\\"date__info\\">
+                      <p>Nation\`s top educators from all over the globe</p>
+                    </div>
+                  </div>
+                </a>
+                <div class=\\"dates__icon\\">
+                  <svg class=\\"icon icon-plus\\">
+                    <use xlink:href=\\"img/sprite.svg#icon-plus\\"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class=\\"dates__item\\">
+                <a href=\\"#speakers\\" class=\\"date js-scroll-to\\">
+                  <div class=\\"date__inner\\">
+                    <div class=\\"date__header\\">
+                      <div class=\\"date__title\\">
+                        <p>Friday</p>
+                        <p>June</p>
+                      </div>
+                      <div class=\\"date__date\\">
+                        <p>5th</p>
+                      </div>
+                    </div>
+                    <div class=\\"date__name\\">
+                      <p>Conference day</p>
+                    </div>
+                    <div class=\\"date__info\\">
+                      <p>General and NodeJS halls, JS powered art exhibition and an afterparty</p>
+                    </div>
+                  </div>
+                </a>
+                <div class=\\"dates__icon\\">
+                  <svg class=\\"icon icon-plus\\">
+                    <use xlink:href=\\"img/sprite.svg#icon-plus\\"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class=\\"dates__item\\">
+                <a href=\\"#hangout-day\\" class=\\"date js-scroll-to\\">
+                  <div class=\\"date__inner\\">
+                    <div class=\\"date__header\\">
+                      <div class=\\"date__title\\">
+                        <p>Saturday</p>
+                        <p>June</p>
+                      </div>
+                      <div class=\\"date__date\\">
+                        <p>6th</p>
+                      </div>
+                    </div>
+                    <div class=\\"date__name\\">
+                      <p>Hangout day</p>
+                    </div>
+                    <div class=\\"date__info\\">
+                      <p>Museums visit in the morning and JS hangout in the park since lunch</p>
+                    </div>
+                  </div>
+                </a>
+                <div class=\\"dates__icon\\">
+                  <svg class=\\"icon icon-plus\\">
+                    <use xlink:href=\\"img/sprite.svg#icon-plus\\"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+        <section class=\\"section media-box\\">
+          <div class=\\"media-box__grid\\">
+            <div class=\\"m-grid\\">
+              <div class=\\"m-grid__item m-grid__1\\">
+                <div class=\\"video\\" style=\\"background-image: url(img/video.jpg)\\">
+                  <div class=\\"video__content\\" id=\\"player\\"></div>
+                  <button class=\\"video__btn js-video-btn\\" data-video-id=\\"gfbWjD4SwmU\\" data-content-id=\\"player\\">
+                    <svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" width=\\"149\\" height=\\"113\\" viewBox=\\"0 0 149 113\\">
+                      <defs>
+                      </defs>
+                      <g>
+                        <g transform=\\"translate(-646 -2447)\\" class=\\"icon__main\\">
+                          <path id=\\"le62a\\" d=\\"M666 2552v-12.005h-12v-81h12V2447h117v11.995h12v81h-12V2552zm44-24.003h13v-57h-13zM736 2517v-11h13v-13h-13v-11h-13v35z\\" />
+                        </g>
+                        <g transform=\\"translate(-646 -2447)\\" class=\\"icon__border\\">
+                          <path id=\\"le62b\\" d=\\"M646 2467h4v77h12v12h113v4H658v-12h-12z\\" />
+                        </g>
+                      </g>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <a href=\\"https://www.facebook.com/amsterdamjs/photos/a.1696319050455567/1696339767120162/?type=3&theater\\" target=\\"_blank\\" class=\\"m-grid__item m-grid__2\\">
+                <span class=\\"m-grid__img\\" style=\\"background-image: url(img/34700763_1696339787120160_5081264731453390848_o.jpg)\\"></span>
+                <span class=\\"m-grid__content\\">
+                  <svg class=\\"icon icon-fb\\">
+                    <use xlink:href=\\"img/sprite.svg#icon-fb\\"></use>
+                  </svg>
+                </span>
+              </a>
+              <a href=\\"https://www.facebook.com/amsterdamjs/photos/a.1696319050455567/1696319780455494/?type=3&theater\\" target=\\"_blank\\" class=\\"m-grid__item m-grid__3\\">
+                <span class=\\"m-grid__img\\" style=\\"background-image: url(img/34689267_1696319793788826_172777360267935744_n.jpg)\\"></span>
+                <span class=\\"m-grid__content\\">
+                  <svg class=\\"icon icon-fb\\">
+                    <use xlink:href=\\"img/sprite.svg#icon-fb\\"></use>
+                  </svg>
+                </span>
+              </a>
+              <a href=\\"https://www.facebook.com/amsterdamjs/photos/a.1696319050455567/1696339037120235/?type=3&theater\\" target=\\"_blank\\" class=\\"m-grid__item m-grid__4\\">
+                <span class=\\"m-grid__img\\" style=\\"background-image: url(img/34703808_1696339043786901_6222024250182598656_o.jpg)\\"></span>
+                <span class=\\"m-grid__content\\">
+                  <svg class=\\"icon icon-fb\\">
+                    <use xlink:href=\\"img/sprite.svg#icon-fb\\"></use>
+                  </svg>
+                </span>
+                <div class=\\"m-grid__pop\\">
+                  <p>\\"Nation - a large group of people who share the same language, traditions, and history\\"</p>
+                  <p>— Cambridge Dictionary</p>
+                </div>
+              </a>
+              <a href=\\"https://www.facebook.com/amsterdamjs/photos/a.1696319050455567/1696336217120517/?type=3&theater\\" target=\\"_blank\\" class=\\"m-grid__item m-grid__5\\">
+                <span class=\\"m-grid__img\\" style=\\"background-image: url(img/34829407_1696336227120516_6922346061096812544_o.jpg)\\"></span>
+                <span class=\\"m-grid__content\\">
+                  <svg class=\\"icon icon-fb\\">
+                    <use xlink:href=\\"img/sprite.svg#icon-fb\\"></use>
+                  </svg>
+                </span>
+              </a>
+              <a href=\\"https://www.facebook.com/amsterdamjs/photos/a.1696319050455567/1696338263786979/?type=3&theater\\" target=\\"_blank\\" class=\\"m-grid__item m-grid__6\\">
+                <span class=\\"m-grid__img\\" style=\\"background-image: url(img/34600377_1696338270453645_13009318500630528_o.jpg)\\"></span>
+                <span class=\\"m-grid__content\\">
+                  <svg class=\\"icon icon-fb\\">
+                    <use xlink:href=\\"img/sprite.svg#icon-fb\\"></use>
+                  </svg>
+                </span>
+              </a>
+              <a href=\\"https://www.facebook.com/amsterdamjs/photos/a.1696319050455567/1696335453787260/?type=3&theater\\" target=\\"_blank\\" class=\\"m-grid__item m-grid__7\\">
+                <span class=\\"m-grid__img\\" style=\\"background-image: url(img/34561205_1696335460453926_8516260153228525568_o.jpg)\\"></span>
+                <span class=\\"m-grid__content\\">
+                  <svg class=\\"icon icon-fb\\">
+                    <use xlink:href=\\"img/sprite.svg#icon-fb\\"></use>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class=\\"team\\" id=\\"speakers\\">
+          <div class=\\"wrapper\\">
+            <div class=\\"team__title title\\">First speakers</div>
+            <div class=\\"team__inner\\">
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-sarah-drasner\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/S46QV4WvTlefyYEg3I0I)\\"></div>
+                    <div class=\\"teammate__details\\">
+                      <div class=\\"activity-holder\\">
+                        <div class=\\"slider\\">
+                          <div class=\\"s-item__col \\">
+                            <div class=\\"slider__title s-item__text\\">
+                            </div>
+                            <div class=\\"s-item__title\\">An Animated Guide to Vue 3 Reactivity and Internals</div>
+                            <div class=\\"s-item__description\\">
+                              <a class=\\"anchor-item\\" href=\\"#an-animated-guide-to-vue-3-reactivity-and-internals\\"> see more... </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-sarah-drasner\\"> Sarah Drasner </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Netlify, USA</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Head of Developer Experience at Netlify, Vue core team member, and Staff Writer at CSS-Tricks. Sarah is formerly Principal Lead of Emerging Markets, Cloud Advocates at Microsoft and Manager of UX &#x26; Engineering at Trulia/Zillow Group. She’s the author of SVG Animations from O’Reilly and has given Frontend Masters workshops. Sarah is a co-organizer of ConcatenateConf, a free conference for Nigerian and Kenyan developers.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/sdras\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/sarah_edo\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://sarah.dev/\\">
+                                <svg class=\\"icon icon-site\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                        <div class=\\"teammate__tag\\" style=\\"--tag-clr: #0f9551; color: #fff;\\">Vue.js</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-matteo-collina\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/4LTWaL5SpOCr2oBbS8rq)\\"></div>
+                    <div class=\\"teammate__details\\">
+                      <div class=\\"activity-holder\\">
+                        <div class=\\"slider\\">
+                          <div class=\\"s-item__col \\">
+                            <div class=\\"slider__title s-item__text\\">
+                            </div>
+                            <div class=\\"s-item__title\\">Beware of Promise.all</div>
+                            <div class=\\"s-item__description\\">
+                              <a class=\\"anchor-item\\" href=\\"#beware-of-promise-all\\"> see more... </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-matteo-collina\\"> Matteo Collina </a>
+                        </div>
+                        <div class=\\"teammate__company\\">NearForm, Italy</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Node.js TSC member, PhD, Technical Director @ NearForm, IoT Expert, Consultant, author of Pino and Fastify. Co-author of the book \\"Node.js Cookbook, Third Edition\\" edited by Packt.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/mcollina\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/matteocollina\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"http://matteocollina.com/\\">
+                                <svg class=\\"icon icon-med\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-med\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                        <div class=\\"teammate__tag\\" style=\\"--tag-clr: #7AB464; color: #fff;\\">NodeJS</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-tobias-koppers\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/3PwPQYRMRDKMjoQX05Bk)\\"></div>
+                    <div class=\\"teammate__details\\">
+                      <div class=\\"activity-holder\\">
+                        <div class=\\"slider\\">
+                          <div class=\\"s-item__col \\">
+                            <div class=\\"slider__title s-item__text\\">
+                            </div>
+                            <div class=\\"s-item__title\\">Webpack 5 Build Caching. &quot;To cache or not to cache&quot;</div>
+                            <div class=\\"s-item__description\\">
+                              <a class=\\"anchor-item\\" href=\\"#webpack-5-build-caching-to-cache-or-not-to-cache\\"> see more... </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-tobias-koppers\\"> Tobias Koppers </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Webpack, Germany</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Creator of webpack. Working full time on Open Source. Father of two children. Likes to play board games.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/sokra\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/wSokrav\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://medium.com/@sokra\\">
+                                <svg class=\\"icon icon-med\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-med\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                        <div class=\\"teammate__tag\\" style=\\"--tag-clr: #fff40d; color: #ae4f01;\\">Ecosystem</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-mr-doob\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/h7xLULGR2uFiZUbcWyKe)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-mr-doob\\"> Mr.doob </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Three.js, Spain</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Author of Three.js.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/mrdoob\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/mrdoob\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://mrdoob.com/\\">
+                                <svg class=\\"icon icon-site\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                        <div class=\\"teammate__tag\\" style=\\"--tag-clr: #ff7302; color: #ffffff;\\">WebGL</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-alan-faubert\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/rBzXz8MRwmFwvCWJjkPD)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-alan-faubert\\"> Alan Faubert </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Core member of Svelte, US</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Core member of Svelte since 2017. These days Alan is mostly a JavaScript programmer, the rest of the time he also enjoys hiking, skiing, and listening to music.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/Conduitry\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                        <div class=\\"teammate__tag\\" style=\\"--tag-clr: #ff5200; color: #fff;\\">Svelte</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-charlie-gerard\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/0EkXq8vRTK7ZQ4HQFXUQ)\\"></div>
+                    <div class=\\"teammate__details\\">
+                      <div class=\\"activity-holder\\">
+                        <div class=\\"slider\\">
+                          <div class=\\"s-item__col \\">
+                            <div class=\\"slider__title s-item__text\\">
+                            </div>
+                            <div class=\\"s-item__title\\">Acoustic Activity Recognition - Exploring the Hidden Potential of Sound Data in JavaScript</div>
+                            <div class=\\"s-item__description\\">
+                              <a class=\\"anchor-item\\" href=\\"#acoustic-activity-recognition-exploring-the-hidden-potential-of-sound-data-in-java-script\\"> see more... </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-charlie-gerard\\"> Charlie Gerard </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Netlify, Netherlands</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Charlie is a front-end developer at Netlify, a Mozilla Tech Speaker and Google Developer Expert in Web Technologies. She is passionate about creative coding and building interactive prototypes mixing science, art and technology. She also spends time giving back to the community by mentoring new developers, contributing to open-source projects, and speaking at conferences. </p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/charliegerard\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/devdevcharlie\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://charliegerard.github.io/\\">
+                                <svg class=\\"icon icon-site\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                        <div class=\\"teammate__tag\\" style=\\"--tag-clr: #5e8de3; color: #fff;\\">Machine Learning</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-orta-therox\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/NPpzhbjmTU2x6vl9kySi)\\"></div>
+                    <div class=\\"teammate__details\\">
+                      <div class=\\"activity-holder\\">
+                        <div class=\\"slider\\">
+                          <div class=\\"s-item__col \\">
+                            <div class=\\"slider__title s-item__text\\">
+                            </div>
+                            <div class=\\"s-item__title\\">How TypeScript embraces and extends JavaScript</div>
+                            <div class=\\"s-item__description\\">
+                              <a class=\\"anchor-item\\" href=\\"#how-type-script-embraces-and-extends-java-script\\"> see more... </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-orta-therox\\"> Orta Therox </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Microsoft, USA</div>
+                        <div class=\\"teammate__info\\">
+                          <p>TypeScript compiler team at Microsoft. For the last decade has worked on large-scale open source projects across the native and JavaScript ecosystem.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/orta\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/orta\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                        <div class=\\"teammate__tag\\" style=\\"--tag-clr: #61DAFB; color: #030303;\\">TypeScript</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-kamil-mysliwiec\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/9SEIZ7SueIgj7GiUs9Zg)\\"></div>
+                    <div class=\\"teammate__details\\">
+                      <div class=\\"activity-holder\\">
+                        <div class=\\"slider\\">
+                          <div class=\\"s-item__col \\">
+                            <div class=\\"slider__title s-item__text\\">
+                            </div>
+                            <div class=\\"s-item__title\\">Unlocking New Capabilities for Node.js with TypeScript and NestJS</div>
+                            <div class=\\"s-item__description\\">
+                              <a class=\\"anchor-item\\" href=\\"#unlocking-new-capabilities-for-node-js-with-type-script-and-nest-js\\"> see more... </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-kamil-mysliwiec\\"> Kamil Mysliwiec </a>
+                        </div>
+                        <div class=\\"teammate__company\\">NestJS | Trilon.io, Poland</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Creator of NestJS, Co-Founder of Trilon.io, Google Developer Expert in Web Technologies and Angular, international speaker, trainer, consultant, and open source contributor.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/kamilmysliwiec\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/kammysliwiec\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                        <div class=\\"teammate__tag\\" style=\\"--tag-clr: #ea2845; color: #fff;\\">NestJS</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-olivia-jack\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/izWu7SWFQwSdP8wBthcK)\\"></div>
+                    <div class=\\"teammate__details\\">
+                      <div class=\\"activity-holder\\">
+                        <div class=\\"slider\\">
+                          <div class=\\"s-item__col \\">
+                            <div class=\\"slider__title s-item__text\\">
+                            </div>
+                            <div class=\\"s-item__title\\">code - notation - score</div>
+                            <div class=\\"s-item__description\\">
+                              <a class=\\"anchor-item\\" href=\\"#code-notation-score\\"> see more... </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-olivia-jack\\"> Olivia Jack </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Hydra, Colombia</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Programmer and artist who works frequently with open-source software, cartography, live coding, and experimental interfaces. She is the developer of Hydra, a platform for live-coding visuals inspired by analog video synthesis. She works with the performance laboratory ATI-erra, creating interactive visuals for dance and theater. She has also created software and interactive installations for CultureHub Art &#x26; Technology Center, el Museo de Bogotá, and Oakland Museum of California. Originally from San Francisco, she currently lives and works in Bogotá, Colombia.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/ojack\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/_ojack_\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://ojack.github.io/\\">
+                                <svg class=\\"icon icon-site\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                        <div class=\\"teammate__tag\\" style=\\"--tag-clr: #ff7302; color: #ffffff;\\">WebGL</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-tierney-cyren\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/jyad5bupSCe8c8Qj1uYX)\\"></div>
+                    <div class=\\"teammate__details\\">
+                      <div class=\\"activity-holder\\">
+                        <div class=\\"slider\\">
+                          <div class=\\"s-item__col \\">
+                            <div class=\\"slider__title s-item__text\\">
+                            </div>
+                            <div class=\\"s-item__title\\">import { modules } as esm from “nodejs”</div>
+                            <div class=\\"s-item__description\\">
+                              <a class=\\"anchor-item\\" href=\\"#import-modules-as-esm-from-nodejs\\"> see more... </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-tierney-cyren\\"> Tierney Cyren </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Microsoft, USA</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Member and Chairperson of the Node.js Community Committee, and a contributor to multiple Node.js working groups and initiatives focusing on the continued growth and success of the Node.js community. He is a Regular Member of the OpenJS Foundation Cross-Project Council, and a TC39 delegate. He has been contributing to open-source since he was 16.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/bnb\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/bitandbang\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://medium.com/@bitandbang\\">
+                                <svg class=\\"icon icon-med\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-med\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                        <div class=\\"teammate__tag\\" style=\\"--tag-clr: #7AB464; color: #fff;\\">NodeJS</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-mikeal-rogers\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/zXDRIVADSmqdqh9PIRWU)\\"></div>
+                    <div class=\\"teammate__details\\">
+                      <div class=\\"activity-holder\\">
+                        <div class=\\"slider\\">
+                          <div class=\\"s-item__col \\">
+                            <div class=\\"slider__title s-item__text\\">
+                            </div>
+                            <div class=\\"s-item__title\\">Decentralized Universal JavaScript</div>
+                            <div class=\\"s-item__description\\">
+                              <a class=\\"anchor-item\\" href=\\"#decentralized-universal-java-script\\"> see more... </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-mikeal-rogers\\"> Mikeal Rogers </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Protocol Labs, USA</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Сreator of request and NodeConf. He was a leader in the io.js project and lead the Node.js Foundation through the merger of io.js and Node.js. He now works at Protocol Labs leading the IPLD project.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/mikeal\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/mikeal\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://medium.com/@mikeal\\">
+                                <svg class=\\"icon icon-med\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-med\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                        <div class=\\"teammate__tag\\" style=\\"--tag-clr: #7AB464; color: #fff;\\">NodeJS</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-romulo-cintra\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/jHnuBGMGQFeFmQqIYV1T)\\"></div>
+                    <div class=\\"teammate__details\\">
+                      <div class=\\"activity-holder\\">
+                        <div class=\\"slider\\">
+                          <div class=\\"s-item__col \\">
+                            <div class=\\"slider__title s-item__text\\">
+                            </div>
+                            <div class=\\"s-item__title\\">PWA – Hidden Stories About Future</div>
+                            <div class=\\"s-item__description\\">
+                              <a class=\\"anchor-item\\" href=\\"#pwa-hidden-stories-about-future\\"> see more... </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-romulo-cintra\\"> Romulo Cintra </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Caixabank, Spain</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Romulo is a Senior Software Architect at Caixabank</p>
+                          <p>Technology enthusiast, working in Software development and Architectures for more than 10 years. Contributor in Open Source projects, TC39 and blogger in part-time.</p>
+                          <p>His main goal is to have a more democratic technology and empower developers, teams and companies mostly in the financial sector to build better products. His main focuses are the Web, Mobile and Cloud. He loves and advocates for the future of the internet and decentralised technology culture where all the globe is connected.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/romulocintra\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/romulocintra\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                        <div class=\\"teammate__tag\\" style=\\"--tag-clr: #d400fa; color: #fff;\\">PWA</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   \\">
+                  <span class=\\"anchor\\" id=\\"person-bert-belder\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/CtnTvLD4Qx2gMdKztyCf)\\"></div>
+                    <div class=\\"teammate__details\\">
+                      <div class=\\"activity-holder\\">
+                        <div class=\\"slider\\">
+                          <div class=\\"s-item__col \\">
+                            <div class=\\"slider__title s-item__text\\">
+                            </div>
+                            <div class=\\"s-item__title\\">Deno – the Most Recent Developments on NodeJS Alternative</div>
+                            <div class=\\"s-item__description\\">
+                              <a class=\\"anchor-item\\" href=\\"#deno-the-most-recent-developments-on-node-js-alternative\\"> see more... </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-bert-belder\\"> Bert Belder </a>
+                        </div>
+                        <div class=\\"teammate__company\\">deno.land, Netherlands</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Bert was an early <a href=\\"https://nodejs.org/en/\\">Node.js</a> core team member, mainly responsible for creating the platform abstraction layer (<a href=\\"https://github.com/libuv/libuv\\">libuv</a>). In 2013 he co-founded <a href=\\"https://strongloop.com/\\">StrongLoop</a>, which created the open-source API framework LoopBack. Last year he started working on <a href=\\"https://github.com/denoland/deno\\">Deno</a>, the new way to do server-side JavaScript, together with <a href=\\"https://github.com/ry\\">Ryan Dahl</a>. </p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/piscisaureus\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/piscisaureus\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                        <div class=\\"teammate__tag\\" style=\\"--tag-clr: #434343; color: #fff;\\">Deno</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item team__item_assign\\">
+                <p class=\\"team__title\\">You?</p>
+                <p class=\\"team__desc\\">CFP is open until 29th February</p>
+                <a class=\\"btn btn_bg-white btn_ttu\\" href=\\"https://docs.google.com/forms/u/1/d/e/1FAIpQLScfRsnB8Qv3JRHVc9Z6j0Ztc7O1jTeUbTnxLvQ9dtpmNneA1Q/viewform\\">Submit proposal</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--<section class=\\"submit\\">
+  <div class=\\"wrapper\\">
+    <div class=\\"submit__title\\">You?</div>
+    <div class=\\"submit__descr\\">CFP is open until 1st March</div>
+    <div class=\\"submit__btn\\">
+      <a href=\\"https://docs.google.com/forms/d/e/1FAIpQLScVo8G30VXiSa55WHadJGNbjtr0fTrKlcAGXYyUt-xDFVJl1w/viewform\\" target=\\"_blank\\" class=\\"btn btn_border btn_red btn_px-lg\\">
+        <span class=\\"btn__text\\">SUBMIT PROPOSAL</span>
+      </a>
+    </div>
+  </div>
+</section>-->
+        <section class=\\"schedule\\" id=\\"schedule\\">
+          <div class=\\"wrapper\\">
+            <div class=\\"schedule__title title\\"> First Talks </div>
+            <div class=\\"tabs\\">
+              <div class=\\"tabs__content\\">
+                <div class=\\"table js-tab is-active\\" data-tab=\\"10\\">
+                  <div class=\\"table__body\\">
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__row-content\\">
+                        <div class=\\"table__col table__col_md\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-sarah-drasner\\"> Sarah Drasner </a>
+                        </div>
+                        <div class=\\"table__col table__col_lg \\">
+                          <span class=\\"anchor\\" id=\\"an-animated-guide-to-vue-3-reactivity-and-internals\\"></span>
+                          <div class=\\"table__title\\">
+                            <a class=\\"anchor-item\\" href=\\"#an-animated-guide-to-vue-3-reactivity-and-internals\\"> An Animated Guide to Vue 3 Reactivity and Internals </a>
+                          </div>
+                          <div class=\\"table__descr\\">There is a lot of talk about Reactivity in the frontend landscape of late, but what is it? And how does Vue use reactive premises to manage state in an application? In this talk, we&#39;ll go over what reactivity is in general, and how that applies to the upcoming changes in Vue 3. We&#39;ll cover proxies, the virtual DOM, and watchers along the way.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__row-content\\">
+                        <div class=\\"table__col table__col_md\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-tobias-koppers\\"> Tobias Koppers </a>
+                        </div>
+                        <div class=\\"table__col table__col_lg \\">
+                          <span class=\\"anchor\\" id=\\"webpack-5-build-caching-to-cache-or-not-to-cache\\"></span>
+                          <div class=\\"table__title\\">
+                            <a class=\\"anchor-item\\" href=\\"#webpack-5-build-caching-to-cache-or-not-to-cache\\"> Webpack 5 Build Caching. \\"To cache or not to cache\\" </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__row-content\\">
+                        <div class=\\"table__col table__col_md\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-kamil-mysliwiec\\"> Kamil Mysliwiec </a>
+                        </div>
+                        <div class=\\"table__col table__col_lg \\">
+                          <span class=\\"anchor\\" id=\\"unlocking-new-capabilities-for-node-js-with-type-script-and-nest-js\\"></span>
+                          <div class=\\"table__title\\">
+                            <a class=\\"anchor-item\\" href=\\"#unlocking-new-capabilities-for-node-js-with-type-script-and-nest-js\\"> Unlocking New Capabilities for Node.js with TypeScript and NestJS </a>
+                          </div>
+                          <div class=\\"table__descr\\">TypeScript continues its growth journey and is slowly taking over JavaScript world. Types inference, powerful expressivity, strict compile-time checks, all these features make building complex JavaScript apps a breeze. In this session, you will see how TypeScript’s hidden features helped us to build NestJS, the fastest growing Node.js technology in 2019.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__row-content\\">
+                        <div class=\\"table__col table__col_md\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-matteo-collina\\"> Matteo Collina </a>
+                        </div>
+                        <div class=\\"table__col table__col_lg \\">
+                          <span class=\\"anchor\\" id=\\"beware-of-promise-all\\"></span>
+                          <div class=\\"table__title\\">
+                            <a class=\\"anchor-item\\" href=\\"#beware-of-promise-all\\"> Beware of Promise.all </a>
+                          </div>
+                          <div class=\\"table__descr\\">Promise.all is a fantastic utility to wait for a list of promises to complete. Developers around the globe use it daily in Node.js applications to parallelise tasks and reduce latency. Most of the time, it works as expected. Sometimes, it causes so much memory allocation that it slows your process to a crawl or results in an out-of-memory error. Why? Let&#39;s dig in together.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__row-content\\">
+                        <div class=\\"table__col table__col_md\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-orta-therox\\"> Orta Therox </a>
+                        </div>
+                        <div class=\\"table__col table__col_lg \\">
+                          <span class=\\"anchor\\" id=\\"how-type-script-embraces-and-extends-java-script\\"></span>
+                          <div class=\\"table__title\\">
+                            <a class=\\"anchor-item\\" href=\\"#how-type-script-embraces-and-extends-java-script\\"> How TypeScript embraces and extends JavaScript </a>
+                          </div>
+                          <div class=\\"table__descr\\">There are stats coming out that in 2020 about 50% of all JavaScript projects using npm will be using TypeScript, how did this come to be and what systems are in place to keep the TypeScript team in Microsoft from trying to extinguish JavaScript?</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__row-content\\">
+                        <div class=\\"table__col table__col_md\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-tierney-cyren\\"> Tierney Cyren </a>
+                        </div>
+                        <div class=\\"table__col table__col_lg \\">
+                          <span class=\\"anchor\\" id=\\"import-modules-as-esm-from-nodejs\\"></span>
+                          <div class=\\"table__title\\">
+                            <a class=\\"anchor-item\\" href=\\"#import-modules-as-esm-from-nodejs\\"> import { modules } as esm from “nodejs” </a>
+                          </div>
+                          <div class=\\"table__descr\\">After years of hard work from the Modules Team, ESM is shipping in Node.js. In this talk we&#39;ll go over the distinct patterns you&#39;ll want to use when adopting ESM as a first-class module system in Node.js.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__row-content\\">
+                        <div class=\\"table__col table__col_md\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-mikeal-rogers\\"> Mikeal Rogers </a>
+                        </div>
+                        <div class=\\"table__col table__col_lg \\">
+                          <span class=\\"anchor\\" id=\\"decentralized-universal-java-script\\"></span>
+                          <div class=\\"table__title\\">
+                            <a class=\\"anchor-item\\" href=\\"#decentralized-universal-java-script\\"> Decentralized Universal JavaScript </a>
+                          </div>
+                          <div class=\\"table__descr\\">Dive into the world of decentralized data structures and learn how these open up new paths to JavaScript that can run anywhere, from anywhere, without a compiler.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__row-content\\">
+                        <div class=\\"table__col table__col_md\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-olivia-jack\\"> Olivia Jack </a>
+                        </div>
+                        <div class=\\"table__col table__col_lg \\">
+                          <span class=\\"anchor\\" id=\\"code-notation-score\\"></span>
+                          <div class=\\"table__title\\">
+                            <a class=\\"anchor-item\\" href=\\"#code-notation-score\\"> code - notation - score </a>
+                          </div>
+                          <div class=\\"table__descr\\">Live-coded audiovisual presentation that will delve into musical notation and visual scores as a language for human-computer improvisation. What does it mean when an instruction is open-ended rather than precise? How can algorithmic uncertainty open up creative possibilities to improvise using code? Olivia will use javascript to explore a live relationship between code, image, and sound as intertwined creative languages.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__row-content\\">
+                        <div class=\\"table__col table__col_md\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-romulo-cintra\\"> Romulo Cintra </a>
+                        </div>
+                        <div class=\\"table__col table__col_lg \\">
+                          <span class=\\"anchor\\" id=\\"pwa-hidden-stories-about-future\\"></span>
+                          <div class=\\"table__title\\">
+                            <a class=\\"anchor-item\\" href=\\"#pwa-hidden-stories-about-future\\"> PWA – Hidden Stories About Future </a>
+                          </div>
+                          <div class=\\"table__descr\\">This talk is about the adoption of PWA, how they can solve important use cases in the web industry. Deep technical travel by all the tricks and features that can improve Engagement, Performance, Resilience to make the future of the web apps better. The talk will include all new upcoming cross-platform features to improve PWA&#39;s, Project FUGU, WASM, etc.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__row-content\\">
+                        <div class=\\"table__col table__col_md\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-bert-belder\\"> Bert Belder </a>
+                        </div>
+                        <div class=\\"table__col table__col_lg \\">
+                          <span class=\\"anchor\\" id=\\"deno-the-most-recent-developments-on-node-js-alternative\\"></span>
+                          <div class=\\"table__title\\">
+                            <a class=\\"anchor-item\\" href=\\"#deno-the-most-recent-developments-on-node-js-alternative\\"> Deno – the Most Recent Developments on NodeJS Alternative </a>
+                          </div>
+                          <div class=\\"table__descr\\">Things are changing fast in deno land – final topic details will be published in May.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=\\"table__row\\">
+                      <div class=\\"table__row-content\\">
+                        <div class=\\"table__col table__col_md\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-charlie-gerard\\"> Charlie Gerard </a>
+                        </div>
+                        <div class=\\"table__col table__col_lg \\">
+                          <span class=\\"anchor\\" id=\\"acoustic-activity-recognition-exploring-the-hidden-potential-of-sound-data-in-java-script\\"></span>
+                          <div class=\\"table__title\\">
+                            <a class=\\"anchor-item\\" href=\\"#acoustic-activity-recognition-exploring-the-hidden-potential-of-sound-data-in-java-script\\"> Acoustic Activity Recognition - Exploring the Hidden Potential of Sound Data in JavaScript </a>
+                          </div>
+                          <div class=\\"table__descr\\">Even though we don’t really think about it, sound is a very rich source of information. Leveraging the properties of sound with machine learning, we can gain insights about an environment or an activity performed. Acoustic activity recognition has the potential to create new interactions and better smart systems, and in this talk, we explore how to experiment with this technology in JavaScript, using the Web audio API and Tensorflow.js. </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class=\\"team-horizontal\\">
+          <div class=\\"wrapper\\">
+            <div class=\\"team-horizontal__title title\\">Your hosts</div>
+            <div class=\\"team-horizontal__inner\\">
+              <div class=\\"team-horizontal__item\\">
+                <div class=\\"teammate teammate_horizontal  \\">
+                  <span class=\\"anchor\\" id=\\"person-bruce-lawson\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/6gQUujMTJatYxdKyBWzq)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-bruce-lawson\\"> Bruce Lawson </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Freelance web standards &amp; accessibility consultant, UK</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Bruce Lawson is freelance web standards and accessibility consultant. He was co-editor of the HTML5.3 specification, one of the inventors of the <picture> element, and was on the committee that drafted the British Standard for commissioning accessible websites. He co-wrote 'Introducing HTML5'. He's previously been deputy CTO of Opera browsers, front-end lead for a large UK legal organisation, a Fortran and mainframe programmer as well as a Bollywood movie extra, a musician, a tarot card reader, tutor to a Thai princess and actor.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/brucel\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://www.brucelawson.co.uk/\\">
+                                <svg class=\\"icon icon-site\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team-horizontal__item\\">
+                <div class=\\"teammate teammate_horizontal  \\">
+                  <span class=\\"anchor\\" id=\\"person-floor-drees\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/LJvYR4kGQLOdL6y5CWC9)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-floor-drees\\"> Floor Drees </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Microsoft, Netherlands</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Floor studied design, worked in advertising, then worked with a bunch of start-ups in product and community roles, learned how to program (Ruby), (co)organized countless tech conferences, meetups and workshops, ran a co-working space and start-up accelerator in Vienna, before moving back to the Netherlands and getting back into developer relations.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/FloorD\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/floordrees\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team-horizontal__item\\">
+                <div class=\\"teammate teammate_horizontal  \\">
+                  <span class=\\"anchor\\" id=\\"person-mettin-parzinski\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/dVk76RUqrRdTGRSbGgsp)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-mettin-parzinski\\"> Mettin Parzinski </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Passionate People, Netherlands</div>
+                        <div class=\\"teammate__info\\">
+                          <p>React focused developer, working on a Design System at Albert Heijn (Dutch supermarket). Started out writing ActionScript, did jQuery and thus has all sorts of knowledge on deprecated stuff. Part of a frontend development couple that produced a kid.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/mettin\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/mettinparzinski\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class=\\"team committee\\" id=\\"committee\\">
+          <div class=\\"wrapper\\">
+            <div class=\\"team__title title committee__title\\">Programme Committee</div>
+            <div class=\\"team__inner\\">
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   teammate_decor\\">
+                  <span class=\\"anchor\\" id=\\"person-joonas-salovaara\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/U3D6ETwEQ7GD8wlJUG5G)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-joonas-salovaara\\"> Joonas Salovaara </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Reaktor, Netherlands</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Joonas Salovaara is a Principal Consultant and team lead at Reaktor Amsterdam. He is an advocate of the meetup scene, where he helps run AmsterdamJS, HelsinkiJS, and React Helsinki. </p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/sarukuku\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/JoonasSalovaara\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   teammate_decor\\">
+                  <span class=\\"anchor\\" id=\\"person-kanstantsin-klimashevich\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/VttgCnjTkanMOLw0OSJJ)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-kanstantsin-klimashevich\\"> Kanstantsin Klimashevich </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Xebia, Netherlands</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Kanstantsin is a Software Developer Consultant at Xebia. He is passionate about running, racing cars and JavaScript.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/mrkosima\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team__item\\">
+                <div class=\\"teammate   teammate_decor\\">
+                  <span class=\\"anchor\\" id=\\"person-aleksandr-korotaev\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/wpWwhvX5T5SBZjbfFaSK)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-aleksandr-korotaev\\"> Aleksandr Korotaev </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Tinkoff.ru, Russia</div>
+                        <div class=\\"teammate__info\\">
+                          <p>Aleksandr is a Frontend Developer with 6 years experience. He is a member of JSNation Program Committee and an active member of Saint-Petersburg local meetup scene. He is passionated about games development, visualization and other graphics stuff.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://github.com/lekzd\\">
+                                <svg class=\\"icon icon-gh\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/mamu_eval\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class=\\"bg-red\\">
+          <section class=\\"map-section\\" id=\\"location\\">
+            <div class=\\"map-section__slider\\">
+              <div class=\\"swiper-container slider js-slider\\">
+                <div class=\\"swiper-wrapper\\">
+                  <div class=\\"swiper-slide slide\\">
+                    <div class=\\"slide__inner\\" style=\\"background-image: url(https://media.graphcms.com/ltaBUktcSVOBXFJplkgn)\\"></div>
+                  </div>
+                  <div class=\\"swiper-slide slide\\">
+                    <div class=\\"slide__inner\\" style=\\"background-image: url(https://media.graphcms.com/JHOKIEPQFKEAfK90Q4BN)\\"></div>
+                  </div>
+                  <div class=\\"swiper-slide slide\\">
+                    <div class=\\"slide__inner\\" style=\\"background-image: url(https://media.graphcms.com/aTbTAGo5QXermNyOdM6e)\\"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=\\"wrapper\\">
+              <div class=\\"map-section__title title\\">Summertime JS festival</div>
+              <div class=\\"map-section__top\\">
+                <div class=\\"map-section__subtitle is-active js-map-title\\">
+                </div>
+                <div class=\\"map-section__subtitle is-active js-map-title\\">
+                </div>
+                <div class=\\"map-section__subtitle is-active js-map-title\\">
+                </div>
+              </div>
+              <div class=\\"map-section__inner\\">
+                <div class=\\"map-section__content-wrap\\">
+                  <div class=\\"map-section__content js-map-content is-active\\">
+                    <div class=\\"map-section__descr descr\\">
+                      <p>JSNation conference will gather 1000+ JS pros at Kromhouthal, a former ship engines factory which now becomes the place for gathering the top JavaScript engines authors and engineers.</p>
+                    </div>
+                    <div class=\\"map-section__footer\\">
+                      <p>Gedempt Hamerkanaal 231</p>
+                      <p>1021 KP Amsterdam <a href=\\"https://goo.gl/maps/Ccb2dHzvUe1SocKd6\\">View on map</a></p>
+                    </div>
+                  </div>
+                  <div class=\\"map-section__content js-map-content is-active\\">
+                    <div class=\\"map-section__descr descr\\">
+                    </div>
+                    <div class=\\"map-section__footer\\">
+                    </div>
+                  </div>
+                  <div class=\\"map-section__content js-map-content is-active\\">
+                    <div class=\\"map-section__descr descr\\">
+                    </div>
+                    <div class=\\"map-section__footer\\">
+                    </div>
+                  </div>
+                </div>
+                <div class=\\"map-section__map\\">
+                  <div class=\\"map\\">
+                    <div class=\\"map__pins\\">\\\\ <div class=\\"map__pin pin pin_lg js-pin\\" data-lat=52.3831943 data-lng=4.9204799>
+                        <p>Kromhouthal</p>
+                        <img src=\\"img/marker.svg\\" alt=\\"\\" />
+                      </div>
+                      <!--<div class=\\"map__pin pin js-pin\\" data-lat=\\"52.3701965\\" data-lng=\\"4.9045001\\">
+      <p>NodeJShall</p>
+      <img src=\\"img/marker.svg\\" alt=\\"\\"/>
+    </div>
+
+    <div class=\\"map__pin pin js-pin\\" data-lat=\\"52.3689063\\" data-lng=\\"4.9001207\\">
+      <img src=\\"img/marker.svg\\" alt=\\"\\"/>
+      <p>Rembrandt\`s house</p>
+    </div>-->
+                    </div>
+                    <div class=\\"map__inner\\">
+                      <div class=\\"map__decor\\"></div>
+                      <div class=\\"map__decor map__decor_2\\"></div>
+                      <div class=\\"map__decor map__decor_3\\"></div>
+                      <div class=\\"map__decor map__decor_4\\"></div>
+                      <div class=\\"map__content js-map\\" data-key=\\"AIzaSyAx93dTJlVUtFzowSlFUq6LcRL3ZQleM4I\\" data-center-lat=52.384183 data-center-lng=4.914727 data-icon=\\"img/marker.svg\\"></div>
+                      <!--<script async defer-->
+                      <!--src=\\"https://maps.googleapis.com/maps/api/js?key=AIzaSyA-ZEocFpuybFyJZg92LhWsvIJdo56S34s\\"></script>-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <section class=\\"info-section \\" id=\\"hangout-day\\" style=\\"background-image: url(img/info.jpg)\\">
+          <video class=\\"info-section__video\\" preload=\\"auto\\" muted autoplay loop poster=\\"img/info.jpg\\">
+            <source src=\\"video/disco.webm\\" type=\\"video/webm\\" />
+            <source src=\\"video/disco.mp4\\" type=\\"video/mp4\\" />
+          </video>
+          <div class=\\"wrapper\\">
+            <div class=\\"info-section__content\\">
+              <div class=\\"info-section__title title\\">All fun is made<br /> with JS</div>
+              <div class=\\"info-section__descr descr info-section__descr_lg\\">
+                <p>JavaScript has the potential to change lives and the world we live in. So don’t be shy and explore it with us! If you feel like seeing the most beautiful places in Amsterdam, tasting great food and discovering the city’s hidden perks together we organize a museum visit a day after the conference then it is a time for JS picnic in the wonderful, central Vondelpark.</p>
+                <p>And, of course, the conference wouldn’t be complete without an afterparty! Amsterdam is known for its wild nightlife and all our attendees get an invitation to join in.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class=\\"team-horizontal team-horizontal_sm\\" id=\\"performance\\">
+          <div class=\\"wrapper\\">
+            <div class=\\"team-horizontal__title team-horizontal__title_mb-sm title\\">Last year&#39;s JS performances</div>
+            <div class=\\"team-horizontal__descr descr\\">
+              <p>In 2019, we initiated a Call for JavaScript Artists which allowed us to deliver a state-of-the-art afterparty program with audiovisual acts powered by NodeJS, WebGL, WebAudioAPI. Want to know the programme for 2020? <a href=\\"#subscribe\\">Follow us</a></p>
+            </div>
+            <div class=\\"team-horizontal__inner\\">
+              <div class=\\"team-horizontal__item\\">
+                <div class=\\"teammate teammate_decor teammate_horizontal  teammate_decor\\">
+                  <span class=\\"anchor\\" id=\\"person-polyop\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/dahQDMISFeJOqjrMXKII)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-polyop\\"> Polyop </a>
+                        </div>
+                        <div class=\\"teammate__company\\">WebGL, React, Web Audio API, and Web MIDI API, UK</div>
+                        <div class=\\"teammate__info\\">
+                          <p>An electronic music and audiovisual group from London, established by producer Jack Driscoll and visual artist Alex Kempton in 2016. The visuals in their show have been created entirely in Javascript using WebGL. Polyop have developed a spectacular audiovisual show set in an alternate universe. The show follows a mysterious demi-god across the polyhedral-plane, inhabited by strange planets, entities and nomad aliens, to the sound of 90’s techno breakbeat and acid performed live on hardware synthesisers and drum machines.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/polyopuk\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"team-horizontal__item\\">
+                <div class=\\"teammate teammate_decor teammate_horizontal  teammate_decor\\">
+                  <span class=\\"anchor\\" id=\\"person-alice-effekt-orca\\"></span>
+                  <div class=\\"teammate__top\\">
+                    <div class=\\"teammate__img\\" style=\\"background-image: url(https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/WzjuPUZSvaWQ9TQlPiHw)\\"></div>
+                    <div class=\\"teammate__details\\">
+                    </div>
+                  </div>
+                  <div class=\\"teammate__content\\">
+                    <div class=\\"teammate__inner\\">
+                      <div class=\\"teammate__inner-content\\">
+                        <div class=\\"teammate__name\\">
+                          <a class=\\"anchor-item\\" href=\\"#person-alice-effekt-orca\\"> AliceEffekt — ORCA </a>
+                        </div>
+                        <div class=\\"teammate__company\\">Node.js, Japan</div>
+                        <div class=\\"teammate__info\\">
+                          <p>AliceEffekt is formed by Devine Lu Linvega, a true digital nomad and a polymath working on a series of experimental tools and applications. Devine has created a set of live coding tools for rapid iteration and creation of rythms based on Node.js. His latest creation: ORCA is a full blown text based sequencer with impressive cappabilities and distinct aesthetic that engulfs the user in a textual fashion rarely seen in live performance.</p>
+                        </div>
+                      </div>
+                      <div class=\\"teammate__footer\\">
+                        <div class=\\"teammate__socials\\">
+                          <ul class=\\"socials\\">
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://twitter.com/neauoire\\">
+                                <svg class=\\"icon icon-tw\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                                </svg>
+                              </a></li>
+                            <li class=\\"socials__item\\"><a class=\\"socials__link\\" target=\\"_blank\\" href=\\"https://aliceffekt.bandcamp.com/\\">
+                                <svg class=\\"icon icon-site\\">
+                                  <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                                </svg>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class=\\"awards\\" id=\\"awards\\">
+          <div class=\\"wrapper\\">
+            <div class=\\"awards__title title\\">JS Open Source Awards </div>
+            <div class=\\"awards__inner\\">
+              <div class=\\"awards__content\\">
+                <div class=\\"awards__descr descr\\">
+                  <p> We’re looking specifically at open source projects or initiatives, with or without a code, but following an open and transparent culture, open for collaboration and contributions from any person interested. </p>
+                  <p>Github stars are not our criteria, and we’re looking for hidden gems (non yet maintstream), that may not have enough marketing power or huge companies behind them. The main goal of the project is to shed some light on great projects, that weren’t enough noticed in a competitive environment and hype.</p>
+                </div>
+              </div>
+              <div class=\\"awards__illustration\\">
+                <img src=\\"img/awards-logo.png\\" alt=\\"\\" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class=\\"nominations\\">
+          <div class=\\"wrapper\\">
+            <div class=\\"nominations__inner\\">
+              <div class=\\"nominations__title\\">Nominations:</div>
+              <div class=\\"nominations__content\\">
+                <div class=\\"nominations__item\\">
+                  <div class=\\"nominations__decor nominations__decor\\"></div>
+                  <div class=\\"nomination\\">
+                    <div class=\\"nomination__text\\">Breakthrough of the year</div>
+                  </div>
+                </div>
+                <div class=\\"nominations__item\\">
+                  <div class=\\"nominations__decor nominations__decor nominations__decor_7 nominations__decor_tablet-dn\\"></div>
+                  <div class=\\"nominations__decor nominations__decor\\"></div>
+                  <div class=\\"nomination\\">
+                    <div class=\\"nomination__text\\">Fun side project of the year</div>
+                  </div>
+                </div>
+                <div class=\\"nominations__item\\">
+                  <div class=\\"nominations__decor nominations__decor nominations__decor_7 nominations__decor_tablet-dn\\"></div>
+                  <div class=\\"nominations__decor nominations__decor\\"></div>
+                  <div class=\\"nomination\\">
+                    <div class=\\"nomination__text\\">Most impactful contribution <br /> to the community</div>
+                  </div>
+                </div>
+                <div class=\\"nominations__item\\">
+                  <div class=\\"nominations__decor nominations__decor\\"></div>
+                  <div class=\\"nomination\\">
+                    <div class=\\"nomination__text\\">Productivity booster</div>
+                  </div>
+                </div>
+                <div class=\\"nominations__item\\">
+                  <div class=\\"nominations__decor nominations__decor\\"></div>
+                  <div class=\\"nomination\\">
+                    <div class=\\"nomination__text\\">The most exciting use of technology</div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"nominations__btn\\">
+                <a href=\\"https://osawards.com/javascript/\\" target=\\"_blank\\" class=\\"btn btn_bg-white\\">
+                  <span class=\\"btn__text\\">more about JS open source awards</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class=\\"progress bg-red\\" id=\\"diversity\\">
+          <div class=\\"wrapper\\">
+            <div class=\\"progress__title title\\">Giving back to community</div>
+            <div class=\\"progress__content\\">
+              <div class=\\"progress__left\\">
+                <div class=\\"progress__descr descr\\">
+                  <p>When we established our JS meetup 9 years ago, we never imagined we would welcome up to 1400 attendees at our events and organize 4 meetups and multiple spin-offs in Europe. Our secret? We welcome people from all walks of life in our community, and we are a proud partner of initiatives like Unicorns in Tech, the global tech network for LGBT professionals and straight allies.</p>
+                  <p>We know that supporting diversity inside and outside IT must not end at mere statements, which is why are now developing diversity scholarship programs that will be announced in the coming weeks.</p>
+                </div>
+              </div>
+              <div class=\\"progress__right\\">
+                <div class=\\"progress__sponsors\\">
+                  <div class=\\"progress__logo\\">
+                    <img class=\\"progress__img\\" src=\\"https://media.graphcms.com/I9ltQ0oGTGaZTLS80b1h\\" />
+                  </div>
+                </div>
+                <div class=\\"progress__subtitle color-yellow\\"> 20 of 50 extra diversity scholarships sponsored </div>
+                <div class=\\"progress__bar\\">
+                  <div class=\\"progress-bar\\">
+                    <div class=\\"progress-bar__content\\" style=\\"width: 40%\\"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=\\"progress__btns\\">
+              <a class=\\"btn btn_bg-white btn_lg btn_mob-p-s\\" href=\\"https://docs.google.com/forms/d/e/1FAIpQLSe17OFAUlxF6zzml3BozkwUGX72X7vtHEkScxFDtjEBhZUo6Q/viewform\\">
+                <span class=\\"btn__text\\">Apply for diversity scholarship</span>
+              </a>
+              <a class=\\"btn btn_bg-yellow btn_lg btn_mob-p-s\\" href=\\"hi@jsnation.com\\">
+                <span class=\\"btn__text\\">Sponsor diversity tickets</span>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class=\\"tweets\\" id=\\"tweets\\">
+          <div class=\\"wrapper\\">
+            <div class=\\"sponsors__title title\\">What the attendees say</div>
+            <script src=\\"https://platform.twitter.com/widgets.js\\" charset=\\"utf-8\\"></script>
+            <ul class=\\"twitts-list\\">
+              <li class=\\"twitts-list__item\\">
+                <blockquote class=\\"twitter-tweet\\">
+                  <p lang=\\"en\\" dir=\\"ltr\\">En route back home after fun few days @ <a href=\\"https://twitter.com/hashtag/JSNation?src=hash&amp;ref_src=twsrc%5Etfw\\">#JSNation</a>! Each time I come to a conference like this, it reminds me why I freaking love coding so much 💖<br><br>Until another time 👋</p>&mdash; Darren (@MrDarrenV) <a href=\\"https://twitter.com/MrDarrenV/status/1137583881941659648?ref_src=twsrc%5Etfw\\">June 9, 2019</a>
+                </blockquote>
+              </li>
+              <li class=\\"twitts-list__item\\">
+                <blockquote class=\\"twitter-tweet\\">
+                  <p lang=\\"en\\" dir=\\"ltr\\">The best part of a conference: hanging out with <a href=\\"https://twitter.com/wSokra?ref_src=twsrc%5Etfw\\">@wSokra</a> <a href=\\"https://twitter.com/merelyAnna?ref_src=twsrc%5Etfw\\">@merelyAnna</a> <a href=\\"https://twitter.com/merelyChristina?ref_src=twsrc%5Etfw\\">@merelyChristina</a> at the <a href=\\"https://twitter.com/hashtag/JSNation?src=hash&amp;ref_src=twsrc%5Etfw\\">#JSNation</a> after-party (which led to another after-after-party 😆)! Thanks for the great talks (on stage &amp; in-person)! <a href=\\"https://t.co/Zx040I4yv2\\">pic.twitter.com/Zx040I4yv2</a></p>&mdash; Darren (@MrDarrenV) <a href=\\"https://twitter.com/MrDarrenV/status/1137286696033300482?ref_src=twsrc%5Etfw\\">June 8, 2019</a>
+                </blockquote>
+              </li>
+              <li class=\\"twitts-list__item\\">
+                <blockquote class=\\"twitter-tweet\\">
+                  <p lang=\\"en\\" dir=\\"ltr\\">Finally, met the guy I am following from last 6 years! It’s an honor to meet you Sir Kyle <a href=\\"https://twitter.com/getify?ref_src=twsrc%5Etfw\\">@getify</a>! Such a great human. <a href=\\"https://twitter.com/hashtag/JSNation?src=hash&amp;ref_src=twsrc%5Etfw\\">#JSNation</a> <a href=\\"https://twitter.com/hashtag/kyleSimpson?src=hash&amp;ref_src=twsrc%5Etfw\\">#kyleSimpson</a> <a href=\\"https://twitter.com/hashtag/amsterdam?src=hash&amp;ref_src=twsrc%5Etfw\\">#amsterdam</a> <a href=\\"https://twitter.com/hashtag/amsterdamJs?src=hash&amp;ref_src=twsrc%5Etfw\\">#amsterdamJs</a> <a href=\\"https://twitter.com/hashtag/Javascript?src=hash&amp;ref_src=twsrc%5Etfw\\">#Javascript</a> <a href=\\"https://twitter.com/hashtag/javascriptGuru?src=hash&amp;ref_src=twsrc%5Etfw\\">#javascriptGuru</a> <a href=\\"https://t.co/1btkYkENjY\\">pic.twitter.com/1btkYkENjY</a></p>&mdash; Raza Zaidi (@RazaSd) <a href=\\"https://twitter.com/RazaSd/status/1137273137144487937?ref_src=twsrc%5Etfw\\">June 8, 2019</a>
+                </blockquote>
+              </li>
+              <li class=\\"twitts-list__item\\">
+                <blockquote class=\\"twitter-tweet\\">
+                  <p lang=\\"en\\" dir=\\"ltr\\">Going home after <a href=\\"https://twitter.com/hashtag/JSNation?src=hash&amp;ref_src=twsrc%5Etfw\\">#JSNation</a>. Awesome conference. So many staff to think about. Highly recommend this event.</p>&mdash; Тихий Бес (@SilentImp) <a href=\\"https://twitter.com/SilentImp/status/1137038391923617792?ref_src=twsrc%5Etfw\\">June 7, 2019</a>
+                </blockquote>
+              </li>
+              <li class=\\"twitts-list__item\\">
+                <blockquote class=\\"twitter-tweet\\">
+                  <p lang=\\"en\\" dir=\\"ltr\\">Our <a href=\\"https://twitter.com/hashtag/Javascript?src=hash&amp;ref_src=twsrc%5Etfw\\">#Javascript</a> squad having fun and learning a lot at the <a href=\\"https://twitter.com/hashtag/Amsterdam?src=hash&amp;ref_src=twsrc%5Etfw\\">#Amsterdam</a> <a href=\\"https://twitter.com/hashtag/JSNation?src=hash&amp;ref_src=twsrc%5Etfw\\">#JSNation</a> conference! <a href=\\"https://twitter.com/hashtag/learningneverstops?src=hash&amp;ref_src=twsrc%5Etfw\\">#learningneverstops</a> with <a href=\\"https://twitter.com/onderceylan?ref_src=twsrc%5Etfw\\">@onderceylan</a>, Jelte Wiersma, Erşah Ihlamur &amp; André Teixeira.<br><br>Enjoy guys 😁 <a href=\\"https://t.co/Boobp0EyGY\\">pic.twitter.com/Boobp0EyGY</a></p>&mdash; LINKIT (@LINKITGroup) <a href=\\"https://twitter.com/LINKITGroup/status/1136992278805975040?ref_src=twsrc%5Etfw\\">June 7, 2019</a>
+                </blockquote>
+              </li>
+              <li class=\\"twitts-list__item\\">
+                <blockquote class=\\"twitter-tweet\\">
+                  <p lang=\\"en\\" dir=\\"ltr\\">So cool to be at <a href=\\"https://twitter.com/hashtag/JSNation?src=hash&amp;ref_src=twsrc%5Etfw\\">#JSNation</a> 😁Awesome things to (re)discover like DOM security, <a href=\\"https://twitter.com/Cypress_io?ref_src=twsrc%5Etfw\\">@Cypress_io</a> <a href=\\"https://twitter.com/webpack?ref_src=twsrc%5Etfw\\">@webpack</a>, functional programming and many more! Proud to be a part of this nation 😊 <a href=\\"https://t.co/nVp7pivnZM\\">pic.twitter.com/nVp7pivnZM</a></p>&mdash; Thomas BERTRAND (@ttbertrand) <a href=\\"https://twitter.com/ttbertrand/status/1136937469629411328?ref_src=twsrc%5Etfw\\">June 7, 2019</a>
+                </blockquote>
+              </li>
+              <li class=\\"twitts-list__item\\">
+                <blockquote class=\\"twitter-tweet\\">
+                  <p lang=\\"en\\" dir=\\"ltr\\">&quot;Code is for human communication&quot;. Another gem of a quote from the keynote speech by Kyle (<a href=\\"https://twitter.com/getify?ref_src=twsrc%5Etfw\\">@getify</a> ) Simpson at <a href=\\"https://twitter.com/hashtag/JSNation?src=hash&amp;ref_src=twsrc%5Etfw\\">#JSNation</a>. And of course &quot;Always bet on JS&quot;. <a href=\\"https://t.co/U3m9Q8Yjgy\\">pic.twitter.com/U3m9Q8Yjgy</a></p>&mdash; Ashokaditya (@ashokaditya) <a href=\\"https://twitter.com/ashokaditya/status/1136915293266239488?ref_src=twsrc%5Etfw\\">June 7, 2019</a>
+                </blockquote>
+              </li>
+              <li class=\\"twitts-list__item\\">
+                <blockquote class=\\"twitter-tweet\\">
+                  <p lang=\\"en\\" dir=\\"ltr\\">by far the best thing about conferences for me is how they allow you to meet a range of the most interesting and diverse people. thanks <a href=\\"https://twitter.com/neontribe?ref_src=twsrc%5Etfw\\">@neontribe</a> for the opportunity and <a href=\\"https://twitter.com/amsterdamjs?ref_src=twsrc%5Etfw\\">@amsterdamjs</a> for running the event <a href=\\"https://twitter.com/hashtag/JSNation?src=hash&amp;ref_src=twsrc%5Etfw\\">#JSNation</a></p>&mdash; Oliver Barnwell ❄️ (@OB6160) <a href=\\"https://twitter.com/OB6160/status/1137049146035245057?ref_src=twsrc%5Etfw\\">June 7, 2019</a>
+                </blockquote>
+              </li>
+              <li class=\\"twitts-list__item\\">
+                <blockquote class=\\"twitter-tweet\\">
+                  <p lang=\\"en\\" dir=\\"ltr\\">Thanks <a href=\\"https://twitter.com/hashtag/JSNation?src=hash&amp;ref_src=twsrc%5Etfw\\">#JSNation</a> for a great conference! <a href=\\"https://twitter.com/MrDarrenV?ref_src=twsrc%5Etfw\\">@MrDarrenV</a> <a href=\\"https://twitter.com/imAnushree?ref_src=twsrc%5Etfw\\">@imAnushree</a> <a href=\\"https://twitter.com/left_pad?ref_src=twsrc%5Etfw\\">@left_pad</a> <a href=\\"https://twitter.com/mweststrate?ref_src=twsrc%5Etfw\\">@mweststrate</a> <a href=\\"https://t.co/nwxMQaIE7h\\">pic.twitter.com/nwxMQaIE7h</a></p>&mdash; Jarrod Overson (@jsoverson) <a href=\\"https://twitter.com/jsoverson/status/1137053464314490881?ref_src=twsrc%5Etfw\\">June 7, 2019</a>
+                </blockquote>
+              </li>
+              <li class=\\"twitts-list__item\\">
+                <blockquote class=\\"twitter-tweet\\">
+                  <p lang=\\"en\\" dir=\\"ltr\\">Thanks <a href=\\"https://twitter.com/hashtag/JSNation?src=hash&amp;ref_src=twsrc%5Etfw\\">#JSNation</a> for a great conference! <a href=\\"https://twitter.com/MrDarrenV?ref_src=twsrc%5Etfw\\">@MrDarrenV</a> <a href=\\"https://twitter.com/imAnushree?ref_src=twsrc%5Etfw\\">@imAnushree</a> <a href=\\"https://twitter.com/left_pad?ref_src=twsrc%5Etfw\\">@left_pad</a> <a href=\\"https://twitter.com/mweststrate?ref_src=twsrc%5Etfw\\">@mweststrate</a> <a href=\\"https://t.co/nwxMQaIE7h\\">pic.twitter.com/nwxMQaIE7h</a></p>&mdash; Jarrod Overson (@jsoverson) <a href=\\"https://twitter.com/jsoverson/status/1137053464314490881?ref_src=twsrc%5Etfw\\">June 7, 2019</a>
+                </blockquote>
+              </li>
+              <li class=\\"twitts-list__item\\">
+                <blockquote class=\\"twitter-tweet\\">
+                  <p lang=\\"en\\" dir=\\"ltr\\">What a beautiful venue at <a href=\\"https://twitter.com/hashtag/JSNation?src=hash&amp;ref_src=twsrc%5Etfw\\">#JSNation</a>. Excellent ambience, good audio, &amp; great organizers.<br><br>Everyone who can should definitely make this a priority event next year! <a href=\\"https://t.co/SzmzwoiUmD\\">pic.twitter.com/SzmzwoiUmD</a></p>&mdash; Jarrod Overson (@jsoverson) <a href=\\"https://twitter.com/jsoverson/status/1137003088819228674?ref_src=twsrc%5Etfw\\">June 7, 2019</a>
+                </blockquote>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class=\\"pop-videos\\" id=\\"pop-videos\\">
+          <div class=\\"wrapper\\">
+            <div class=\\"sponsors__title title\\">Popular talks from previous editions</div>
+          </div>
+          <div class=\\"swiper-container videos-swiper js-video-slider\\">
+            <div class=\\"swiper-wrapper\\">
+              <div class=\\"swiper-slide\\">
+                <iframe width=\\"560\\" height=\\"315\\" src=\\"https://www.youtube.com/embed/OYUdlXY1joQ\\" frameborder=\\"0\\" allow=\\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\\" allowfullscreen></iframe>
+              </div>
+              <div class=\\"swiper-slide\\">
+                <iframe width=\\"560\\" height=\\"315\\" src=\\"https://www.youtube.com/embed/ZrKjgSfpppM\\" frameborder=\\"0\\" allow=\\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\\" allowfullscreen></iframe>
+              </div>
+              <div class=\\"swiper-slide\\">
+                <iframe width=\\"560\\" height=\\"315\\" src=\\"https://www.youtube.com/embed/4Nb9Gwp2L24\\" frameborder=\\"0\\" allow=\\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\\" allowfullscreen></iframe>
+              </div>
+              <div class=\\"swiper-slide\\">
+                <iframe width=\\"560\\" height=\\"315\\" src=\\"https://www.youtube.com/embed/JUJ85k3aEg4\\" frameborder=\\"0\\" allow=\\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\\" allowfullscreen></iframe>
+              </div>
+              <div class=\\"swiper-slide\\">
+                <iframe width=\\"560\\" height=\\"315\\" src=\\"https://www.youtube.com/embed/gfyKbE5ILCU\\" frameborder=\\"0\\" allow=\\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\\" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class=\\"swiper-container videos-thumbs js-video-thumbs\\">
+            <div class=\\"swiper-wrapper\\">
+              <div class=\\"swiper-slide\\">
+                <h4 class=\\"videos-thumbs__title\\">Testing Tools and Their Friends</h4>
+                <p class=\\"videos-thumbs__desc\\">Gleb Bahmutov</p>
+              </div>
+              <div class=\\"swiper-slide\\">
+                <h4 class=\\"videos-thumbs__title\\">Keep Betting on JavaScript</h4>
+                <p class=\\"videos-thumbs__desc\\">Kyle Simpson</p>
+              </div>
+              <div class=\\"swiper-slide\\">
+                <h4 class=\\"videos-thumbs__title\\">Immer, Immutability and the Wonderful World of Proxies</h4>
+                <p class=\\"videos-thumbs__desc\\">Michel Weststrate</p>
+              </div>
+              <div class=\\"swiper-slide\\">
+                <h4 class=\\"videos-thumbs__title\\">10 things I learned making the fastest JS server runtime in the world</h4>
+                <p class=\\"videos-thumbs__desc\\">Paulo Lopes</p>
+              </div>
+              <div class=\\"swiper-slide\\">
+                <h4 class=\\"videos-thumbs__title\\">An Introduction to Static Web Apps with JAMStack</h4>
+                <p class=\\"videos-thumbs__desc\\">Christina H Yu</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class=\\"sponsors\\" id=\\"sponsors\\">
+          <div class=\\"wrapper\\">
+            <div class=\\"sponsors__title title\\">Sponsors</div>
+            <div class=\\"sponsors__content\\">
+              <div class=\\"sponsors__item\\">
+                <div class=\\"logos \\">
+                  <div class=\\"logos__inner\\">
+                    <div class=\\"logos__info\\">
+                      <div class=\\"logos__title\\">Platinum</div>
+                      <div class=\\"logos__empty\\"></div>
+                    </div>
+                    <div class=\\"logos__content\\">
+                      <a href=\\"https://rangle.io\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/dxo5KUcaQUG76SxlCW3k\\" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"sponsors__item\\">
+                <div class=\\"logos logos_md\\">
+                  <div class=\\"logos__inner\\">
+                    <div class=\\"logos__info\\">
+                      <div class=\\"logos__title\\">Gold</div>
+                      <div class=\\"logos__empty\\"></div>
+                    </div>
+                    <div class=\\"logos__content\\">
+                      <a href=\\"https://aws-amplify.github.io/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/I9ltQ0oGTGaZTLS80b1h\\" /></a>
+                      <a href=\\"https://focusreactive.com\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/4nC2yx5Tem996iOkkVFg\\" /></a>
+                      <a href=\\"https://www.reaktor.com/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/vCP0HfPuQYKBLKXH0f3Z\\" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"sponsors__item\\">
+                <div class=\\"logos logos_sm\\">
+                  <div class=\\"logos__inner\\">
+                    <div class=\\"logos__info\\">
+                      <div class=\\"logos__title\\">Silver</div>
+                      <div class=\\"logos__empty\\"></div>
+                    </div>
+                    <div class=\\"logos__content\\">
+                      <a href=\\"https://www.interlink.paris\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/FzW7msiJRGeOBdX4WwUZ\\" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"sponsors__item\\">
+                <div class=\\"logos logos_xs\\">
+                  <div class=\\"logos__inner\\">
+                    <div class=\\"logos__info\\">
+                      <div class=\\"logos__title\\">Partner</div>
+                      <div class=\\"logos__empty\\"></div>
+                    </div>
+                    <div class=\\"logos__content\\">
+                      <a href=\\"http://stickermule.com/supports/gitnation20-sponsorship\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/yXFWWrs7Qb2vKxOXNFJ3\\" /></a>
+                      <a href=\\"https://www.meetup.com/amsnode/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/0L3yoJJtQmqObSqXbQbw\\" /></a>
+                      <a href=\\"https://piterjs.dev\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/csIAGp4IQuGiKEeoVK3p\\" /></a>
+                      <a href=\\"https://www.meetup.com/Front-Endgineers-London/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/wM833hCvTBKj0ko1pTem\\" /></a>
+                      <a href=\\"http://react-not-a-conf.com/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/WB25K24IQHSJida7w4z8\\" /></a>
+                      <a href=\\"https://leedsjs.com/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/s96i5NRXKpieSKr3f9nw\\" /></a>
+                      <a href=\\"https://milanojs.com\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/ay3eG9mETASoVTr57UUu\\" /></a>
+                      <a href=\\"https://www.meetup.com/VueJS-Oslo/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/aMnMNwrRDWve2sjtdeiI\\" /></a>
+                      <a href=\\"https://www.meetup.com/Mobile-Meetup-Oslo/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/twr9AMM9SGSIB3LGGUhA\\" /></a>
+                      <a href=\\"https://www.meetup.com/Oslo-Flutter-Dart-Meetup/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/dwfDUbf4RLGYQJHcOfQC\\" /></a>
+                      <a href=\\"https://www.meetup.com/framsia/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/B0avSOhLTimtCCx4ZrQ1\\" /></a>
+                      <a href=\\"https://www.meetup.com/AngularJS-Oslo/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/KKxpZi5zQeeoI3649vKk\\" /></a>
+                      <a href=\\"https://www.meetup.com/Skopje-Front-End-Meetup/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/NakR6RFRSymJjvpvjcUt\\" /></a>
+                      <a href=\\"https://www.womenwhocode.com/vancouver\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/ZqdXyujWTbW87j3pNrPx\\" /></a>
+                      <a href=\\"https://www.meetup.com/Utrecht-Java-User-Group/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/dyJ3m0rcRgWNXNYUnqdY\\" /></a>
+                      <a href=\\"https://twitter.com/webstandards_ru\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/n5XbzuQGbGlem0q6Q5wW\\" /></a>
+                      <a href=\\"https://kcwomenintech.org/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/tPDy3EA8TDuO0nnM5FEx\\" /></a>
+                      <a href=\\"https://www.meetup.com/Dublin-Node-js-Meetup/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/Ed7nv4qRaaXBV2Oouutg\\" /></a>
+                      <a href=\\"https://reactgraphql.academy/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/9dC4KF0QXiklgK8u5aaf\\" /></a>
+                      <a href=\\"https://www.nodetlv.com/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/4s9W6dOITVWZ9hjlR4P4\\" /></a>
+                      <a href=\\"http://react-next.com/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/pV29a4DROuUNDTMJzu1Q\\" /></a>
+                      <a href=\\"http://reactweek.nyc/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/DYhwRSsHR1W1FEwdsF6a\\" /></a>
+                      <a href=\\"https://www.meetup.com/Infinum-JS-Talks/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/Z55PEVXQS8CyZafNpi1F\\" /></a>
+                      <a href=\\"https://www.meetup.com/fullstack-cluj/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/uT5HJdE3Tn2FMoM1ODKY\\" /></a>
+                      <a href=\\"https://www.meetup.com/Amsterdam-SvelteJS/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/5cLDuKRmCoDavVTNanng\\" /></a>
+                      <a href=\\"https://tproger.ru/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/4NezSgfrQdO2NTbE1SWu\\" /></a>
+                      <a href=\\"http://seattlejs.com/\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/AJGaUGQ8Q6e2AoMm0XDB\\" /></a>
+                      <a href=\\"https://rsconf.by\\" class=\\"logos__link \\" target=\\"_blank\\"><img src=\\"https://media.graphcms.com/cQWzZoDsQqOuujSQHQ7b\\" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class=\\"bg-red\\">
+          <section class=\\"subscribe\\" id=\\"subscribe\\">
+            <div class=\\"wrapper\\">
+              <div class=\\"subscribe__inner\\">
+                <div class=\\"subscribe__content\\">
+                  <div class=\\"subscribe__title title\\">Do not miss a thing from us</div>
+                  <div class=\\"subscribe__row\\">
+                    <div class=\\"subscribe__left\\">
+                      <div class=\\"subscribe__descr descr\\">
+                        <p> We all speak the same language which means there is always something to talk about. Subscribe to our social channels to not miss news and goodies. </p>
+                      </div>
+                      <div class=\\"subscribe__descr descr\\">
+                        <p> Newsletter is the most engaging way we communicate. Subscribe to the newspaper of JSNation! </p>
+                      </div>
+                      <div class=\\"subscribe__form\\">
+                        <form class=\\"form\\" target=\\"_blank\\" method=\\"post\\" action=\\"//amsterdamjs.us13.list-manage.com/subscribe/post?u=910284f989b81c945f27311af&amp;id=05036cab56\\" id=\\"mc-embedded-subscribe-form\\" name=\\"mc-embedded-subscribe-form\\" novalidate>
+                          <div class=\\"form__field\\">
+                            <div class=\\"form__input\\">
+                              <input type=\\"email\\" required placeholder=\\"Email address\\" name=\\"EMAIL\\" id=\\"mce-EMAIL\\" />
+                              <div style=\\"position: absolute; left: -5000px;\\" aria-hidden=\\"true\\"><input type=\\"text\\" name=\\"b_910284f989b81c945f27311af_05036cab56\\" tabindex=\\"-1\\" value=\\"\\" /></div>
+                            </div>
+                            <div class=\\"form__btn\\">
+                              <button type=\\"submit\\" class=\\"btn btn_transparent btn_lg\\" name=\\"subscribe\\" id=\\"mc-embedded-subscribe\\">
+                                <span class=\\"btn__text\\">SUBSCRIBE</span>
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                    <div class=\\"subscribe__right\\">
+                      <div class=\\"subscribe__img subscribe__img_mob\\">
+                        <img src=\\"img/form-img-mob.svg\\" alt=\\"\\" />
+                      </div>
+                      <div class=\\"subscribe__socials\\">
+                        <p class=\\"subscribe__socials-title\\">Follow us for updates:</p>
+                        <ul class=\\"socials socials_xl\\">
+                          <li class=\\"socials__item\\"><a href=\\"https://twitter.com/thejsnation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                              <svg class=\\"icon icon-tw\\">
+                                <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                              </svg>
+                            </a></li>
+                          <li class=\\"socials__item\\"><a href=\\"https://www.facebook.com/thejsnation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                              <svg class=\\"icon icon-fb\\">
+                                <use xlink:href=\\"img/sprite.svg#icon-fb\\"></use>
+                              </svg>
+                            </a></li>
+                          <li class=\\"socials__item\\"><a href=\\"https://www.youtube.com/JSNation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                              <svg class=\\"icon icon-yt\\">
+                                <use xlink:href=\\"img/sprite.svg#icon-yt\\"></use>
+                              </svg>
+                            </a></li>
+                          <li class=\\"socials__item\\"><a href=\\"https://jsnation.com/slack\\" target=\\"_blank\\" class=\\"socials__link\\">
+                              <svg class=\\"icon icon-sl\\">
+                                <use xlink:href=\\"img/sprite.svg#icon-sl\\"></use>
+                              </svg>
+                            </a></li>
+                          <li class=\\"socials__item\\"><a href=\\"https://medium.com/@amsterdamjs\\" target=\\"_blank\\" class=\\"socials__link\\">
+                              <svg class=\\"icon icon-med\\">
+                                <use xlink:href=\\"img/sprite.svg#icon-med\\"></use>
+                              </svg>
+                            </a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class=\\"footer\\" id=\\"contact\\">
+        <div class=\\"wrapper\\">
+          <div class=\\"footer__title title\\">Contact Us</div>
+          <div class=\\"footer__inner\\">
+            <div class=\\"footer__content\\">
+              <ul class=\\"footer__nav\\">
+                <li><a href=\\"/sponsors\\">Sponsorship Opportunities</a></li>
+                <li><a href=\\"/coc\\">Code Of Conduct</a></li>
+                <li><a href=\\"/2019\\">Last year's event (2019)</a></li>
+                <li><a href=\\"mailto:hi@jsnation.com\\">Email Us!</a></li>
+                <li><a href=\\"/faq\\">FAQ</a></li>
+              </ul>
+            </div>
+            <div class=\\"footer__socials\\">
+              <ul class=\\"socials socials_xxl\\">
+                <li class=\\"socials__item\\"><a href=\\"https://twitter.com/thejsnation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-tw\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                    </svg>
+                  </a></li>
+                <li class=\\"socials__item\\"><a href=\\"https://www.facebook.com/thejsnation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-fb\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-fb\\"></use>
+                    </svg>
+                  </a></li>
+                <li class=\\"socials__item\\"><a href=\\"https://www.youtube.com/JSNation\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-yt\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-yt\\"></use>
+                    </svg>
+                  </a></li>
+                <li class=\\"socials__item\\"><a href=\\"https://jsnation.com/slack\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-sl\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-sl\\"></use>
+                    </svg>
+                  </a></li>
+                <li class=\\"socials__item\\"><a href=\\"https://medium.com/@amsterdamjs\\" target=\\"_blank\\" class=\\"socials__link\\">
+                    <svg class=\\"icon icon-med\\">
+                      <use xlink:href=\\"img/sprite.svg#icon-med\\"></use>
+                    </svg>
+                  </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class=\\"footer__bot\\" style=\\"background-image: url(img/footer-bg.png);\\">
+          <div class=\\"footer-logo\\">
+            <div class=\\"footer-logo__subtitle\\">Event by</div>
+            <div class=\\"footer-logo__img\\"><img src=\\"img/face.svg\\" alt=\\"\\" /></div>
+            <a href=\\"https://gitnation.org/\\" target=\\"_blank\\" class=\\"footer-logo__text\\">
+              <img src=\\"img/gn.svg\\" alt=\\"\\" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- END content -->
+    <!-- BEGIN scripts -->
+    <script type=\\"text/javascript\\" src=\\"js/app.js\\"></script>
+    <!-- END scripts -->
+    <!--LiveInternet counter-->
+    <script type=\\"text/javascript\\">
+      document.write(\\"<a class='li-counter' href='//www.liveinternet.ru/click' \\" + \\"target=_blank><img src='//counter.yadro.ru/hit?t38.6;r\\" + escape(document.referrer) + ((typeof(screen) == \\"undefined\\") ? \\"\\" : \\";s\\" + screen.width + \\"*\\" + screen.height + \\"*\\" + (screen.colorDepth ? screen.colorDepth : screen.pixelDepth)) + \\";u\\" + escape(document.URL) + \\";h\\" + escape(document.title.substring(0, 150)) + \\";\\" + Math.random() + \\"' alt='' title='LiveInternet' \\" + \\"border='0' width='31' height='31'><\\\\/a>\\")
+
+    </script>
+    <!--/LiveInternet-->
+    <script type=\\"text/javascript\\">
+      var _gauges = _gauges || [];
+      (function()
+      {
+        var t = document.createElement('script');
+        t.type = 'text/javascript';
+        t.async = true;
+        t.id = 'gauges-tracker';
+        t.setAttribute('data-site-id', '58496fdd4b2ffa62230141f0');
+        t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+        t.src = 'https://d36ee2fcip1434.cloudfront.net/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      ! function(f, b, e, v, n, t, s)
+      {
+        if (f.fbq) return;
+        n = f.fbq = function()
+        {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1374905195888955'); // Insert your pixel ID here.
+      fbq('track', 'PageView');
+
+    </script>
+    <noscript><img height=\\"1\\" width=\\"1\\" style=\\"display:none\\" src=\\"https://www.facebook.com/tr?id=1374905195888955&ev=PageView&noscript=1\\" /></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+  </body>
+</html>
+"
+`;
