@@ -151,7 +151,7 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
                       <div class=\\"table__row-content workshops__block-info\\">
                         <div class=\\"table__col table__col_lg\\">
                           <div class=\\"table__descr\\">
-                            <strong>June, 3</strong>
+                            <strong>June 3</strong>
                             <span> starting </span>
                             <strong>9:00</strong>
                             <span>till </span>
@@ -221,7 +221,9 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
                       <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Prerequisites</div>
                       <div class=\\"table__row-content workshops__block-info\\">
                         <div class=\\"table__col table__col_lg\\">
-                          <div class=\\"table__descr\\">JavaScript developers with some experience implementing REST APIs (ideally in Node.js). No experience with GraphQL is required to attend this workshop.</div>
+                          <div class=\\"table__descr\\">
+                            <p>JavaScript developers with some experience implementing REST APIs (ideally in Node.js). No experience with GraphQL is required to attend this workshop.</p>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -238,7 +240,7 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
                       <div class=\\"table__row-content workshops__block-info\\">
                         <div class=\\"table__col table__col_lg\\">
                           <div class=\\"table__descr\\">
-                            <strong>June, 3</strong>
+                            <strong>June 3</strong>
                             <span> starting </span>
                             <strong>9:00</strong>
                             <span>till </span>
@@ -315,7 +317,9 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
                       <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Prerequisites</div>
                       <div class=\\"table__row-content workshops__block-info\\">
                         <div class=\\"table__col table__col_lg\\">
-                          <div class=\\"table__descr\\">Experience with modern JavaScript features and fundamental React concepts.</div>
+                          <div class=\\"table__descr\\">
+                            <p>Experience with modern JavaScript features and fundamental React concepts.</p>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -332,7 +336,7 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
                       <div class=\\"table__row-content workshops__block-info\\">
                         <div class=\\"table__col table__col_lg\\">
                           <div class=\\"table__descr\\">
-                            <strong>June, 3</strong>
+                            <strong>June 3</strong>
                             <span> starting </span>
                             <strong>9:00</strong>
                             <span>till </span>
@@ -420,7 +424,7 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
                       <div class=\\"table__row-content workshops__block-info\\">
                         <div class=\\"table__col table__col_lg\\">
                           <div class=\\"table__descr\\">
-                            <strong>June, 4</strong>
+                            <strong>June 4</strong>
                             <span> starting </span>
                             <strong>9:00</strong>
                             <span>till </span>
@@ -493,7 +497,9 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
                       <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Prerequisites</div>
                       <div class=\\"table__row-content workshops__block-info\\">
                         <div class=\\"table__col table__col_lg\\">
-                          <div class=\\"table__descr\\">Familiarity with React, JavaScript and modern syntax features (ES2015).</div>
+                          <div class=\\"table__descr\\">
+                            <p>Familiarity with React, JavaScript and modern syntax features (ES2015).</p>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -502,7 +508,7 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
                       <div class=\\"table__row-content workshops__block-info\\">
                         <div class=\\"table__col table__col_lg\\">
                           <div class=\\"table__descr\\">
-                            <strong>June, 4</strong>
+                            <strong>June 4</strong>
                             <span> starting </span>
                             <strong>9:00</strong>
                             <span>till </span>
@@ -578,7 +584,9 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
                       <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Prerequisites</div>
                       <div class=\\"table__row-content workshops__block-info\\">
                         <div class=\\"table__col table__col_lg\\">
-                          <div class=\\"table__descr\\">Installed software – NPM, git, VSCode (or other IDE of choice), docker (for running backend). </div>
+                          <div class=\\"table__descr\\">
+                            <p>Installed software – NPM, git, VSCode (or other IDE of choice), docker (for running backend). </p>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -595,7 +603,7 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
                       <div class=\\"table__row-content workshops__block-info\\">
                         <div class=\\"table__col table__col_lg\\">
                           <div class=\\"table__descr\\">
-                            <strong>June, 4</strong>
+                            <strong>June 4</strong>
                             <span> starting </span>
                             <strong>9:00</strong>
                             <span>till </span>
@@ -653,7 +661,7 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
                       <div class=\\"table__row-content workshops__block-info\\">
                         <div class=\\"table__col table__col_lg\\">
                           <div class=\\"table__descr\\">
-                            <strong>June, 4</strong>
+                            <strong>June 4</strong>
                             <span> starting </span>
                             <strong>9:00</strong>
                             <span>till </span>
@@ -724,7 +732,9 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
                       <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Prerequisites</div>
                       <div class=\\"table__row-content workshops__block-info\\">
                         <div class=\\"table__col table__col_lg\\">
-                          <div class=\\"table__descr\\">Bring your own notebook (Linux, Mac or Windows) with Node.js installed.</div>
+                          <div class=\\"table__descr\\">
+                            <p>Bring your own notebook (Linux, Mac or Windows) with Node.js installed.</p>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -741,7 +751,7 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
                       <div class=\\"table__row-content workshops__block-info\\">
                         <div class=\\"table__col table__col_lg\\">
                           <div class=\\"table__descr\\">
-                            <strong>June, 4</strong>
+                            <strong>June 4</strong>
                             <span> starting </span>
                             <strong>9:00</strong>
                             <span>till </span>
@@ -801,7 +811,7 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
                       <div class=\\"table__row-content workshops__block-info\\">
                         <div class=\\"table__col table__col_lg\\">
                           <div class=\\"table__descr\\">
-                            <strong>June, 4</strong>
+                            <strong>June 4</strong>
                             <span> starting </span>
                             <strong>13:00</strong>
                             <span>till </span>
@@ -871,7 +881,9 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
                       <div class=\\"table__col table__col_sm workshops__block-detail-name\\">Prerequisites</div>
                       <div class=\\"table__row-content workshops__block-info\\">
                         <div class=\\"table__col table__col_lg\\">
-                          <div class=\\"table__descr\\">To better enjoy this session, participants will be asked to have good knowledge of JavaScript.</div>
+                          <div class=\\"table__descr\\">
+                            <p>To better enjoy this session, participants will be asked to have good knowledge of JavaScript.</p>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -880,7 +892,7 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
                       <div class=\\"table__row-content workshops__block-info\\">
                         <div class=\\"table__col table__col_lg\\">
                           <div class=\\"table__descr\\">
-                            <strong>June, 4</strong>
+                            <strong>June 4</strong>
                             <span> starting </span>
                             <strong>13:00</strong>
                             <span>till </span>

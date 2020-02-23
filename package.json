@@ -12,7 +12,7 @@
     "storybook": "start-storybook -p 6006 --ci",
     "build-storybook": "build-storybook",
     "deploy:storybook": "storybook-to-ghpages",
-    "-prestart": "relative-deps",
+    "prestart": "relative-deps",
     "dev:content": "yarn prestart && yarn storybook"
   },
   "repository": "asd",
@@ -26,7 +26,7 @@
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
-    "@focus-reactive/graphql-content-layer": "1.4.1",
+    "@focus-reactive/graphql-content-layer": "2.1.0",
     "@storybook/addon-actions": "^5.2.8",
     "@storybook/addon-console": "^1.2.1",
     "@storybook/addon-links": "^5.2.8",

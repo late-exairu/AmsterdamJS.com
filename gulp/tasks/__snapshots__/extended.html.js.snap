@@ -97,8 +97,7 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/extended.html 1`]
                 <div class=\\"card card_reverse\\">
                   <div class=\\"card__inner\\">
                     <div class=\\"card__col card__content\\">
-                      <div class=\\"card__title\\">
-                      </div>
+                      <div class=\\"card__title\\"></div>
                       <div class=\\"card__descr\\">
                         <p>Lorem Ipsum</p>
                         <p>Dollor dollor</p>

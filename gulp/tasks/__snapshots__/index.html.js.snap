@@ -1507,12 +1507,9 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/index.html 1`] = 
             <div class=\\"wrapper\\">
               <div class=\\"map-section__title title\\">Summertime JS festival</div>
               <div class=\\"map-section__top\\">
-                <div class=\\"map-section__subtitle is-active js-map-title\\">
-                </div>
-                <div class=\\"map-section__subtitle is-active js-map-title\\">
-                </div>
-                <div class=\\"map-section__subtitle is-active js-map-title\\">
-                </div>
+                <div class=\\"map-section__subtitle is-active js-map-title\\"></div>
+                <div class=\\"map-section__subtitle is-active js-map-title\\"></div>
+                <div class=\\"map-section__subtitle is-active js-map-title\\"></div>
               </div>
               <div class=\\"map-section__inner\\">
                 <div class=\\"map-section__content-wrap\\">
@@ -1879,7 +1876,7 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/index.html 1`] = 
             <div class=\\"sponsors__title title\\">Sponsors</div>
             <div class=\\"sponsors__content\\">
               <div class=\\"sponsors__item\\">
-                <div class=\\"logos \\">
+                <div class=\\"logos sponsors-block_xl\\">
                   <div class=\\"logos__inner\\">
                     <div class=\\"logos__info\\">
                       <div class=\\"logos__title\\">Platinum</div>
@@ -1892,7 +1889,7 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/index.html 1`] = 
                 </div>
               </div>
               <div class=\\"sponsors__item\\">
-                <div class=\\"logos logos_md\\">
+                <div class=\\"logos logos_md sponsors-block_lg\\">
                   <div class=\\"logos__inner\\">
                     <div class=\\"logos__info\\">
                       <div class=\\"logos__title\\">Gold</div>
@@ -1907,7 +1904,7 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/index.html 1`] = 
                 </div>
               </div>
               <div class=\\"sponsors__item\\">
-                <div class=\\"logos logos_sm\\">
+                <div class=\\"logos logos_sm sponsors-block_lg\\">
                   <div class=\\"logos__inner\\">
                     <div class=\\"logos__info\\">
                       <div class=\\"logos__title\\">Silver</div>
@@ -1920,10 +1917,10 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/index.html 1`] = 
                 </div>
               </div>
               <div class=\\"sponsors__item\\">
-                <div class=\\"logos logos_xs\\">
+                <div class=\\"logos logos_xs sponsors-block_xs\\">
                   <div class=\\"logos__inner\\">
                     <div class=\\"logos__info\\">
-                      <div class=\\"logos__title\\">Partner</div>
+                      <div class=\\"logos__title\\">Partners</div>
                       <div class=\\"logos__empty\\"></div>
                     </div>
                     <div class=\\"logos__content\\">
