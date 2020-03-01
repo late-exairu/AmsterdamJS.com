@@ -1,0 +1,185 @@
+---
+pageKey: extended
+innerPage: true
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+
+{# variable example #}
+
+{% include "partials/_header.html" %}
+
+<main class="main">
+	{{mixins.hero({
+		img: 'img/hero_extended.jpg',
+		title: pages[pageKey].titlePage,
+		subtitle: 'June 5, 2020, Amsterdam'
+	})}}
+	<section class="text-content">
+		<div class="wrapper">
+			<div class="dates-map" id="dates-map">
+  				{% include "partials/_map-extended.html" %}
+			</div>
+			<div class="text-content__inner">
+				<div class="text">
+					<div class="text__title">Extended program</div>
+					<div class="text__descr descr">
+						<p>JavaScript has the potential to change lives and the world we live in. So don’t be shy and explore it with us! If you feel like seeing the most beautiful places in Amsterdam, tasting great food and discovering the city’s hidden perks together we organize a museum visit a day after the conference then it is a time for JS picnic in the wonderful, central Vondelpark.</br>And, of course, the conference wouldn’t be complete without an afterparty! Amsterdam is known for its wild nightlife and all our attendees get an invitation to join in.</p>
+					</div>
+				</div>
+
+				<div class="text">
+					<div class="text__title">Community pre-parties</div>
+					<div class="text__descr descr">
+						<p>Coming to town early? Have time to meet new people to hang around during the conference? We got you covered with 2 confirmed pre-party events prior to the main conference day.</p>
+					</div>          
+				</div>
+
+				<div class="text">
+					<div class="text__subtitle">Schedule</div>       
+				</div>
+			</div>
+
+			<div class="program-cards">
+				<div class="program-card">
+					<div class="program-card__body">
+						<div class="program-card__left">
+							<p class="program-card__title">Pre-party at Zuiderkerk</p>
+							<p class="program-card__date">June 3, 18:00</p>
+							<p class="program-card__social"><a href="#">{{mixins.icon('sl')}} #jsn20-june-3</a></p>
+							<p class="program-card__register"><a href="#">Register Here</a></p>
+							
+						</div>
+
+						<div class="program-card__mid">
+							<img class="program-card__img" src="img/prog-card1.jpg" alt="">						
+						</div>
+
+						<div class="program-card__right">
+							<p class="program-card__location"><a href="#">TQ, WeWork, Weesperstraat 61, 1018 VN Amsterdam</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="program-card">
+					<div class="program-card__body">
+						<div class="program-card__left">
+							<p class="program-card__title">Pre-party at Zuiderkerk</p>
+							<p class="program-card__date">June 3, 18:00</p>
+							<p class="program-card__social"><a href="#">{{mixins.icon('sl')}} #jsn20-june-3</a></p>
+							<p class="program-card__register"><a href="#">Register Here</a></p>
+							
+						</div>
+
+						<div class="program-card__mid">
+							<img class="program-card__img" src="img/prog-card2.jpg" alt="">						
+						</div>
+
+						<div class="program-card__right">
+							<p class="program-card__location"><a href="#">TQ, WeWork, Weesperstraat 61, 1018 VN Amsterdam</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="text-content__inner">
+				<div class="text">	
+					<div class="text__descr descr">
+						<p>Listed above meetups are free to attend, but require a pre-registration, follow conference newsletter and social channels for details.</p>
+					</div>
+				</div>
+
+				<div class="text">
+					<div class="text__title">JSNation Party</div>
+					<div class="text__img">
+						<img src="img/jsnation-party.jpg" alt="">
+					</div>       
+				</div>									
+			</div>
+			<div class="text-content__inner">
+				<div class="text">	
+					<div class="text__descr descr">
+						<p>After the main conference program is over we have a 1.5 hours break. Use it wisely to recharge or have a meal at food trucks area or one of the restaurants nearby to get prepared for the JSNation Party.</p>
+
+						<p>In 2019, we initiated a Call for JavaScript Artists which allowed us to deliver a state-of-the-art afterparty program with audiovisual acts powered by NodeJS, WebGL, WebAudioAPI. Want to know the programme for 2020? <a href="#">Follow us</a></p>
+
+						<p>After-party starts at 20:00, the same location as the conference.</p>
+					</div>
+				</div>
+
+				<div class="text">
+					<div class="text__title">Tour day</div>
+				</div>	
+			</div>
+			<div class="program-cards">
+				<div class="program-card">
+					<div class="program-card__body">
+						<div class="program-card__left">
+							<p class="program-card__title">Walking tours</p>
+							<p class="program-card__date">June 6, 12:00</p>
+							<p class="program-card__social"><a href="#">{{mixins.icon('sl')}} #jsn20-tour-day</a></p>
+							<p class="program-card__register"><a href="#">Register Here</a></p>
+							
+						</div>
+
+						<div class="program-card__mid">
+							<img class="program-card__img" src="img/tour_1.jpg" alt="">						
+						</div>
+
+						<div class="program-card__right">
+							<p class="program-card__location"><a href="#">Route information</a></br><a href="#">Starting location TBD</a></p>					
+						</div>
+					</div>
+				</div>
+				<div class="program-card">
+					<div class="program-card__body">
+						<div class="program-card__left">
+							<p class="program-card__title">Museum tours</p>
+							<p class="program-card__date">June 6, 12:00</p>
+							<p class="program-card__social"><a href="#">{{mixins.icon('sl')}} #jsn20-tour-day</a></p>
+							<p class="program-card__register"><a href="#">Register Here</a></p>
+							
+						</div>
+
+						<div class="program-card__mid">
+							<img class="program-card__img" src="img/tour_2.jpg" alt="">						
+						</div>
+
+						<div class="program-card__right">
+							<p class="program-card__location"><a href="#">Rijksmuseum at 12:00</a></br><a href="#">TQ, WeWork, Weesperstraat 61, 1018 VN Amsterdam</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="program-card">
+					<div class="program-card__body">
+						<div class="program-card__left">
+							<p class="program-card__title">Brunch/picnic</p>
+							<p class="program-card__date">June 6, 12:00</p>
+							<p class="program-card__social"><a href="#">{{mixins.icon('sl')}} #jsn20-tour-day</a></p>
+							<p class="program-card__register"><a href="#">Register Here</a></p>
+							
+						</div>
+
+						<div class="program-card__mid">
+							<img class="program-card__img" src="img/tour_3.jpg" alt="">						
+						</div>
+
+						<div class="program-card__right">
+							<p class="program-card__location"><a href="#">Vondelpark </a></br><a href="#">TQ, WeWork, Weesperstraat 61, 1018 VN Amsterdam</a></p>	
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text-content__inner">
+				<div class="text">	
+					<div class="text__descr descr">
+						<p>If you would like to organize some community activity like a small bike tour, brunch or do a walking tour of your own – <a href="#">email us </a>with details and we'll list it here.</p>
+					</div>
+				</div>
+		</div>            
+	</section>
+</main>
+
+{% include "partials/_footer.html" %}
+
+{% endblock %}
