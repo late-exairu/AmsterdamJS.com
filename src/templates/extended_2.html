@@ -50,7 +50,7 @@ innerPage: true
 							<p class="program-card__title">{{ card.title | safe }}</p>
 
 							{% if card.subtitle %}
-							<p class="program-card__date">{{ card.subtitle | safe }}</p>
+							<div class="program-card__date">{{ card.subtitle | safe }}</div>
 							{% endif %}
 
 							{% if card.slackChannelName %}
@@ -67,7 +67,7 @@ innerPage: true
 						</div>
 
 						<div class="program-card__right">
-							<p class="program-card__location"><a href="{{ card.locationLink }}">{{ card.location | safe }}</a></p>
+							<div class="program-card__location"><a href="{{ card.locationLink }}">{{ card.location | safe }}</a></div>
 						</div>
 					</div>
 				</div>
@@ -109,7 +109,7 @@ innerPage: true
 							<p class="program-card__title">{{ card.title | safe }}</p>
 
 							{% if card.subtitle %}
-							<p class="program-card__date">{{ card.subtitle | safe }}</p>
+							<div class="program-card__date">{{ card.subtitle | safe }}</div>
 							{% endif %}
 
 							{% if card.slackChannelName %}
@@ -126,7 +126,7 @@ innerPage: true
 						</div>
 
 						<div class="program-card__right">
-							<p class="program-card__location"><a href="{{ card.locationLink }}">{{ card.location | safe }}</a></p>
+							<div class="program-card__location"><a href="{{ card.locationLink }}">{{ card.location | safe }}</a></div>
 						</div>
 					</div>
 				</div>
