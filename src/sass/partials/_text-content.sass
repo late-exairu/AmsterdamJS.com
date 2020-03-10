@@ -1,7 +1,7 @@
 .text-content
 	padding: 163px 0 36px
 	color: $red
-	background: $white
+	background: #eaeaec
 	+md
 		padding: 83px 0 55px
 	&__inner
@@ -20,7 +20,7 @@
 
 .text
 	&__title
-		+gotBl
+		+gotM
 		font-size: 57px
 		+sm
 			font-size: 32px
@@ -36,3 +36,21 @@
 			+hover
 				text-decoration: none
 		//letter-spacing: 0.28px
+
+	&__subtitle
+		margin-bottom: 65px
+		+gotM
+		font-size: 44px
+		+sm
+			font-size: 28px
+			margin-bottom: 25px
+
+	&__img
+		margin-bottom: 60px
+
+		img 
+			max-width: 100%
+			height: auto
+
+
+		
