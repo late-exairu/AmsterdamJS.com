@@ -92,7 +92,7 @@ _innerPage: true
 			<div class="text-content__inner">
 				<div class="text">
 					<div class="text__descr descr">
-						<p>{{ pagesPieceOfTexts.party__text }}</p>
+						<p>{{ pagesPieceOfTexts.party__text | safe }}</p>
 					</div>
 				</div>
 
@@ -155,7 +155,7 @@ _innerPage: true
 			<div class="text-content__inner">
 				<div class="text">
 					<div class="text__descr descr">
-						{{ pagesPieceOfTexts.activities__email }}
+						{{ pagesPieceOfTexts.activities__email | safe }}
 					</div>
 				</div>
 			</div>
