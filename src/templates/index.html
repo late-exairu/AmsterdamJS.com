@@ -121,26 +121,46 @@ twitts: [{
   </div>
   {% include "partials/_event.html" %}
   {% include "partials/_media.html" %}
-  {% include "partials/_team.html" %}
-  {% include "partials/_submit.html" %}
-  {% if schedule.length %}
-    {% include "partials/_schedule.html" %}
+
+  {% if pages[pageKey].pageSections.showSpeakers %}
+  	{% include "partials/_team.html" %}
   {% endif %}
-  {% include "partials/_hosts.html" %}
-  {% include "partials/_committee.html" %}
+
+  {% include "partials/_submit.html" %}
+
+  {% if pages[pageKey].pageSections.showTalks %}
+    {% if schedule.length %}
+      {% include "partials/_schedule.html" %}
+    {% endif %}
+  {% endif %}
+
+  {% if pages[pageKey].pageSections.showHosts %}
+    {% include "partials/_hosts.html" %}
+  {% endif %}
+
+  {% if pages[pageKey].pageSections.showCommittee %}
+    {% include "partials/_committee.html" %}
+  {% endif %}
+
   <div class="bg-red">
     {% include "partials/_map-section.html" %}
   </div>
-  {{mixins.infoSection({
-  id: 'hangout-day',
-  bg: 'img/info.jpg',
-  video: 'video/disco',
-  title: "All fun is made<br/> with JS",
-  descr: "<p>JavaScript has the potential to change lives and the world we live in. So don’t be shy and explore it with us! If you feel like seeing the most beautiful places in Amsterdam, tasting great food and discovering the city’s hidden perks together we organize a museum visit a day after the conference then it is a time for JS picnic in the wonderful, central Vondelpark.</p>
-  <p>And, of course, the conference wouldn’t be complete without an afterparty! Amsterdam is known for its wild nightlife and all our attendees get an invitation to join in.</p>",
-  descrMod: 'info-section__descr_lg'
-  })}}
-  {% include "partials/_performances.html" %}
+
+  {% if pages[pageKey].pageSections.showParty %}
+    {{mixins.infoSection({
+      id: 'hangout-day',
+      bg: 'img/info.jpg',
+      video: 'video/disco',
+      title: "All fun is made<br/> with JS",
+      descr: "<p>JavaScript has the potential to change lives and the world we live in. So don’t be shy and   explore it with us! If you feel like seeing the most beautiful places in Amsterdam, tasting great food and   discovering the city’s hidden perks together we organize a museum visit a day after the conference then it   is a time for JS picnic in the wonderful, central Vondelpark.</p>
+      <p>And, of course, the conference wouldn’t be complete without an afterparty! Amsterdam is known for its   wild nightlife and all our attendees get an invitation to join in.</p>",
+      descrMod: 'info-section__descr_lg'
+    })}}
+  {% endif %}
+
+  {% if pages[pageKey].pageSections.showPerformances %}
+  	{% include "partials/_performances.html" %}
+  {% endif %}
   {% include "partials/_awards.html" %}
   {% include "partials/_nominations.html" %}
   {% include "partials/_diversity.html" %}
